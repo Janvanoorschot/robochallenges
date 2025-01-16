@@ -1,0 +1,14 @@
+{
+    "validationCheck":
+    {
+        "postRunWorld": "robot(2,5)",
+        "postRunProgram": "Repeat and If and LeftIsWhite"
+    },
+    "hintRules":
+        [
+            {"premise": "not Repeat", "value" : "hint.auto.noRepeatUsed", "type" : "program"},
+            {"premise": "not LeftIsWhite", "value" : "hint.auto.noLeftIsWhiteUsed", "type" : "program"},
+            {"premise": "not If", "value" : "hint.auto.noIfUsed", "type" : "program"},
+            {"premise": "not robot(2,5)", "value": "hint.auto.youDidNotStopAtWhiteDot", "type" : "world"}
+        ]
+}

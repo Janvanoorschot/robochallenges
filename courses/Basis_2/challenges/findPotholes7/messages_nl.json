@@ -1,0 +1,5 @@
+{
+    "item.name":"Repareer een heel plein!",
+    "hint.auto.ReturnRatherThanEnd":"Gebruik 'retourneer' in plaats van 'einde'. Anders gaat Robo niet verder met de volgende procedure!",
+    "hint.auto.notAllPotholesFilled":"Ok! Het is niet erg nog niet alle gaten zijn gevuld. We hebben Robo eerder laten stoppen, omdat het erg lang kan duren om ze allemaal te vinden en zolang wilden we je niet laten wachten. Probeer het nog eens en/of maak je programma slimmer en kijk of hij dit keer meer gaten vult."
+}

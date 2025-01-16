@@ -1,0 +1,17 @@
+{
+    "items" : [
+        ["challenge", ["map_teaser1",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[12.5,10.5,0.16]"}]],
+        ["challenge", ["map_teaser2",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[13,10,0.15]"}]],
+        ["challenge", ["map_teaser3",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[18,10,0.1]"}]],
+        ["challenge", ["map_castle",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[10.5,10.5,0.20]"}]],
+        ["challenge", ["map_zigzag",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[12,8,0.15]"}]],
+        ["challenge", ["map_disco",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[4,4,0.25]"}]],
+        ["challenge", ["map_christmastree",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[14,8,0.14]"}]],
+        ["challenge", ["map_streetRepair",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[36,23,0.14]"}]],
+        ["challenge", ["map_shopConveyorCrates",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[20,10,0.1]"}]],
+        ["challenge", ["map_shopConveyorPalm",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[20,10,0.1]"}]],
+        ["challenge", ["map_shopConveyorVegetables",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[20,10,0.1]"}]],
+        ["challenge", ["map_shopConveyorWater",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[20,10,0.1]"}]],
+        ["challenge", ["map_shopConveyorAll",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[20,10,0.1]"}]]
+    ]
+}

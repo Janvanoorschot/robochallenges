@@ -1,0 +1,13 @@
+#map:def
+
+paint:
+(w,.,2,2)
+
+extra:
+tree@2,2
+
+map:
+AAAA
+A* A
+A@ A
+AAAA

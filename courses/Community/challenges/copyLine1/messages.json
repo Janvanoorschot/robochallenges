@@ -1,0 +1,5 @@
+{
+    "item.name":"Copy the black line",
+    "hint.auto.lineNotRight":"The line is yet exactly copied as shown in the image",
+    "hint.auto.lineTooLong": "The line is too long or in the wrong place"
+}

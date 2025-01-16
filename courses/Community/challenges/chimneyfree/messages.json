@@ -1,0 +1,7 @@
+{
+    "item.name":"Get as much as you can!",
+    "hint.auto.notEnoughBeacons":"You did not get enough beacons yet. Get some more!",
+    "hint.auto.canYouDoBetter":"Very good start. Try to get some more!",
+    "hint.auto.betterThanRequired":"Wow! Better than expected... Go for even more!",
+    "hint.auto.allBeaconsCleared":"Amazing you got all beacons! You're a pro!"
+}

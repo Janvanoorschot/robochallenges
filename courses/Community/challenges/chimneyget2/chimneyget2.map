@@ -1,0 +1,34 @@
+#map:def
+
+extra:
+palm@23,8
+palm@15,0
+palm@0,12
+hbridge@3,5
+hbridge@3,13
+palm@8,7
+palm@8,9
+tree@16,6
+tree@16,10
+
+map:
+
+  CHD
+  GAI    CHHHHHHHHHD
+  BFE CHHHHHHHHHHHHHHD
+   A  GMFFFFFFFFFFFFJI
+      GI            GIA 
+   A  GICHD CHD CHD GI 
+   P  GIGOI GPI GQI GIA 
+   A  GIGQI*GOI*GQI GI 
+   P  GIGOI GPI GQI GI 
+   A  GIGQI GOI GQI GI
+   P  GIGOI GPI GQI GIA
+   A  GEBFE BFE BFE GI
+      G@            GIA
+   A  GHHHHHHHHHHHHHKI
+  CHD BFFFFFFFFFFFFFFE
+  GAI    BFFFFFFFFFE      
+  BFE                 
+           
+           

@@ -1,0 +1,18 @@
+{
+    "items" : [
+        ["presentation", ["basis_2_7",{}]],
+        ["challenge", ["findPotholes1",{"type":"normal","keep_solution":true,"autorun":false, "viewstart":"[6,4.5,0.25]"}]],
+        ["challenge", ["findPotholes2",{"type":"normal","keep_solution":true,"autorun":false, "viewstart":"[6,4.5,0.25]"}]],
+        ["challenge", ["findPotholes3",{"type":"normal","keep_solution":true,"autorun":false, "viewstart":"[6,4.5,0.25]"}]],
+        ["challenge", ["findPotholes4",{"type":"normal","keep_solution":true,"autorun":false, "viewstart":"[6,4.5,0.25]"}]],
+        ["challenge", ["findPotholes5",{"type":"normal","keep_solution":true,"autorun":false, "viewstart":"[6,4.5,0.25]"}]],
+        ["challenge", ["findPotholes6",{"type":"normal","keep_solution":true,"autorun":false, "viewstart":"[6,4.5,0.25]"}]],
+        ["challenge", ["findPotholes7",{"type":"normal","keep_solution":true,"autorun":false, "viewstart":"[9,8,0.15]"}]],
+        ["presentation", ["courseEnd",{}]]
+	],
+    "concepts" : [
+        "RA2",
+        "RU1",
+        "RU2"
+    ]
+}

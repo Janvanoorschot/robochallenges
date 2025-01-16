@@ -1,0 +1,6 @@
+{
+    "item.name":"About the dice ...",
+    "hint.auto.tooManyTimes":"You can have throw more than 6 with these dice!",
+    "hint.auto.improperDice":"With this dice you can still throw zero ...",
+    "hint.auto.howManyWhiteDots": "And? How many white dots did Robo paint this time?"
+}

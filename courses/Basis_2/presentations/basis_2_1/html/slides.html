@@ -1,0 +1,462 @@
+<!-- Any section element inside of this container is displayed as a slide -->
+
+<div class="slides">
+
+    <section>
+        <h1>Tracking and tracing II</h1>
+        <h3>Conditions extended</h3>
+        <img src="/content/resources/images/robo.png" width=100> </img>
+    </section>
+
+    <section  class="shaded" data-transition="none" style="background:url('/content/basis_2_1/images/soccer_custom.jpg');">
+        <p class="footnote "style="height:3.5em">
+            We have seen robots making cars in factories, doing research on Mars, <br>and even driving around the city.
+        </p>
+    </section>
+
+    <section  class="shaded" data-transition="none" style="background:url('/content/basis_2_1/images/soccer_custom.jpg');">
+        <p class="footnote" style="height:3.5em">
+            Some scientists think that we will be able to teach them how to play soccer so that can compete with human soccer players.
+        </p>
+    </section>
+
+    <section  class="shaded" data-transition="none" style="background:url('/content/basis_2_1/images/soccer_custom.jpg');">
+        <p class="footnote" style="height:3.5em">
+            What do you think? Are robots currently already better at playing soccer than humans?
+        </p>
+    </section>
+
+    <section  class="shaded" data-transition="none" style="background:url('/content/basis_2_1/images/soccer_custom.jpg');">
+        <p class="footnote" style="height:3.5em">
+            Answer: Humans are still much much better! <br>Scientists believe that by 2050 robots will be equally good.
+        </p>
+    </section>
+
+    <section>
+        <video poster="/content/resources/images/movie.jpg" data-autoplay controls>
+            <source src="/content/resources/movies/RoboCupBloopers.mp4" type='video/mp4'>
+            <source src="/content/resources/movies/RoboCupBloopers.webm" type='video/webm'>
+        </video>
+   	</section>
+
+    <section  class="shaded" data-transition="none" style="background:url('/content/basis_2_1/images/schoolbord.jpg');">
+        <h5 style="float:left; margin-left:60px; position:absolute; text-align:left; top:60px; line-height: 1.5em">
+            Before we continue:
+            <br>let's rehearse some of what we learned earlier ...
+        </h5>
+
+    </section>
+
+    <section  class="shaded" data-transition="none" style="background:url('/content/basis_2_1/images/schoolbord.jpg');">
+        <h5 style="margin-left:60px; position:absolute; text-align:left; top:50px; line-height: 1.5em">
+            Robo can be given instructions in the following ways:<br><br>
+         </h5>
+
+        <div style="position: absolute; top: 110px; left: 80px;">
+            <img src="/content/basis_1_2/images/touch_instructions.jpg" width="240" style="vertical-align:middle; margin:0 0 1.1em 0; border:none">
+            <br><br>Pressing the buttons
+        </div>
+
+        <div style="position: absolute; top: 110px; right: 80px;">
+            <div class="codebox" style="font-size:65%; margin-top:0px; margin-left:0px; width:240px; height: 122px; border:8px solid rgb(0, 69, 93); box-shadow:none; -webkit-box-shadow:none">
+                <textarea class="robocode" data-exeline="1" >
+ paintWhite
+ repeat(4)
+ {
+
+
+ }
+</textarea>
+            </div>
+            <br>Writing them down yourself
+        </div>
+    </section>
+
+    <section  class="shaded" data-transition="none" style="background:url('/content/basis_2_1/images/schoolbord.jpg');">
+        <h5 style="margin-left:60px; position:absolute; text-align:left; top:50px; line-height: 1.5em">
+            Instructing a robot
+        </h5>
+
+        <div style="position: absolute; top: 80px; left: 55px; width: 50%;">
+            <ul style="background:none; font-size: 22px;">
+                <li style="background:none; ">Is a rather precise job!</li>
+                <li style="background:none; ">Look at the script editor.</li>
+                <li style="background:none; ">Which instructions are correct?</li>
+                <li style="background:none; ">Which instructions are <em>not</em> correct?</li>
+            </ul>
+        </div>
+
+        <div class="codebox" style="position: absolute; top: 55px; right: 70px;font-size:65%; width:240px; height: 280px; border:8px solid rgb(0, 69, 93);">
+            <textarea class="robocode" data-exeline="1" >
+forward
+
+go ahead
+
+turn around
+
+right(3)
+
+go back
+
+backward(5)
+
+pick up
+
+pickup
+
+</textarea>
+        </div>
+
+    </section>
+
+    <section  class="shaded" data-transition="none" style="background:url('/content/basis_2_1/images/schoolbord.jpg');">
+        <h5 style="margin-left:60px; position:absolute; text-align:left; top:50px; line-height: 1.5em">
+            Instructing a robot
+        </h5>
+
+        <div style="position: absolute; top: 80px; left: 10px; width: 50%;">
+            <ul style="background:none; font-size: 22px; ">
+                <li style="background:none;">Yes, you are right!</li>
+                <li style="background:none;">The blue ones are correct.</li>
+            </ul>
+        </div>
+
+        <div class="codebox" style="position: absolute; top: 55px; right: 70px;font-size:65%; width:240px; height: 280px; border:8px solid rgb(0, 69, 93);">
+            <textarea class="robocode" data-exeline="1" >
+forward
+
+go ahead
+
+turn around
+
+right(3)
+
+go back
+
+backward(5)
+
+pick up
+
+pickup
+
+</textarea>
+        </div>
+
+    </section>
+
+    <section  class="shaded" data-transition="none" style="background:url('/content/basis_2_1/images/schoolbord.jpg');">
+        <h5 style="margin-left:60px; width: 100%; position:absolute; text-align:left; top:50px; line-height: 1.5em">
+            Robo can only look in these squares: <br>
+            <ul style=" margin: 0 0 0 1em; width: 30%">
+                <li style="background:none">left</li>
+                <li style="background:none">front</li>
+                <li style="background:none">right</li>
+            </ul>
+
+            <div style="max-width:50%; position:absolute; top:55px; right:240px;">
+                <video poster="/content/resources/images/movie.jpg" style="max-width:100%; max-height:100%" data-autoplay loop>
+                    <source src="/content/resources/movies/robosensors.mp4" type='video/mp4'>
+                    <source src="/content/resources/movies/robosensors.webm" type='video/webm'>
+                </video>
+            </div>
+
+        </h5>
+    </section>
+
+    <section  class="shaded" data-transition="none" style="background:url('/content/basis_2_1/images/schoolbord.jpg');">
+        <h5 style="margin-left:60px; width: 100%; position:absolute; text-align:left; top:50px; line-height: 1.5em">
+            Robo can only look in these squares: <br>
+            <ul style=" margin: 0 0 0 1em; width: 30%">
+                <li style="background:none">left</li>
+                <li style="background:none">front</li>
+                <li style="background:none">right</li>
+            </ul>
+
+            <div style="max-width:50%; position:absolute; top:40px; right:240px;">
+                <img style="max-width:100%; max-height:100%" src="/content/resources/images/quiz_whatdoesrobosee/robo_sensors.jpg"></img>
+            </div>
+
+        </h5>
+    </section>
+
+    <!-- leftIsBeacon; question -->
+    <section  class="shaded" data-transition="none" style="background:url('/content/basis_2_1/images/schoolbord.jpg');">
+        <h5 style="margin-left:60px; width: 100%; position:absolute; text-align:left; top:50px; line-height: 1.5em">
+            Is "leftIsBeacon" true?<br>
+            <ul style=" margin: 0 0 0 1em; width: 30%">
+                <li style="background:none">Yes</li>
+                <li style="background:none">No</li>
+            </ul>
+
+            <div style="max-width:50%; position:absolute; top:40px; right:240px;">
+                <img style="max-width:100%; max-height:100%" src="/content/resources/images/quiz_whatdoesrobosee/robo_sensors.jpg"></img>
+            </div>
+
+        </h5>
+    </section>
+
+    <!-- leftIsBeacon; answer -->
+    <section  class="shaded" data-transition="none" style="background:url('/content/basis_2_1/images/schoolbord.jpg');">
+        <h5 style="margin-left:60px; width: 100%; position:absolute; text-align:left; top:50px; line-height: 1.5em">
+            Is "leftIsBeacon" true?<br>
+            <ul style=" margin: 0 0 0 1em; width: 30%">
+                <li style="background:none">Yes</li>
+                <li style="background:#ff0000">No</li>
+            </ul>
+
+            <div style="max-width:50%; position:absolute; top:40px; right:240px;">
+                <img style="max-width:100%; max-height:100%" src="/content/resources/images/quiz_whatdoesrobosee/robo_sensors1.jpg"></img>
+            </div>
+
+        </h5>
+    </section>
+
+    <section  class="shaded" data-transition="none" style="background:url('/content/basis_2_1/images/schoolbord.jpg');">
+        <h5 style="margin-left:40px; position:absolute; text-align:left; top:30px; line-height: 1.5em">
+            <ul style="list-style-type:none; margin: 1em 0 0 0; width: 40%">
+                <li style="background:none">
+                    A large problem can be solved by observing, taking a small step, observe again, etc. ...
+                </li>
+            </ul>
+        </h5>
+
+        <div style="max-width:50%; position:absolute; top:75px; right:60px;">
+            <video poster="/content/resources/images/movie.jpg" style="max-width:100%; max-height:100%" data-autoplay loop>
+                <source src="/content/resources/movies/rightatwhite.mp4" type='video/mp4'>
+                <source src="/content/resources/movies/rightatwhite.webm" type='video/webm'>
+            </video>
+        </div>
+
+    </section>
+
+    <section  class="shaded" data-transition="none" style="background:url('/content/basis_2_1/images/schoolbord.jpg');">
+        <h5 style="margin-left:40px; position:absolute; text-align:left; top:30px; line-height: 1.5em">
+            <ul style="list-style-type:none; margin: 1em 0 0 0; width: 40%">
+                <li style="background:none">
+                    The robot only sees a small part of the world. That is fine as he can still solve large problems by taking it step-by-step ...
+                </li>
+            </ul>
+
+            <div style="max-width:50%; position:absolute; top:75px; right:60px;">
+                <video poster="/content/resources/images/movie.jpg" style="max-width:100%; max-height:100%" data-autoplay loop>
+                    <source src="/content/resources/movies/maze.mp4" type='video/mp4'>
+                    <source src="/content/resources/movies/maze.webm" type='video/webm'>
+                </video>
+            </div>
+
+        </h5>
+
+    </section>
+
+
+    <!-- Quiz -->
+    <section  class="shaded" data-transition="none" style="background:url('/content/basis_2_1/images/schoolbord.jpg');">
+        <h5 style="margin-left:40px; position:absolute; text-align:left; top:30px; line-height: 1.5em">
+            <ul style="list-style-type:none; margin: 1em 0 0 0; width: 100%">
+                <li style="background:none">
+                    Finally let's do a small quiz with "if" and "else" ...
+                </li>
+            </ul>
+        </h5>
+    </section>
+
+    <!-- Quiz: if-else-4 =========================================================================
+    if( leftIsWhite )
+     {
+        left
+     }
+     else
+     {
+        backward(1)
+     }
+    =========================================================================================== -->
+    <section data-transition="none" style="background-image: url(/content/resources/images/quiz_if_else/q_if_else_4q.jpg);">
+        <h3 style="position: absolute; top:20px; left:300px; text-align:left">What will Robo do?</h3>
+
+        <div class="codebox" style="font-size:65%; width:240px;  margin-top:20px; margin-left:20px; border:8px solid rgb(0, 69, 93);">
+            <textarea class="robocode" data-exeline="1" >
+if(leftIsWhite)
+{
+   left
+}
+else
+{
+   backward(1)
+}
+
+            </textarea>
+        </div>
+    </section>
+
+    <!-- Quiz: if-else-4-answer -->
+    <section data-transition="none" style="background-image: url(/content/resources/images/quiz_if_else/q_if_else_4a.jpg);">
+        <h3 style="position: absolute; top:20px; left:300px; text-align:left">He turns to the left</h3>
+
+        <div class="codebox" style="font-size:65%; width:240px; margin-top:20px; margin-left:20px; border:8px solid rgb(0, 69, 93);">
+            <textarea class="robocode" data-exeline="3" data-correctline="3">
+if(leftIsWhite)
+{
+   left
+}
+else
+{
+   backward(1)
+}
+
+            </textarea>
+        </div>
+    </section>
+
+    <!-- Quiz: if-else-5 ===========================================================================
+    if(rightIsBeacon)
+    {
+        right
+    }
+    else
+    {
+        left
+    }
+    =========================================================================================== -->
+
+    <section data-transition="none" style="background-image: url(/content/resources/images/quiz_if_else/q_if_else_3a.jpg);">
+        <h3 style="position: absolute; top:20px; left:300px; text-align:left">What will Robo do?</h3>
+
+        <div class="codebox" style="font-size:65%; width:240px;  margin-top:20px; margin-left:20px; border:8px solid rgb(0, 69, 93);">
+            <textarea class="robocode" data-exeline="1" >
+if(leftIsClear)
+{
+    right
+}
+else
+{
+    backward
+}
+
+            </textarea>
+        </div>
+    </section>
+
+    <!-- Quiz: if-else-5-answer -->
+    <section data-transition="none" style="background-image: url(/content/resources/images/quiz_if_else/q_if_else_5a.jpg);">
+        <h3 style="position: absolute; top:20px; left:300px; text-align:left">He will go right</h3>
+
+        <div class="codebox" style="font-size:65%; width:240px; margin-top:20px; margin-left:20px; border:8px solid rgb(0, 69, 93);">
+            <textarea class="robocode" data-exeline="3" data-correctline="3">
+if(leftIsClear)
+{
+    right
+}
+else
+{
+    backward
+}
+
+            </textarea>
+        </div>
+    </section>
+
+    <!-- Quiz: if-else-6 ===========================================================================
+    if(leftIsObstacle)
+    {
+        forward
+    }
+    else
+    {
+        left
+    }
+    =========================================================================================== -->
+
+    <section data-transition="none" style="background-image: url(/content/resources/images/quiz_if_else/q_if_else_6q.jpg);">
+        <h3 style="position: absolute; top:20px; left:300px; text-align:left">What will Robo do?</h3>
+
+        <div class="codebox" style="font-size:65%; width:240px;  margin-top:20px; margin-left:20px; border:8px solid rgb(0, 69, 93);">
+            <textarea class="robocode" data-exeline="1" >
+if(leftIsObstacle)
+{
+    forward
+}
+else
+{
+    left
+}
+
+            </textarea>
+        </div>
+    </section>
+
+    <!-- Quiz: if-else-6-answer -->
+    <section data-transition="none" style="background-image: url(/content/resources/images/quiz_if_else/q_if_else_6a.jpg);">
+        <h3 style="position: absolute; top:20px; left:300px; text-align:left">He will turn left</h3>
+
+        <div class="codebox" style="font-size:65%; width:240px; margin-top:20px; margin-left:20px; border:8px solid rgb(0, 69, 93);">
+            <textarea class="robocode" data-exeline="7" data-correctline="7">
+if(leftIsObstacle)
+{
+    forward
+}
+else
+{
+    left
+}
+
+            </textarea>
+        </div>
+    </section>
+
+    <!-- Quiz: if-else-7 ===========================================================================
+    if(frontIsClear)
+    {
+        forward
+    }
+    else
+    {
+        right
+    }
+    =========================================================================================== -->
+
+    <section data-transition="none" style="background-image: url(/content/resources/images/quiz_if_else/q_if_else_7q.jpg);">
+        <h3 style="position: absolute; top:20px; left:300px; text-align:left">What will Robo do?</h3>
+
+        <div class="codebox" style="font-size:65%; width:240px;  margin-top:20px; margin-left:20px; border:8px solid rgb(0, 69, 93);">
+            <textarea class="robocode" data-exeline="1" >
+if(frontIsClear)
+{
+    forward
+}
+else
+{
+    right
+}
+
+            </textarea>
+        </div>
+    </section>
+
+    <!-- Quiz: if-else-7-answer -->
+    <section data-transition="none" style="background-image: url(/content/resources/images/quiz_if_else/q_if_else_7a.jpg);">
+        <h3 style="position: absolute; top:20px; left:300px; text-align:left">He will turn right</h3>
+
+        <div class="codebox" style="font-size:65%; width:240px; margin-top:20px; margin-left:20px; border:8px solid rgb(0, 69, 93);">
+            <textarea class="robocode" data-exeline="7" data-correctline="7">
+if(frontIsClear)
+{
+    forward
+}
+else
+{
+    right
+}
+
+            </textarea>
+        </div>
+    </section>
+
+    <! -- END OF QUIZ -->
+
+    <section  class="shaded" style="background:url('/content/basis_2_1/images/whitetrail.jpg');">
+        <h2>What are we going to do?</h2>
+
+        <p class="footnote">Following breadcrumb trails!</p>
+    </section>
+
+</div>

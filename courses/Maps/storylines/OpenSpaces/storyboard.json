@@ -1,0 +1,15 @@
+{
+    "items" : [
+        ["challenge", ["map_EmptyMap1",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[9,9,0.15]"}]],
+        ["challenge", ["map_EmptyMap2",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[27,11,0.08]"}]],
+        ["challenge", ["map_EmptyMap3",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[5.5,9,0.15]"}]],
+        ["challenge", ["map_aztec",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[10.5,9,0.15]"}]],
+        ["challenge", ["map_hugemap",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[30,7,0.07]"}]],
+        ["challenge", ["map_moanGrass",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[7,5,0.2]"}]],
+        ["challenge", ["map_openArea",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[11,8,0.15]"}]],
+        ["challenge", ["map_openArea2",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[30,7,0.07]"}]],
+        ["challenge", ["map_openArea3",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[30,7,0.07]"}]],
+        ["challenge", ["map_SmallIsland",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[9,9,0.14]"}]],
+        ["challenge", ["map_SmallIsland2",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[9,9,0.14]"}]]
+    ]
+}

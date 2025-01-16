@@ -1,0 +1,4 @@
+{
+    "item.name":"Finding beacons in a small maze",
+    "hint.auto.mazeOrderNotRight": "Robo stoppen in the wrong spot. Did you use your conditions in the right order? In the repeat loop first look if the beacon is ahead, then see if the wall is still at your right, then check if, perhaps, you need to turn left, and otherwise go forward."
+}

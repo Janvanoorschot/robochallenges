@@ -1,0 +1,19 @@
+{
+    "validationCheck":
+    {
+        "postRunWorld": "robot(10,3) and robotHasBeacon",
+        "postRunUsage": "robotExplored(16,11) and robotExplored(16,10) and robotExplored(18,10) and robotExplored(18,4) and robotExplored(10,4)",
+        "postRunProgram": "PickUp and Left and Right and MoveForward and Break"
+    },
+    "hintRules":
+        [
+            {"premise": "not Left", "value" : "hint.auto.noLeftUsed", "type" : "program"},
+            {"premise": "not Right", "value" : "hint.auto.noRightUsed", "type" : "program"},
+            {"premise": "not MoveForward", "value" : "hint.auto.noForwardUsed", "type" : "program"},
+            {"premise": "not PickUp", "value" : "hint.auto.noPickUpUsed", "type" : "program"},
+            {"premise": "not Break", "value" : "hint.auto.noBreakUsed", "type" : "program"},
+            {"premise": "not robotExplored(16,11) or not robotExplored(16,10) or not robotExplored(18,10) or not robotExplored(18,4) or not robotExplored(10,4)", "value": "hint.auto.youDidNotFollowLine", "type" : "world"},
+            {"premise": "not robot(10,3)", "value": "hint.auto.youDidNotEndUpAtEndLocation", "type" : "world"},
+            {"premise": "not robotHasBeacon", "value" : "hint.auto.robotHasNoBeacon", "type" : "world"}
+        ]
+}

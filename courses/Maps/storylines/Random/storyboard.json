@@ -1,0 +1,13 @@
+    {
+    "items" : [
+        ["challenge", ["map_holes1",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[6.5,4.5,0.25]"}]],
+        ["challenge", ["map_holes2",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[6.5,4.5,0.25]"}]],
+        ["challenge", ["map_holes3",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[6.5,4.5,0.25]"}]],
+        ["challenge", ["map_holes4",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[6.5,4.5,0.25]"}]],
+        ["challenge", ["map_holes5",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[11,8,0.15]"}]],
+        ["challenge", ["map_dirtyCarpet",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[10.5,8,0.15]"}]],
+        ["challenge", ["map_potholes",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[36,23,0.07]"}]],
+        ["challenge", ["map_rm_lf_task5",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[11,8,0.15]"}]],
+        ["challenge", ["map_whiteLane",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[11,8,0.15]"}]]
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "validationCheck":
+    {
+        "postRunWorld": "beacon(5,5) and beacon(6,5) and beacon(7,5)",
+        "postRunProgram": "PickUp and PutDown and Repeat"
+    },
+    "hintRules" :
+        [
+            {"premise": "not Repeat", "value" : "hint.auto.noRepeatUsed", "type" : "program"},
+            {"premise": "not PickUp", "value" : "hint.auto.noPickUpUsed", "type" : "program"},
+            {"premise": "not PutDown", "value" : "hint.auto.noPutDownUsed", "type" : "program"},
+            {"premise": "not beacon(5,5) or not beacon(6,5) or not beacon(7,5)", "value" : "hint.auto.beaconsInWrongSpot", "type" : "world"}
+        ]
+}

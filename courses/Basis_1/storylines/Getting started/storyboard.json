@@ -1,0 +1,17 @@
+{
+    "items" : [
+        ["presentation", ["basis_1_1",{}]],
+        ["challenge", ["gettingStartedGetBeacon",{"type":"normal","keep_solution":false,"autorun":false, "showremote":true, "viewstart":"[8.5,12.5,0.6]"}]],
+        ["challenge", ["gettingStartedMoveBeaconClose",{"type":"normal","keep_solution":false,"autorun":false, "viewstart":"[6,11,0.4]"}]],
+        ["challenge", ["gettingStartedGetBeaconFarAway",{"type":"normal","keep_solution":false,"autorun":false, "viewstart":"[13,7,0.18]"}]],
+        ["challenge", ["drawSquareSimpleNoVideo",{"type":"normal","keep_solution":false,"autorun":false, "showremote":true, "viewstart":"[8.5,9.5,0.5]"}]],
+        ["challenge", ["drawLetterA",{"type":"normal","keep_solution":false,"autorun":false, "viewstart":"[8.5,9.5,0.5]"}]],
+        ["challenge", ["drawLetterM",{"type":"normal","keep_solution":false,"autorun":false, "viewstart":"[8.5,9.5,0.5]"}]],
+        ["challenge", ["createRoboDance",{"type":"normal","keep_solution":false,"autorun":false, "viewstart":"[4,4,0.25]"}]],
+        ["presentation", ["storylineEnd",{}]]
+    ],
+    "concepts" : [
+        "CP1",
+        "CP5"
+    ]
+}

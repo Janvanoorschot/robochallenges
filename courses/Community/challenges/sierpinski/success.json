@@ -1,0 +1,10 @@
+{
+    "validationCheck":
+    {
+        "postRunWorld": "white(18,2) & white(17,3) & white(19,3) & white(16,4) & white(20,4) & white(15,5) & white(17,5) & white(19,5) & white(21,5) & white(14,6) & white(22,6) & white(13,7) & white(15,7) & white(21,7) & white(23,7) & white(12,8) & white(16,8) & white(20,8) & white(24,8) & white(11,9) & white(13,9) & white(15,9) & white(17,9) & white(19,9) & white(21,9) & white(23,9) & white(25,9) & white(10,10) & white(26,10) & white(9,11) & white(11,11) & white(25,11) & white(27,11) & white(8,12) & white(12,12) & white(24,12) & white(28,12) & white(7,13) & white(9,13) & white(11,13) & white(13,13) & white(23,13) & white(25,13) & white(27,13) & white(29,13) & white(6,14) & white(14,14) & white(22,14) & white(30,14) & white(5,15) & white(7,15) & white(13,15) & white(15,15) & white(21,15) & white(23,15) & white(29,15) & white(31,15) & white(4,16) & white(8,16) & white(12,16) & white(16,16) & white(20,16) & white(24,16) & white(28,16) & white(32,16) & white(3,17) & white(5,17) & white(7,17) & white(9,17) & white(11,17) & white(13,17) & white(15,17) & white(17,17) & white(19,17) & white(21,17) & white(23,17) & white(25,17) & white(27,17) & white(29,17) & white(31,17) & white(33,17)"
+    },
+    "hintRules" :
+        [
+            {"premise": "not PaintWhite", "value" : "hint.auto.noSierpinski", "type" : "world"}
+        ]
+}

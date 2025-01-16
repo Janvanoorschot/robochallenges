@@ -1,0 +1,13 @@
+{
+    "validationCheck":
+    {
+        "postRunProgram": "RandomBool and PaintBlack and PickUp"
+    },
+    "hintRules":
+    [
+        {"premise": "not RandomBool", "value" : "hint.auto.noFlipCoinUsed", "type" : "program"},
+        {"premise": "not PaintBlack", "value" : "hint.auto.noPaintBlackUsed", "type" : "program"},
+        {"premise": "not PickUp", "value" : "hint.auto.noPickUpUsed", "type" : "program"},
+        {"premise": "not robot(3,13)", "value": "hint.auto.MaxedOut", "type" : "usage"}
+    ]
+}

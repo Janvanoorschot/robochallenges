@@ -1,0 +1,5 @@
+{
+    "item.name":"A small checkered floor",
+    "hint.auto.notWholeFloor":"Paint the whole floor!",
+    "hint.auto.notCheckeredFloor":"Paint a checkered floor, so with stripes in both directions!"
+}

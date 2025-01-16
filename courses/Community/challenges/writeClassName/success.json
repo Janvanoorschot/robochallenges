@@ -1,0 +1,10 @@
+{
+    "validationCheck":
+    {
+        "postRunProgram": "PaintWhite"
+    },
+    "hintRules":
+        [
+            {"premise": "not PaintWhite", "value" : "hint.auto.noPaintWhiteUsed", "type" : "program"}
+        ]
+}

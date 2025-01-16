@@ -1,0 +1,127 @@
+<!-- Any section element inside of this container is displayed as a slide -->
+
+<div class="slides">
+
+    <section>
+        <h1>Factories</h1>
+        <h3>Continuing with "repeat"</h3>
+        <img src="/content/resources/images/robo.png" width=100> </img>
+    </section>
+
+    <section data-transition="none" style=" background:url('/content/resources/images/carfactory.jpg');">
+
+        <h2 style="float: left;">Robots in a factory</h2>
+
+        <div style="position:absolute; top:70px; left: 10px; width: 325px">
+            <ul style="margin: .3em; list-style-type: none; font-size: 20px; text-shadow: 2px 2px 2px black;">
+                <li style="margin-bottom:1em; background-color:rgba(0,0,0,0.65); padding: .2em">
+                    We often see robots in factories ...<br>
+                    Why would that be you think?
+                </li>
+                <li class="fragment fade-in" style="margin-bottom:1em; background-color:rgba(0,0,0,0.65); padding: .2em">
+                    Robots are strong and can lift heavy weights
+                </li>
+                <li class="fragment fade-in" style="margin-bottom:1em; background-color:rgba(0,0,0,0.65); padding: .2em">
+                    Robots can do dangerous work
+                </li>
+                 <li class="fragment fade-in" style="margin-bottom:1em; background-color:rgba(0,0,0,0.65); padding: .2em">
+                    Robots don’t get tired and can work day and night.
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section data-transition="none">
+
+        <video poster="/content/resources/images/movie.jpg" style="max-width:100%; max-height:100%" data-autoplay loop>
+            <source src="/content/resources/movies/rightforwardbackward.mp4" type='video/mp4'>
+            <source src="/content/resources/movies/rightforwardbackward.webm" type='video/webm'>
+        </video>
+
+        <h3 style="position: absolute; top:20px; left:300px; text-align:left">Not everything is repeated</h3>
+
+        <div class="codebox" style="position:absolute; top:0; font-size:65%; width:240px; margin-top:20px; margin-left:20px; border:8px solid rgb(0, 69, 93);">
+            <textarea class="robocode" data-exeline="1">
+right
+
+repeat(2)
+{
+    forward(2)
+    backward(1)
+}
+
+
+
+</textarea>
+        </div>
+
+        <div style="text-align:left; position:absolute; left:295px; top:65px; width:285px; margin-bottom:1em; padding: .2em">
+            <ul style="margin: .3em; list-style-type: none; font-size: 20px; text-shadow: 2px 2px 2px black;">
+                <li class="fragment fade-in" style="margin-bottom:1em; background-color:rgba(0,0,0,0.65); padding: .2em">
+                    "right" is <strong><em>not</em></strong> repeated
+                </li>
+                <li class="fragment fade-in" style="margin-bottom:1em; background-color:rgba(0,0,0,0.65); padding: .2em">
+                    { 2 steps forward and then 1 step backward } <strong><em>is</em></strong> repeated
+                </li>
+            </ul>
+        </div>
+
+    </section>
+
+    <section data-transition="none">
+
+        <video poster="/content/resources/images/movie.jpg" style="max-width:100%; max-height:100%" data-autoplay loop>
+            <source src="/content/resources/movies/rightforwardleft.mp4" type='video/mp4'>
+            <source src="/content/resources/movies/rightforwardleft.webm" type='video/webm'>
+        </video>
+
+        <h3 style="position: absolute; top:20px; left:300px; text-align:left">Not everything is repeated</h3>
+
+        <div class="codebox" style="position:absolute; top:0; font-size:65%; width:240px; margin-top:20px; margin-left:20px; border:8px solid rgb(0, 69, 93);">
+            <textarea class="robocode" data-exeline="1">
+repeat(4)
+{
+    right
+}
+
+forward
+
+repeat(4)
+{
+    left
+}
+</textarea>
+        </div>
+
+        <div style="text-align:left; position:absolute; left:295px; top:65px; width:285px; margin-bottom:1em; padding: .2em">
+            <ul style="margin: .3em; list-style-type: none; font-size: 20px; text-shadow: 2px 2px 2px black;">
+                <li class="fragment fade-in"  style="margin-bottom:1em; background-color:rgba(0,0,0,0.65); padding: .2em">
+                    first Robo spins right
+                </li>
+                <li class="fragment fade-in" style="margin-bottom:1em; background-color:rgba(0,0,0,0.65); padding: .2em">
+                    then he does a step forward
+                </li>
+                <li class="fragment fade-in" style="margin-bottom:1em; background-color:rgba(0,0,0,0.65); padding: .2em">
+                    and then he spins left
+                </li>
+            </ul>
+        </div>
+
+    </section>
+
+    <!-- filmpje -->
+    <section>
+        <video poster="/content/resources/images/movie.jpg" data-autoplay controls>
+            <source src="/content/resources/movies/Factory.mp4" type='video/mp4'>
+            <source src="/content/resources/movies/Factory.webm" type='video/webm'>
+        </video>
+    </section>
+
+    <section  class="shaded" style=";background:url('/content/basis_1_4/images/pancakes.jpg');">
+        <h2 style="text-align:left; line-height:100%    ">What are we <br>going to do?</h2>
+
+        <p class="footnote">Baking pancakes on the conveyor belt!</p>
+    </section>
+
+
+</div>

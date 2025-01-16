@@ -1,0 +1,493 @@
+<!-- Any section element inside of this container is displayed as a slide -->
+
+<div class="slides">
+
+    <section>
+        <h1>Spoorzoeken</h1>
+        <h3>Meer met waarnemen en beslissen</h3>
+        <img src="/content/resources/images/robo.png" width=100> </img>
+    </section>
+
+    <!-- Quiz -->
+    <section style="background-image: url(/content/resources/images/quiz.jpg);">
+    </section>
+
+    <section data-transition="none" >
+        <video poster="/content/resources/images/movie.jpg" style="max-width:100%; max-height:100%" data-autoplay loop>
+            <source src="/content/resources/movies/robosensors.mp4" type='video/mp4'>
+            <source src="/content/resources/movies/robosensors.webm" type='video/webm'>
+        </video>
+
+        <h2 style="float:left; margin-left:20px; position:absolute; top:0px;">Robo's sensors</h2>
+
+        <div style="position:absolute; top:80px; left: 10px; width: 550px; text-align:left">
+            <ul style="margin: .3em; width:360px; list-style-type: none; font-size: 20px; text-shadow: 2px 2px 2px black;">
+                <li style="margin-bottom:1em; background-color:rgba(0,0,0,0.65); padding: 0.5em">
+                    Robo kan alleen deze vakjes zien:
+                    <ul style="margin-top: 0.5em;">
+                        <li style="background-color:rgba(0,0,0,0.65); margin-bottom:.5em; padding:.5em;">links</li>
+                        <li style="background-color:rgba(0,0,0,0.65); margin-bottom:.5em; padding:.5em;">voor</li>
+                        <li style="background-color:rgba(0,0,0,0.65); margin-bottom:.5em; padding:.5em;">rechts</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section data-transition="none" class="shaded" style="background-image: url(/content/resources/images/quiz_whatdoesrobosee/robo_sensors.jpg);">
+
+        <h2 style="float:left; margin-left:20px">Robo's sensors</h2>
+
+        <div style="position:absolute; top:80px; left: 10px; width: 550px; text-align:left">
+            <ul style="margin: .3em; width:360px; list-style-type: none; font-size: 20px; text-shadow: 2px 2px 2px black;">
+                <li style="margin-bottom:1em; background-color:rgba(0,0,0,0.65); padding: 0.5em">
+                    Robo kan alleen deze vakjes zien:
+                    <ul style="margin-top: 0.5em;">
+                        <li>links</li>
+                        <li>voor</li>
+                        <li>rechts</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- linksIsBaken; question -->
+    <section data-transition="none" class="shaded" style="background-image: url(/content/resources/images/quiz_whatdoesrobosee/robo_sensors.jpg);">
+
+        <h2 style="float:left; margin-left:20px">Voorbeeld</h2>
+
+        <div style="position:absolute; top:80px; left: 10px; width: 550px; text-align:left">
+            <ul style="margin: .3em; width:360px; list-style-type: none; font-size: 20px; text-shadow: 2px 2px 2px black;">
+                <li style="margin-bottom:1em; background-color:rgba(0,0,0,0.65); padding: 0.5em">
+                       <span style="background-color:rgb(58, 131, 240); text-shadow:none; padding: 0.5em">Is "linksIsBaken" waar?</span>
+                       <ul style="margin-top: 0.5em;">
+                           <li>Ja</li>
+                           <li>Nee</li>
+                       </ul>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- linksIsBaken: answer -->
+    <section data-transition="none" class="shaded" style="background-image: url(/content/resources/images/quiz_whatdoesrobosee/robo_sensors1.jpg);">
+
+        <h2 style="float:left; margin-left:20px">Voorbeeld</h2>
+
+        <div style="position:absolute; top:80px; left: 10px; width: 550px; text-align:left">
+            <ul style="margin: .3em; width:360px; list-style-type: none; font-size: 20px; text-shadow: 2px 2px 2px black;">
+                <li style="margin-bottom:1em; background-color:rgba(0,0,0,0.65); padding: 0.5em">
+                    Is "linksIsBaken" waar?
+                    <ul style="margin-top: 0.5em;">
+                        <li>Ja</li>
+                        <li style="background-color:#ff0000; text-shadow:none">Nee</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Quiz: if-else-0 +=========================================================================
+    als(voorIsVrij)
+    {
+        links
+    }
+    anders
+    {
+        rechts
+    }
+    =========================================================================================== -->
+    <section data-transition="none" style="background-image: url(/content/resources/images/quiz_if_else/q_if_else_0q.jpg);">
+        <h3 style="position: absolute; top:20px; left:300px; text-align:left">Wat gaat Robo doen?</h3>
+
+        <div class="codebox" style="font-size:65%; width:240px;  margin-top:20px; margin-left:20px; border:8px solid rgb(0, 69, 93);">
+            <textarea class="robocode" data-exeline="1" >
+als(voorIsVrij)
+{
+    links
+}
+anders
+{
+    rechts
+}
+
+</textarea>
+        </div>
+    </section>
+
+    <!-- Quiz: if-else-0-answer -->
+    <section data-transition="none" style="background-image: url(/content/resources/images/quiz_if_else/q_if_else_0a.jpg);">
+        <h3 style="position: absolute; top:20px; left:300px; text-align:left">Hij draait naar links</h3>
+
+        <div class="codebox" style="font-size:65%; width:240px; margin-top:20px; margin-left:20px; border:8px solid rgb(0, 69, 93);">
+            <textarea class="robocode" data-exeline="3" data-correctline="3">
+als(voorIsVrij)
+{
+    links
+}
+anders
+{
+    rechts
+}
+
+</textarea>
+        </div>
+    </section>
+
+    <!-- Quiz: if-else-1 =========================================================================
+    als(linksIsBaken)
+    {
+        rechts
+    }
+    anders
+    {
+        achteruit
+    }
+    =========================================================================================== -->
+    <section data-transition="none" style="background-image: url(/content/resources/images/quiz_if_else/q_if_else_1q.jpg);">
+        <h3 style="position: absolute; top:20px; left:300px; text-align:left">Wat gaat Robo doen?</h3>
+
+        <div class="codebox" style="font-size:65%; width:240px;  margin-top:20px; margin-left:20px; border:8px solid rgb(0, 69, 93);">
+            <textarea class="robocode" data-exeline="1" >
+als(linksIsBaken)
+{
+    rechts
+}
+anders
+{
+    achteruit
+}
+
+</textarea>
+        </div>
+    </section>
+
+    <!-- Quiz: if-else-1-answer -->
+    <section data-transition="none" style="background-image: url(/content/resources/images/quiz_if_else/q_if_else_1a.jpg);">
+        <h3 style="position: absolute; top:20px; left:300px; text-align:left">Hij gaat achteruit</h3>
+
+        <div class="codebox" style="font-size:65%; width:240px; margin-top:20px; margin-left:20px; border:8px solid rgb(0, 69, 93);">
+            <textarea class="robocode" data-exeline="7" data-correctline="7">
+als(linksIsBaken)
+{
+    rechts
+}
+anders
+{
+    achteruit
+}
+
+</textarea>
+        </div>
+    </section>
+
+    <!-- Quiz: if-else-2 =========================================================================
+    als(linksIsVrij)
+    {
+        rechts
+    }
+    anders
+    {
+        achteruit
+    }
+    =========================================================================================== -->
+    <section data-transition="none" style="background-image: url(/content/resources/images/quiz_if_else/q_if_else_2q.jpg);">
+        <h3 style="position: absolute; top:20px; left:300px; text-align:left">Wat gaat Robo doen?</h3>
+
+        <div class="codebox" style="font-size:65%; width:240px;  margin-top:20px; margin-left:20px; border:8px solid rgb(0, 69, 93);">
+            <textarea class="robocode" data-exeline="1" >
+als(linksIsVrij)
+{
+    rechts
+}
+anders
+{
+    achteruit
+}
+
+</textarea>
+        </div>
+    </section>
+
+    <!-- Quiz: if-else-2-answer -->
+    <section data-transition="none" style="background-image: url(/content/resources/images/quiz_if_else/q_if_else_2a.jpg);">
+        <h3 style="position: absolute; top:20px; left:300px; text-align:left">Hij draait naar rechts</h3>
+
+        <div class="codebox" style="font-size:65%; width:240px; margin-top:20px; margin-left:20px; border:8px solid rgb(0, 69, 93);">
+            <textarea class="robocode" data-exeline="3" data-correctline="3">
+als(linksIsVrij)
+{
+    rechts
+}
+anders
+{
+    achteruit
+}
+
+</textarea>
+        </div>
+    </section>
+
+    <!-- Quiz: if-else-3 =========================================================================
+    als(rechtsIsBaken)
+    {
+        rechts
+        pakOp
+    }
+    anders
+    {
+        vooruit(1)
+    }
+    =========================================================================================== -->
+    <section data-transition="none" style="background-image: url(/content/resources/images/quiz_if_else/q_if_else_3q.jpg);">
+        <h3 style="position: absolute; top:20px; left:300px; text-align:left">Wat gaat Robo doen?</h3>
+
+        <div class="codebox" style="font-size:65%; width:240px;  margin-top:20px; margin-left:20px; border:8px solid rgb(0, 69, 93);">
+            <textarea class="robocode" data-exeline="1" >
+als(rechtsIsBaken)
+{
+    rechts
+    pakOp
+}
+anders
+{
+    vooruit
+}
+</textarea>
+        </div>
+    </section>
+
+    <!-- Quiz: if-else-3-answer -->
+    <section data-transition="none" style="background-image: url(/content/resources/images/quiz_if_else/q_if_else_3a.jpg);">
+        <h3 style="position: absolute; top:20px; left:300px; text-align:left">Hij gaat vooruit</h3>
+
+        <div class="codebox" style="font-size:65%; width:240px; margin-top:20px; margin-left:20px; border:8px solid rgb(0, 69, 93);">
+            <textarea class="robocode" data-exeline="8" data-correctline="8">
+als(rechtsIsBaken)
+{
+    rechts
+    pakOp
+}
+anders
+{
+    vooruit
+}
+</textarea>
+        </div>
+    </section>
+
+
+
+    <!-- Quiz: if-else-4 ===========================================================================
+    als( linksIsWit )
+     {
+        links
+     }
+     anders
+     {
+        achteruit
+     }
+     =========================================================================================== -->
+
+    <section data-transition="none" style="background-image: url(/content/resources/images/quiz_if_else/q_if_else_4q.jpg);">
+        <h3 style="position: absolute; top:20px; left:300px; text-align:left">Wat gaat Robo doen?</h3>
+
+        <div class="codebox" style="font-size:65%; width:240px;  margin-top:20px; margin-left:20px; border:8px solid rgb(0, 69, 93);">
+            <textarea class="robocode" data-exeline="1" >
+als( linksIsWit )
+{
+   links
+}
+anders
+{
+   achteruit
+}
+
+</textarea>
+        </div>
+    </section>
+
+    <!-- Quiz: if-else-4-answer -->
+    <section data-transition="none" style="background-image: url(/content/resources/images/quiz_if_else/q_if_else_4a.jpg);">
+        <h3 style="position: absolute; top:20px; left:300px; text-align:left">Hij draait naar links</h3>
+
+        <div class="codebox" style="font-size:65%; width:240px; margin-top:20px; margin-left:20px; border:8px solid rgb(0, 69, 93);">
+            <textarea class="robocode" data-exeline="3" data-correctline="3">
+als( linksIsWit )
+{
+  links
+}
+anders
+{
+   achteruit
+}
+
+</textarea>
+        </div>
+    </section>
+
+    <!-- Quiz: if-else-5 ===========================================================================
+    als(rechtsIsBaken)
+    {
+        rechts
+    }
+    anders
+    {
+        links
+    }
+    =========================================================================================== -->
+
+    <section data-transition="none" style="background-image: url(/content/resources/images/quiz_if_else/q_if_else_3a.jpg);">
+        <h3 style="position: absolute; top:20px; left:300px; text-align:left">Wat gaat Robo doen?</h3>
+
+        <div class="codebox" style="font-size:65%; width:250px;  margin-top:20px; margin-left:20px; border:8px solid rgb(0, 69, 93);">
+            <textarea class="robocode" data-exeline="1" >
+als(rechtsIsBaken)
+{
+   rechts
+}
+anders
+{
+   links
+}
+
+</textarea>
+        </div>
+    </section>
+
+    <!-- Quiz: if-else-5-answer -->
+    <section data-transition="none" style="background-image: url(/content/resources/images/quiz_if_else/q_if_else_5a.jpg);">
+        <h3 style="position: absolute; top:20px; left:300px; text-align:left">Hij draait naar rechts</h3>
+
+        <div class="codebox" style="font-size:65%; width:250px; margin-top:20px; margin-left:20px; border:8px solid rgb(0, 69, 93);">
+            <textarea class="robocode" data-exeline="3" data-correctline="3">
+als(rechtsIsBaken)
+{
+   rechts
+}
+anders
+{
+   links
+}
+
+</textarea>
+        </div>
+    </section>
+
+
+    <!-- Quiz: if-else-6 ===========================================================================
+     als(linksIsObstakel)
+     {
+         vooruit
+     }
+     anders
+     {
+         links
+     }
+    =========================================================================================== -->
+
+    <section data-transition="none" style="background-image: url(/content/resources/images/quiz_if_else/q_if_else_6q.jpg);">
+        <h3 style="position: absolute; top:20px; left:300px; text-align:left">Wat gaat Robo doen?</h3>
+
+        <div class="codebox" style="font-size:65%; width:265px;  margin-top:20px; margin-left:20px; border:8px solid rgb(0, 69, 93);">
+            <textarea class="robocode" data-exeline="1" >
+als(linksIsObstakel)
+{
+   vooruit
+}
+anders
+{
+   links
+}
+
+</textarea>
+        </div>
+    </section>
+
+    <!-- Quiz: if-else-6-answer -->
+    <section data-transition="none" style="background-image: url(/content/resources/images/quiz_if_else/q_if_else_6a.jpg);">
+        <h3 style="position: absolute; top:20px; left:300px; text-align:left">Hij draait naar links</h3>
+
+        <div class="codebox" style="font-size:65%; width:265px; margin-top:20px; margin-left:20px; border:8px solid rgb(0, 69, 93);">
+            <textarea class="robocode" data-exeline="7" data-correctline="7">
+als(linksIsObstakel)
+{
+   vooruit
+}
+anders
+{
+   links
+}
+
+</textarea>
+        </div>
+    </section>
+
+    <!-- Quiz: if-else-7 ===========================================================================
+    als(voorIsVrij)
+    {
+        vooruit
+    }
+    anders
+    {
+        rechts
+    }
+
+    =========================================================================================== -->
+
+    <section data-transition="none" style="background-image: url(/content/resources/images/quiz_if_else/q_if_else_7q.jpg);">
+        <h3 style="position: absolute; top:20px; left:300px; text-align:left">Wat gaat Robo doen?</h3>
+
+        <div class="codebox" style="font-size:65%; width:240px;  margin-top:20px; margin-left:20px; border:8px solid rgb(0, 69, 93);">
+            <textarea class="robocode" data-exeline="1" >
+als(voorIsVrij)
+{
+   vooruit
+}
+anders
+{
+   rechts
+}
+
+</textarea>
+        </div>
+    </section>
+
+    <!-- Quiz: if-else-7-answer -->
+    <section data-transition="none" style="background-image: url(/content/resources/images/quiz_if_else/q_if_else_7a.jpg);">
+        <h3 style="position: absolute; top:20px; left:300px; text-align:left">Hij draait naar rechts</h3>
+
+        <div class="codebox" style="font-size:65%; width:240px; margin-top:20px; margin-left:20px; border:8px solid rgb(0, 69, 93);">
+            <textarea class="robocode" data-exeline="7" data-correctline="7">
+als(voorIsVrij)
+{
+   vooruit
+}
+anders
+{
+   rechts
+}
+
+</textarea>
+        </div>
+    </section>
+
+    <!-- =========================================================================================== -->
+
+    <!-- filmpje -->
+    <section>
+        <video poster="/content/resources/images/movie.jpg" data-autoplay controls>
+            <source src="/content/resources/movies/Car_nl.mp4" type='video/mp4'>
+            <source src="/content/resources/movies/Car_nl.webm" type='video/webm'>
+        </video>
+    </section>
+
+    <section  class="shaded" style=";background:url('/content/basis_1_6/images/trackandtrace.jpg');">
+        <h2>Wat gaan we doen?</h2>
+
+        <p class="footnote">Spoorzoeken!</p>
+    </section>
+
+
+</div>

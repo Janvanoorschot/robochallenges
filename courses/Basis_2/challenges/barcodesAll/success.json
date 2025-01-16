@@ -1,0 +1,12 @@
+{
+    "validationCheck":
+    {
+        "postRunWorld": "robot(37,16) and beacon(12,2,2) and beacon(19,2,2) and beacon(27,2,2) and beacon(34,2,2) and not robotHasBeacon"
+    },
+    "hintRules" :
+    [
+        {"premise": "robotHasBeacon", "value" : "hint.auto.barcodeNotRecognised", "type" : "world"},
+        {"premise": "not beacon(12,2,2) or not beacon(19,2,2) or not beacon(27,2,2) or not beacon(34,2,2)", "value" : "hint.auto.productInWrongSpot", "type" : "world"},
+        {"premise": "not robot(37,16)", "value" : "hint.auto.youDidNotEndUpAtEndLocation", "type" : "world"}
+    ]
+}

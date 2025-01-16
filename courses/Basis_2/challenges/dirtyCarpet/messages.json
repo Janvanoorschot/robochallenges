@@ -1,0 +1,5 @@
+{
+    "item.name":"Automatic vacuum cleaning",
+    "hint.auto.eatSomeMore":"Robo is moving like he is blindfolded, but should certainly find more beacons. Try again and/or adjust your program to see if he finds more beacons this time.",
+    "hint.auto.someBeaconsLeft":"Ok! No problem that not all beacons were cleaned up yet. Robo did not run until the end, because this may take a very long time and we did not want to keep you waiting. Try again and/or make your program smarter to see if Robo finds more beacons this time."
+}

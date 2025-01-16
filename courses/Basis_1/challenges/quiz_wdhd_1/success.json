@@ -1,0 +1,10 @@
+{
+    "validationCheck":
+    {
+        "postRunProgram": "PaintWhite"
+    },
+    "hintRules" :
+        [
+            {"premise": "PaintWhite", "value" : "hint.auto.q_wdhd1", "type" : "program"}
+        ]
+}

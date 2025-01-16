@@ -1,0 +1,18 @@
+{
+    "items" :
+    [
+        ["presentation", ["basis_1_4",{}]],
+        ["challenge", ["pancakes",{"type":"normal","keep_solution":true,"autorun":false, "viewstart":"[10,4,0.22]"}]],
+        ["challenge", ["pancakes12",{"type":"normal","keep_solution":false,"autorun":false, "viewstart":"[10,4,0.22]"}]],
+        ["challenge", ["changeBeltBasis",{"type":"normal","keep_solution":true,"autorun":false, "viewstart":"[10,4,0.2]"}]],
+        ["challenge", ["changeBeltBasis12",{"type":"normal","keep_solution":true,"autorun":false, "viewstart":"[10,4,0.2]"}]],
+        ["challenge", ["changeBeltExtra1",{"type":"extra","keep_solution":true,"autorun":false, "viewstart":"[10,4,0.2]"}]],
+        ["challenge", ["changeBeltExtra2",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[10,4,0.2]"}]],
+        ["presentation", ["storylineEnd",{}]]
+    ],
+    "concepts" : [
+        "CM1",
+        "CS1",
+        "CS2"
+    ]
+}

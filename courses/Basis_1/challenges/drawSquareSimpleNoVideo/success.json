@@ -1,0 +1,19 @@
+{
+    "validationCheck":
+    {
+        "postRunWorld": "robot(7,11) and not white(9,9) and not white(11,12) and white(7,11) and white(7,8) and white(10,11) and white(10,8)",
+        "postRunUsage": "robotExplored(7,8) and robotExplored(10,8) and robotExplored(10,11) and robotExplored(8,11)",
+        "postRunProgram": "Forward and Right and PaintWhite"
+    },
+    "hintRules":
+        [
+            {"premise": "not Forward", "value" : "hint.auto.noForwardUsed", "type" : "program"},
+            {"premise": "not Right", "value" : "hint.auto.noRightUsed", "type" : "program"},
+            {"premise": "not robot(7,11)", "value": "hint.auto.youDidNotEndUpAtStartLocation", "type" : "world"},
+            {"premise": "robotExplored(9,9)", "value" : "hint.auto.squareTooSmall", "type" : "world"},
+            {"premise": "robotExplored(11,12)", "value" : "hint.auto.squareTooBig", "type" : "world"},
+            {"premise": "not robotExplored(7,8) or not robotExplored(10,8) or not robotExplored(10,11) or not robotExplored(8,11)", "value" : "hint.auto.squareNotRight", "type" : "world"},
+            {"premise": "not PaintWhite", "value" : "hint.auto.andNowUsePaint", "type" : "program"},
+            {"premise": "not(white(7,11) and white(7,8) and white(10,11) and white(10,8))", "value" : "hint.auto.squareNotRight", "type" : "world"}
+        ]
+}

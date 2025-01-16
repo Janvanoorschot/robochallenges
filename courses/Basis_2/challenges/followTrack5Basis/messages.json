@@ -1,0 +1,7 @@
+{
+    "item.name":"Follow a secret trail!",
+    "hint.auto.doNotTurnAtSpot":"You did not turn at the right place",
+    "hint.auto.alsoMakeAMove":"You should not only turn ...",
+    "hint.auto.noTurningRight":"You did not turn right anywhere",
+    "hint.auto.noTurningLeft":"You did not turn left anywhere"
+}

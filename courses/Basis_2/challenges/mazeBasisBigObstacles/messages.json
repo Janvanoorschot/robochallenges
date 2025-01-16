@@ -1,0 +1,6 @@
+{
+    "item.name":"A maze with obstacles!",
+    "hint.auto.noFrontIsWhiteUsedToStop":"How are you going to stop in front of the white dot?",
+    "hint.auto.doNotPickUp":"You should now do something different with the beacon ...",
+    "hint.auto.doNotStopForBeacons":"Do not stop for beacons, only for the white dot ..."
+}

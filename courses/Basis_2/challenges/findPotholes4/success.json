@@ -1,0 +1,23 @@
+{
+    "validationCheck":
+    {
+        "postRunWorld": "(not beacon(6,4) or not beacon(11,6)) and (beacon(3,4) or beacon(8,6))",
+        "postRunProgram": "MoveForward and RotateRight and RotateLeft and Repeat and RandomBool and If and Procedure and GripperGet and GripperPut and Return and not End"
+    },
+    "hintRules" :
+    [
+        {"premise": "not Procedure", "value" : "hint.auto.noProcedureUsed", "type" : "program"},
+        {"premise": "not RandomBool", "value" : "hint.auto.noFlipCoinUsed", "type" : "program"},
+        {"premise": "not Repeat", "value" : "hint.auto.noRepeatUsed", "type" : "program"},
+        {"premise": "not If", "value" : "hint.auto.noIfUsed", "type" : "program"},
+        {"premise": "not MoveForward", "value" : "hint.auto.noForwardUsed", "type" : "program"},
+        {"premise": "not RotateRight", "value" : "hint.auto.noRightUsed", "type" : "program"},
+        {"premise": "not RotateLeft", "value" : "hint.auto.noLeftUsed", "type" : "program"},
+        {"premise": "not GripperGet", "value" : "hint.auto.noPickUpUsed", "type" : "program"},
+        {"premise": "not GripperPut", "value" : "hint.auto.noPutDownUsed", "type" : "program"},
+        {"premise": "not Return", "value" : "hint.auto.ReturnRatherThanEnd", "type" : "program"},
+        {"premise": "End", "value" : "hint.auto.ReturnRatherThanEnd", "type" : "program"},
+        {"premise": "beacon(6,4) and beacon(11,6)", "value" : "hint.auto.beaconLeftInWrongSpot", "type" : "usage"},
+        {"premise": "not beacon(3,4) and not beacon(8,6)", "value" : "hint.auto.beaconInWrongSpot", "type" : "usage"}
+    ]
+}

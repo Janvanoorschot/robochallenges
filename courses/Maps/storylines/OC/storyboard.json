@@ -1,0 +1,6 @@
+{
+    "items" : [
+        ["challenge", ["map_maze1",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[12,12,0.1]" }]],
+        ["challenge", ["map_maze1",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[12,12,0.1]"}]]
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "validationCheck":
+    {
+        "postRunWorld": "robot(5,4) and robotHasBeacon",
+        "postRunProgram": "Repeat and If"
+    },
+    "hintRules" :
+    [
+        {"premise": "not Repeat", "value" : "hint.auto.noRepeatUsed", "type" : "program"},
+        {"premise": "not If", "value" : "hint.auto.noIfUsed", "type" : "program"},
+        {"premise": "not robot(5,4)", "value" : "hint.auto.youDidNotEndUpAtEndLocation", "type" : "world"},
+        {"premise": "not robotHasBeacon", "value" : "hint.auto.robotHasNoBeacon", "type" : "world"}
+    ]
+}

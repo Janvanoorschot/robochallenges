@@ -1,0 +1,4 @@
+{
+    "item.name":"Robo finds a beacon all by himself!",
+    "hint.auto.ReturnRatherThanEnd":"OK, well done! But use 'return' rather than 'end' if Robo needs to find more beacons with this procedure ..."
+}

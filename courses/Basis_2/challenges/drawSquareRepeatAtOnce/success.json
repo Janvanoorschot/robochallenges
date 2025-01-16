@@ -1,0 +1,17 @@
+{
+    "validationCheck":
+    {
+        "postRunWorld": "robot(7,11) and not white(9,9) and not white(11,12) and white(7,11) and white(7,8) and white(10,8) and white(10,11)",
+        "postRunUsage": "minWhitePaintUsed(13)",
+        "postRunProgram": "Repeat and PaintWhite"
+    },
+    "hintRules" :
+        [
+            {"premise": "not PaintWhite", "value" : "hint.auto.noPaintWhiteUsed", "type" : "program"},
+            {"premise": "not Repeat", "value" : "hint.auto.noRepeatUsed", "type" : "program"},
+            {"premise": "not robot(7,11)", "value": "hint.auto.youDidNotEndUpAtStartLocation", "type" : "world"},
+            {"premise": "white(9,9) or not minWhitePaintUsed(13)", "value" : "hint.auto.squareTooSmall", "type" : "world"},
+            {"premise": "white(11,12)", "value" : "hint.auto.squareTooBig", "type" : "world"},
+            {"premise": "not(white(7,11) and white(7,8) and white(10,11) and white(10,8))", "value" : "hint.auto.squareNotRight", "type" : "world"}
+        ]
+}

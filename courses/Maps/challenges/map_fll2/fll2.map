@@ -1,0 +1,21 @@
+#map:def
+paint:
+{(w,-,8,10),(w,-,7,10),(w,|,7,9),(w,|,7,8),(w,|,7,7),(w,|,7,6),(w,|,7,5),(w,|,7,4),(w,|,7,3),(w,|,7,2),(w,-,7,2),(w,-,8,2),(w,-,9,2),(w,|,10,2),(w,|,10,3),(w,|,10,4),(w,-,10,5),(w,-,11,5),(w,|,12,5),(w,|,12,6),(w,|,12,7),(w,|,12,8),(w,-,11,9),(w,-,10,9),(w,|,10,9),(w,-,9,10)}
+
+
+map:
+CHHHHHHHHHHHHHHHHHHHD
+GMFFFFFFFFFFFFFFFFFJI
+GI                 GI
+GI CHHD CD   CD    GI
+GI PMFE GO   GI    GI
+GI PI * GO   GI    GI
+GI OLD  GO   GI    GI
+GI PME  GLHD GLHD  GI 
+GI BE   BFFE BFFE  GI
+GI             QQ  GI
+GI        @      Q GI
+GLDQ               GI
+GALHHHHHHHHHHHHHHHHKI
+BFFFFFFFFFFFFFFFFFFFE
+

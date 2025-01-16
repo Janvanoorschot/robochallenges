@@ -1,0 +1,15 @@
+{
+    "validationCheck":
+    {
+        "postRunWorld": "robotHasBeacon and robot(14,7)",
+        "postRunProgram": "Repeat and FrontIsClear and PickUp"
+    },
+    "hintRules":
+        [
+            {"premise": "not Repeat", "value" : "hint.auto.noRepeatUsed", "type" : "program"},
+            {"premise": "not FrontIsClear", "value" : "hint.auto.noFrontIsClearUsed", "type" : "program"},
+            {"premise": "not PickUp", "value" : "hint.auto.noPickUpUsed", "type" : "program"},
+            {"premise": "not robot(14,7)", "value": "hint.auto.youDidNotEndUpAtEndLocation", "type" : "world"},
+            {"premise": "not robotHasBeacon", "value" : "hint.auto.robotHasNoBeacon", "type" : "world"}
+        ]
+}

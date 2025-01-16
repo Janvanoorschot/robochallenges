@@ -1,0 +1,12 @@
+{
+    "items" : [
+        ["challenge", ["map_Parking01",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[2,3,0.35]"}]],
+        ["challenge", ["map_Parking02",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[2,3,0.35]"}]],
+        ["challenge", ["map_Parking03",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[2,3,0.35]"}]],
+        ["challenge", ["map_Parking04",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[2,3,0.35]"}]],
+        ["challenge", ["map_chambers",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[10,8,0.15]"}]],
+        ["challenge", ["map_findSafeSpot1",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[4.5,6.5,0.15]"}]],
+        ["challenge", ["map_findSafeSpot2",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[4.5,6.5,0.15]"}]],
+        ["challenge", ["map_tinyWorld",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[1.5,1.5,0.55]"}]]
+    ]
+}

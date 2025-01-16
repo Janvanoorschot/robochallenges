@@ -1,0 +1,14 @@
+{
+    "validationCheck":
+    {
+        "postRunWorld": "robotIsNorth",
+        "postRunProgram": "(Repeat or RepeatWhile) and FrontIsWhite and not MoveNorth"
+    },
+    "hintRules":
+        [
+            {"premise": "MoveNorth", "value" : "hint.auto.doNotUseNorth", "type" : "program"},
+            {"premise": "not robotIsNorth", "value" : "hint.auto.youAreNotOrientedCorrectly2", "type" : "world"},
+            {"premise": "not Repeat and not RepeatWhile", "value" : "hint.auto.noRepeatUsedToPositionAutomatically", "type" : "program"},
+            {"premise": "not FrontIsWhite", "value" : "hint.auto.noFrontIsWhiteUsedToPositionAutomatically", "type" : "program"}
+        ]
+}

@@ -1,0 +1,16 @@
+{
+    "items" : [
+        ["presentation", ["secondary_1_1",{}]],
+        ["challenge", ["rm_lf_task1a",{"type":"normal","keep_solution":true,"autorun":false, "viewstart":"[11,8,0.15]"}]],
+        ["challenge", ["rm_lf_task1b",{"type":"normal","keep_solution":false,"autorun":false, "viewstart":"[11,8,0.15]"}]],
+        ["challenge", ["rm_lf_task2a",{"type":"normal","keep_solution":true,"autorun":false, "viewstart":"[11,8,0.15]"}]],
+        ["challenge", ["rm_lf_task2b",{"type":"normal","keep_solution":true,"autorun":false, "viewstart":"[11,8,0.15]"}]],
+        ["challenge", ["rm_lf_task2c",{"type":"normal","keep_solution":true,"autorun":false, "viewstart":"[11,8,0.15]"}]],
+        ["presentation", ["secondary_1_1b",{}]],
+        ["challenge", ["rm_lf_task3a",{"type":"normal","keep_solution":true,"autorun":false, "viewstart":"[11,8,0.15]"}]],
+        ["presentation", ["secondary_1_1c",{}]],
+        ["challenge", ["rm_lf_task3b",{"type":"normal","keep_solution":false,"autorun":false, "viewstart":"[11,8,0.15]"}]],
+        ["challenge", ["rm_lf_task3c",{"type":"normal","keep_solution":false,"autorun":false, "viewstart":"[11,8,0.15]"}]],
+        ["presentation", ["storylineEnd",{}]]
+    ]
+}

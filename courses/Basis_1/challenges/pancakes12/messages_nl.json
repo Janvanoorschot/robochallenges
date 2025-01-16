@@ -1,0 +1,6 @@
+{
+    "item.name":"Robo bakt tien pannenkoeken",
+    "hint.auto.notEnoughPancakes":"Je hebt niet genoeg pannenkoeken gebakken",
+    "hint.auto.tooManyPancakes":"Je hebt teveel pannenkoeken gebakken",
+    "hint.auto.pancakesOnTheFloor":"De pannnenkoeken liggen niet op de goede plek"
+}

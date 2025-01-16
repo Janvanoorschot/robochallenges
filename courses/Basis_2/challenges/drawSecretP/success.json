@@ -1,0 +1,17 @@
+{
+    "validationCheck":
+    {
+        "postRunWorld": "robot(4,8) and robotIsNorth and black(3,6) and black(3,7) and black(3,8)",
+        "postRunProgram": "PaintBlack and Procedure",
+        "postRunUsage": "minMoves(2)"
+    },
+    "hintRules" :
+    [
+        {"premise": "not Procedure", "value" : "hint.auto.noProcedureUsed", "type" : "program"},
+        {"premise": "not PaintBlack", "value" : "hint.auto.noPaintBlackUsed", "type" : "program"},
+        {"premise": "not minMoves(2)", "value" : "hint.auto.procedureNotCalled", "type" : "usage"},
+        {"premise": "not black(3,6) or not black(3,7) or not black(3,8)", "value" : "hint.auto.incorrectSecretLetter", "type" : "usage"},
+        {"premise": "not robot(4,8)", "value" : "hint.auto.youDidNotEndUpAtEndLocation", "type" : "usage"},
+        {"premise": "not robotIsNorth", "value" : "hint.auto.youAreNotOrientedCorrectly", "type" : "usage"}
+    ]
+}

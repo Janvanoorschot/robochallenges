@@ -1,0 +1,7 @@
+{
+    "item.name":"Volg een geheim spoor!",
+    "hint.auto.doNotTurnAtSpot":"Je bent niet op de goede plek gedraaid",
+    "hint.auto.alsoMakeAMove":"Je moet niet alleen draaien ...",
+    "hint.auto.noTurningRight":"Je bent nergens naar rechts gedraaid",
+    "hint.auto.noTurningLeft":"Je bent nergens naar links gedraaid"
+}

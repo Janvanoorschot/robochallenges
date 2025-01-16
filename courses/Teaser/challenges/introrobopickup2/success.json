@@ -1,0 +1,10 @@
+{
+	"validationCheck":
+	{		
+		"postRunWorld": "robotHasBeacon"		
+	},
+	"hintRules" : 
+	[
+		{"premise": "not robotHasBeacon", "value" : "hint.auto.robotHasNoBeacon", "type" : "world"}
+	]	
+}

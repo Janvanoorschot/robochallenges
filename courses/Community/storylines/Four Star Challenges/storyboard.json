@@ -1,0 +1,7 @@
+{
+    "items" : [
+        ["challenge", ["christmasTree",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[14,8,0.14]"}]],
+        ["challenge", ["streetRepair",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[36,23,0.14]"}]],
+        ["challenge", ["sierpinski",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[18,10,0.14]"}]]
+    ]
+}

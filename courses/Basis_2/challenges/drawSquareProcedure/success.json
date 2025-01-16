@@ -1,0 +1,16 @@
+{
+    "validationCheck":
+    {
+        "postRunWorld": "white(3,8) and white(3,6) and white(5,8) and white(5,6)",
+        "postRunProgram": "PaintWhite and Procedure and Repeat",
+        "postRunUsage": "minMoves(3)"
+    },
+    "hintRules" :
+    [
+        {"premise": "not Procedure", "value" : "hint.auto.noProcedureUsed", "type" : "program"},
+        {"premise": "not Repeat", "value" : "hint.auto.noRepeatUsed", "type" : "program"},
+        {"premise": "not PaintWhite", "value" : "hint.auto.noPaintWhiteUsed", "type" : "program"},
+        {"premise": "not minMoves(3)", "value" : "hint.auto.procedureNotCalled", "type" : "usage"},
+        {"premise": "not white(3,8) or not white(3,6) or not white(5,8) or not white(5,6)", "value" : "hint.auto.incorrectSecretLetter", "type" : "usage"}
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "map": "findBeacon1.map",
+    "properties": {
+        "max_duration":"15000",
+        "difficulty": {
+            "syntax":"1",
+            "structure":"1",
+            "patterns":"1",
+            "solving":"1"
+        }
+    },
+    "quiz": {
+        "whatever":"how"
+    }
+}

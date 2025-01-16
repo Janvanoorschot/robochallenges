@@ -1,0 +1,18 @@
+    {
+    "items" :
+    [
+        ["presentation", ["basis_1_3",{}]],
+        ["challenge", ["quiz_wdhd_1",{"type":"normal","keep_solution":false,"autorun":false, "viewstart":"[7.5,9.5,0.4]"}]],
+        ["challenge", ["smallStairs",{"type":"normal","keep_solution":true,"autorun":false, "viewstart":"[10,8,0.25]"}]],
+        ["challenge", ["smallStairs2basis",{"type":"normal","keep_solution":false,"autorun":false, "viewstart":"[10,8,0.25]"}]],
+        ["challenge", ["paintCastleFloor",{"type":"normal","keep_solution":true,"autorun":false, "viewstart":"[10.5,10.5,0.2]"}]],
+        ["challenge", ["paintCastleFloorHorizontal",{"type":"normal","keep_solution":true,"autorun":false, "viewstart":"[10.5,10.5,0.2]"}]],
+        ["challenge", ["paintCastleFloorBlocked",{"type":"normal","keep_solution":true,"autorun":false, "viewstart":"[10.5,10.5,0.2]"}]],
+        ["challenge", ["paintCastleFloorBlockedLarge",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[11,8,0.15]"}]],
+        ["presentation", ["storylineEnd",{}]]
+    ],
+    "concepts" : [
+            "CP2",
+            "CS1"
+    ]
+}

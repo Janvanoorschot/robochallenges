@@ -1,0 +1,12 @@
+{
+    "items" : [
+        ["challenge", ["map_preMaze1",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[4.5,6.5,0.25]"}]],
+        ["challenge", ["map_preMaze2",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[8,6,0.20]"}]],
+        ["challenge", ["map_preMaze3",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[8,6,0.20]"}]],
+        ["challenge", ["map_maze1",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[11,8,0.15]"}]],
+        ["challenge", ["map_maze2",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[11,4,0.19]"}]],
+        ["challenge", ["map_maze3",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[23,7,0.09]"}]],
+        ["challenge", ["map_mazeWithObstacles",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[11,8,0.15]"}]],
+        ["challenge", ["map_bigmaze",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[24,22,0.07]"}]]
+    ]
+}

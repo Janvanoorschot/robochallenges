@@ -1,0 +1,12 @@
+{
+    "validationCheck":
+    {
+        "postRunWorld": "white(2,2) and white(10,2) and white(20,2) and white(2,10) and white(10,10) and white(20,10) and white(2,14) and white(10,14) and white(20,14)",
+        "postRunUsage": "minWhitePaintUsed(494)"
+    },
+    "hintRules" :
+        [
+            {"premise": "not minWhitePaintUsed(494)", "value" : "hint.auto.notWholeFloor", "type" : "world"},
+            {"premise": "not white(2,2) or not white(10,2) or not white(20,2) or not white(2,10) or not white(10,10) or not white(20,10) or not white(2,14) or not white(10,14) or not white(20,14)", "value" : "hint.auto.notWholeFloor", "type" : "world"}
+        ]
+}

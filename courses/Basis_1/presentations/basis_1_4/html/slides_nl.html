@@ -1,0 +1,135 @@
+<!-- Any section element inside of this container is displayed as a slide -->
+
+<div class="slides">
+
+    <section>
+        <h1>Fabrieken</h1>
+        <h3>Verder met "herhaal"</h3>
+        <img src="/content/resources/images/robo.png" width=100> </img>
+    </section>
+
+    <section data-transition="none" style=" background:url('/content/resources/images/carfactory.jpg');">
+
+        <h2 style="float: left;">Robots in de fabriek</h2>
+
+        <div style="position:absolute; top:70px; left: 10px; width: 325px">
+            <ul style="margin: .3em; list-style-type: none; font-size: 20px; text-shadow: 2px 2px 2px black;">
+                <li style="margin-bottom:1em; background-color:rgba(0,0,0,0.65); padding: .2em">
+                    Vaak zien we robots in fabrieken ...<br>
+                    Waarom is dat denk je?
+                </li>
+                <li class="fragment fade-in" style="margin-bottom:1em; background-color:rgba(0,0,0,0.65); padding: .2em">
+                    Ze zijn heel sterk en kunnen zware dingen tillen
+                </li>
+                <li class="fragment fade-in" style="margin-bottom:1em; background-color:rgba(0,0,0,0.65); padding: .2em">
+                    Ze kunnen gevaarlijk werk doen
+                </li>
+                <li class="fragment fade-in" style="margin-bottom:1em; background-color:rgba(0,0,0,0.65); padding: .2em">
+                    Ze worden niet moe en kunnen dag en nacht aan het werk
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section data-transition="none" style=" background:url('/content/resources/images/carfactory.jpg');">
+
+        <h2 style="float: left;">Robots in de fabriek</h2>
+
+        <p class="footnote">De "herhaal" instructie, zoals we die eerder hebben gebruikt, komt heel goed van pas <br>als je robots programmeert voor dit werk!</p>
+
+    </section>
+
+    <section data-transition="none">
+
+        <video poster="/content/resources/images/movie.jpg" style="max-width:100%; max-height:100%" data-autoplay loop>
+            <source src="/content/resources/movies/rightforwardbackward.mp4" type='video/mp4'>
+            <source src="/content/resources/movies/rightforwardbackward.webm" type='video/webm'>
+        </video>
+
+        <h3 style="position: absolute; top:20px; left:300px; text-align:left">Niet alles wordt herhaald</h3>
+
+        <div class="codebox" style="position:absolute; top:0; font-size:65%; width:240px; margin-top:20px; margin-left:20px; border:8px solid rgb(0, 69, 93);">
+            <textarea class="robocode" data-exeline="1">
+rechts
+
+herhaal(2)
+{
+    vooruit(2)
+    achteruit(1)
+}
+
+
+
+</textarea>
+        </div>
+
+        <div style="text-align:left; position:absolute; left:295px; top:65px; width:285px; margin-bottom:1em; padding: .2em">
+            <ul style="margin: .3em; list-style-type: none; font-size: 20px; text-shadow: 2px 2px 2px black;">
+                <li class="fragment fade-in" style="margin-bottom:1em; background-color:rgba(0,0,0,0.65); padding: .2em">
+                    "rechts" wordt <strong><em>niet</em></strong> herhaald
+                </li>
+                <li class="fragment fade-in" style="margin-bottom:1em; background-color:rgba(0,0,0,0.65); padding: .2em">
+                    { 2 stapjes vooruit en dan 1 stapje achteruit } wordt <br><strong><em>wel</em></strong> herhaald
+                </li>
+            </ul>
+        </div>
+
+    </section>
+
+    <section data-transition="none">
+
+        <video poster="/content/resources/images/movie.jpg" style="max-width:100%; max-height:100%" data-autoplay loop>
+            <source src="/content/resources/movies/rightforwardleft.mp4" type='video/mp4'>
+            <source src="/content/resources/movies/rightforwardleft.webm" type='video/webm'>
+        </video>
+
+        <h3 style="position:absolute; top:20px; left:300px; text-align:left">Niet alles wordt herhaald</h3>
+
+        <div class="codebox" style="position:absolute; top:0; font-size:65%; width:240px; margin-top:20px; margin-left:20px; border:8px solid rgb(0, 69, 93);">
+            <textarea class="robocode" data-exeline="1">
+herhaal(4)
+{
+    rechts
+}
+
+vooruit
+
+herhaal(4)
+{
+    links
+}
+</textarea>
+        </div>
+
+        <div style="text-align:left; position:absolute; left:295px; top:65px; width:285px; margin-bottom:1em; padding: .2em">
+            <ul style="margin: .3em; list-style-type: none; font-size: 20px; text-shadow: 2px 2px 2px black;">
+                <li class="fragment fade-in"  style="margin-bottom:1em; background-color:rgba(0,0,0,0.65); padding: .2em">
+                    Eerst draait Robo een rondje rechtsom
+                </li>
+                <li class="fragment fade-in" style="margin-bottom:1em; background-color:rgba(0,0,0,0.65); padding: .2em">
+                    dan doet hij een stapje vooruit
+                </li>
+                <li class="fragment fade-in" style="margin-bottom:1em; background-color:rgba(0,0,0,0.65); padding: .2em">
+                    en dan draait hij een rondje linksom
+                </li>
+            </ul>
+        </div>
+
+    </section>
+
+    <!-- filmpje -->
+    <section>
+        <video poster="/content/resources/images/movie.jpg" data-autoplay controls>
+            <source src="/content/resources/movies/Fabriek.mp4" type='video/mp4'>
+            <source src="/content/resources/movies/Fabriek.webm" type='video/webm'>
+        </video>
+    </section>
+
+    <section  class="shaded" style=";background:url('/content/basis_1_4/images/pancakes.jpg');">
+        <h2 style="text-align:left">Wat gaan we doen?</h2>
+
+        <p class="footnote">Pannenkoeken bakken aan de lopende band!</p>
+    </section>
+
+
+</div>

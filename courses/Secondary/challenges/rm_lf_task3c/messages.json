@@ -1,0 +1,4 @@
+{
+    "item.name":"Walking a grid: random search without backtrace",
+    "hint.auto.MaxedOut": "Pitty, the maximum number of steps was reached. This can always happen with random search. Try again to see if Robo finds the right spot this time."
+}

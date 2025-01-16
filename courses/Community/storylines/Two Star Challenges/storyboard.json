@@ -1,0 +1,12 @@
+{
+    "items" : [
+        ["challenge", ["drawSquareRepeatCommunity",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[8.5,9.5,0.5]"}]],
+        ["challenge", ["goToWallAndStop",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[7.5,9.5,0.4]"}]],
+        ["challenge", ["chimneygetn",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[13.5,10.5,0.2]"}]],
+        ["challenge", ["safeSpot1Community",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[4.5,6.5,0.22]"}]],
+        ["challenge", ["goRightAtWhite1Community",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[11.5,9,0.25]"}]],
+        ["challenge", ["changeBelt",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[10,4,0.2]"}]],
+        ["challenge", ["paintCastleFloorCommunity",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[10.5,10.5,0.2]"}]],
+        ["challenge", ["chimneyfree",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[13.5,10.5,0.2]"}]]
+    ]
+}

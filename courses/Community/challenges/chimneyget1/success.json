@@ -1,0 +1,12 @@
+{
+    "validationCheck":
+    {
+        "postRunWorld": "not beacon(11,8)",
+        "postRunProgram": "GripperEat"
+    },
+    "hintRules" :
+        [
+            {"premise": "not GripperEat", "value" : "hint.auto.noEatUpUsed", "type" : "program"},
+            {"premise": "beacon(11,8)" , "value" : "hint.auto.beaconsLeft", "type" : "world"}
+        ]
+}

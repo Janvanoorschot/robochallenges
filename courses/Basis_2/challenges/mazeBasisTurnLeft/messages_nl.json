@@ -1,0 +1,8 @@
+{
+    "item.name":"Bakens vinden in een doolhof: linksaf",
+    "hint.auto.noLeftTurn":"Je bent niet helemaal goed naar links gegaan ...",
+    "hint.auto.notMovedForward":"Je hebt helemaal niet bewogen???",
+    "hint.auto.doMoreThanTurnRight":"Een goed begin: je bent naar rechts gedraaid! Maar dat is niet genoeg ...",
+    "hint.auto.notKeptRightWall":"Je hebt de muur niet aan je rechterhand gehouden",
+    "hint.auto.leftAndRightConditionSwap":"Controleer de volgorde van je condities. Dat kan heel veel verschil uitmaken!"
+}

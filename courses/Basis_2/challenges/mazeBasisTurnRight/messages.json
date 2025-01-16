@@ -1,0 +1,6 @@
+{
+    "item.name":"Finding beacons in a maze: turn right",
+    "hint.auto.notKeptRightWall":"You did not keep your hand to the right wall",
+    "hint.auto.doMoreThanTurnRight":"Good start: you turned! But that is not enough ...",
+    "hint.auto.notMovedForward":"You did not move at all???"
+}

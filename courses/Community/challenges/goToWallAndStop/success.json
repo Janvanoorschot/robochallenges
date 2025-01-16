@@ -1,0 +1,15 @@
+{
+    "validationCheck":
+    {
+        "postRunWorld": "robot(7,8) and not robotHasBumped",
+        "postRunProgram": "FrontIsClear and ( (Repeat and If) or RepeatWhile )"
+    },
+    "hintRules" :
+        [
+            {"premise": "not Repeat and not RepeatWhile", "value" : "hint.auto.noRepeatUsed", "type" : "program"},
+            {"premise": "not FrontIsClear", "value" : "hint.auto.noFrontIsClearUsed", "type" : "program"},
+            {"premise": "not If and not RepeatWhile", "value" : "hint.auto.noStopConditionUsed", "type" : "program"},
+            {"premise": "not robot(7,8)", "value" : "hint.auto.youDidNotEndUpAtEndLocation", "type" : "usage"},
+            {"premise": "robotHasBumped", "value" : "hint.auto.doNotBump", "type" : "usage"}
+        ]
+}

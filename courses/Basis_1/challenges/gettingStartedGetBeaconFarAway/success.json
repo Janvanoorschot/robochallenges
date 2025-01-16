@@ -1,0 +1,13 @@
+{
+    "validationCheck":
+    {
+        "postRunWorld": "not beacon(20,2) and robotHasBeacon",
+        "postRunProgram": "PickUp"
+    },
+    "hintRules" :
+        [
+            {"premise": "not PickUp", "value" : "hint.auto.noPickUpUsed", "type" : "program"},
+            {"premise": "not robotHasBeacon", "value" : "hint.auto.robotHasNoBeacon", "type" : "program"},
+            {"premise": "beacon(20,2)", "value" : "hint.auto.beaconNotPickedUp", "type" : "world"}
+        ]
+}

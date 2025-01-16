@@ -1,0 +1,19 @@
+{
+    "items" : [
+        ["presentation", ["basis_2_1",{}]],
+        ["challenge", ["drawSquareRepeatAtOnce",{"type":"normal","keep_solution":false,"autorun":false, "showremote":false, "viewstart":"[8.5,9.5,0.5]"}]],
+        ["challenge", ["goToWallAndStopBasis",{"type":"normal","keep_solution":false,"autorun":false, "viewstart":"[7.5,9.5,0.4]"}]],
+        ["challenge", ["followTrack1Basis",{"type":"normal","keep_solution":true,"autorun":false, "viewstart":"[14,9,0.18]"}]],
+        ["challenge", ["followTrack2Basis",{"type":"normal","keep_solution":true,"autorun":false, "viewstart":"[14,9,0.18]"}]],
+        ["challenge", ["followTrack3Basis",{"type":"normal","keep_solution":true,"autorun":false, "viewstart":"[21,10.5,0.18]"}]],
+        ["challenge", ["followTrack4Basis",{"type":"normal","keep_solution":true,"autorun":false, "viewstart":"[11,9,0.18]"}]],
+        ["challenge", ["followTrack5Basis",{"type":"extra","keep_solution":true,"autorun":false, "viewstart":"[19,5.5,0.18]"}]],
+        ["challenge", ["followTrack6Basis",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[9,9,0.12]"}]],
+        ["presentation", ["storylineEnd",{}]]
+    ],
+    "concepts" : [
+        "CS1",
+        "RU1",
+        "RU2"
+    ]
+}

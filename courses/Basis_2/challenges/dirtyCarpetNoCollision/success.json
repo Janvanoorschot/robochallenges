@@ -1,0 +1,22 @@
+{
+    "validationCheck":
+    {
+        "postRunWorld": "not robotHasBeacon and not robotHasBumped",
+        "postRunProgram": "MoveForward and RotateRight and RotateLeft and Repeat and RandomBool and If and GripperEat",
+        "postRunUsage": "minEats(4)"
+    },
+    "hintRules" :
+    [
+        {"premise": "not RandomBool", "value" : "hint.auto.noFlipCoinUsed", "type" : "program"},
+        {"premise": "not Repeat", "value" : "hint.auto.noRepeatUsed", "type" : "program"},
+        {"premise": "not If", "value" : "hint.auto.noIfUsed", "type" : "program"},
+        {"premise": "not MoveForward", "value" : "hint.auto.noForwardUsed", "type" : "program"},
+        {"premise": "not RotateRight", "value" : "hint.auto.noRightUsed", "type" : "program"},
+        {"premise": "not RotateLeft", "value" : "hint.auto.noLeftUsed", "type" : "program"},
+        {"premise": "not GripperEat", "value" : "hint.auto.noEatUpUsed", "type" : "program"},
+        {"premise": "robotHasBeacon", "value" : "hint.auto.noEatUpUsed", "type" : "program"},
+        {"premise": "robotHasBumped", "value" : "hint.auto.doNotBump", "type" : "usage"},
+        {"premise": "not minEats(4)", "value" : "hint.auto.eatSomeMore", "type" : "usage"},
+        {"premise": "not minEats(14)", "value" : "hint.auto.someBeaconsLeft", "type" : "usage"}
+    ]
+}

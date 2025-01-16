@@ -1,0 +1,16 @@
+{
+    "validationCheck":
+    {
+        "postRunWorld": "robot(2,12) and not robot(13,12) and not robotHasBumped and not robotHasBeacon",
+        "postRunProgram": "GripperEat and FrontIsWhite and not GripperGet"
+    },
+    "hintRules" :
+        [
+            {"premise": "robotHasBeacon", "value" : "hint.auto.doNotPickUp", "type" : "program"},
+            {"premise": "not GripperEat", "value" : "hint.auto.noEatUpUsed", "type" : "program"},
+            {"premise": "robot(13,12)", "value" : "hint.auto.doNotStopForBeacons", "type" : "usage"},
+            {"premise": "not FrontIsWhite", "value" : "hint.auto.noFrontIsWhiteUsedToStop", "type" : "program"},
+            {"premise": "robotHasBumped", "value" : "hint.auto.doNotBump", "type" : "usage"},
+            {"premise": "not robot(2,12)", "value" : "hint.auto.youDidNotEndUpAtEndLocation", "type" : "usage"}
+        ]
+}

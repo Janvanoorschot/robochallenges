@@ -1,0 +1,15 @@
+{
+    "validationCheck":
+    {
+        "postRunUsage": "minWhitePaintUsed(4)",
+        "postRunWorld": "white(11,7) and white(11,8) and white(11,9) and white(11,10) and not white(11,6) and not white(11,11)",
+        "postRunProgram": "PaintWhite"
+    },
+    "hintRules" :
+        [
+            {"premise": "not PaintWhite or not minWhitePaintUsed(4)", "value" : "hint.auto.noPaintWhiteUsed", "type" : "program"},
+            {"premise": "not white(11,7) or not white(11,8) or not white(11,9) or not white(11,10)", "value" : "hint.auto.lineNotRight", "type" : "world"},
+            {"premise": "white(11,11) or white(11,6)", "value" : "hint.auto.lineTooLong", "type" : "world"}
+        ]
+}
+

@@ -1,0 +1,12 @@
+{
+    "map": "sierpinski.map",
+    "properties": {
+        "max_duration":"50000",
+        "difficulty": {
+            "syntax":"1",
+            "structure":"1",
+            "patterns":"1",
+            "solving":"1"
+        }
+    }
+}

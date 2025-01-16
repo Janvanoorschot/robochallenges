@@ -1,0 +1,5 @@
+{
+    "item.name":"Kopieer een lijn maar nu twee maal zo lang",
+    "hint.auto.lineNotRight":"De lijn in nog niet precies zo gekopieerd als in de afbeelding",
+    "hint.auto.lineTooLong": "De lijn is te lang of op de verkeerde plek"
+}

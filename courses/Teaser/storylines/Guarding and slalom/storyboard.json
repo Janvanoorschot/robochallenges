@@ -1,0 +1,18 @@
+{
+    "items" :
+    [
+        ["presentation", ["basis_1_2",{}]],
+        ["challenge", ["drawSquareSimpleNoVideo",{"type":"normal","keep_solution":true,"autorun":false, "showremote":false, "viewstart":"[8.5,9.5,0.5]"}]],
+        ["challenge", ["drawSquareRepeat",{"type":"normal","keep_solution":false,"autorun":false, "showremote":false, "viewstart":"[8.5,9.5,0.5]"}]],
+		["challenge", ["roboAsGuardian",{"type":"normal","keep_solution":true,"autorun":false, "viewstart":"[6,8,0.3]"}]],
+		["challenge", ["roboAsGuardian2",{"type":"normal","keep_solution":false,"autorun":false, "viewstart":"[6,8,0.3]"}]],
+		["challenge", ["zigzag",{"type":"normal","keep_solution":true,"autorun":false, "viewstart":"[12,8,0.15]"}]],
+		["challenge", ["zigzag2",{"type":"normal","keep_solution":true,"autorun":false, "viewstart":"[12,8,0.15]"}]],
+		["challenge", ["zigzag3",{"type":"normal","keep_solution":false,"autorun":false, "viewstart":"[12,8,0.15]"}]]
+    ],
+    "concepts" : [
+        "CP2",
+        "CP3",
+        "CP5"
+    ]
+}

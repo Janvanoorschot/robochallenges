@@ -1,0 +1,21 @@
+{
+    "items" : [
+        ["presentation", ["basis_2_3",{}]],
+        ["challenge", ["introProcedures",{"type":"normal","keep_solution":false,"autorun":false}]],
+        ["presentation", ["basis_2_3_continued",{}]],
+        ["challenge", ["drawSquareProcedure",{"type":"normal","keep_solution":true,"autorun":false, "showremote":false, "viewstart":"[5,7,0.5]"}]],
+        ["challenge", ["drawSecretA",{"type":"normal","keep_solution":true,"autorun":false, "viewstart":"[5,7,0.5]"}]],
+        ["challenge", ["drawSecretP",{"type":"normal","keep_solution":true,"autorun":false, "viewstart":"[5,7,0.5]"}]],
+        ["challenge", ["drawSecretL",{"type":"normal","keep_solution":true,"autorun":false, "viewstart":"[5,7,0.5]"}]],
+        ["challenge", ["drawSecretPapa",{"type":"normal","keep_solution":true,"autorun":false, "viewstart":"[5,7,0.5]"}]],
+        ["challenge", ["drawSecretAlp",{"type":"normal","keep_solution":true,"autorun":false, "viewstart":"[5,7,0.5]"}]],
+        ["challenge", ["drawSecretImages",{"type":"normal","keep_solution":true,"autorun":false, "viewstart":"[5,7,0.5]"}]],
+        ["challenge", ["drawSecretFreestyle",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[5,7,0.5]"}]],
+        ["presentation", ["storylineEnd",{}]]
+	],
+    "concepts" : [
+        "CP4",
+        "PS1",
+        "RU2"
+    ]
+}	

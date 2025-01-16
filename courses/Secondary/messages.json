@@ -1,0 +1,8 @@
+{
+    "course.name":"Advanced 1 Course",
+    "course.description.short":"Learn to solve mazes, create line followers, let Robo be your sheep dog or training partner.",
+    "course.keywords":"Line follower, Maze solver",
+    "course.image.src":"/site/images/headPrimary1-500.jpg",
+    "course.image.large.src":"/site/images/headPrimary1.jpg",
+    "course.color":"#1b9478"
+}

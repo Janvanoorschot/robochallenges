@@ -1,0 +1,541 @@
+<!-- Any section element inside of this container is displayed as a slide -->
+
+<div class="slides">
+
+    <section>
+        <h1>Barcodes</h1>
+        <h3>Even more procedures</h3>
+        <img src="/content/resources/images/robo.png" width=100> </img>
+    </section>
+
+    <section data-transition="none" style="background-color: white">
+
+        <h2 style="float:left; color: #1e20ff">What are barcodes?</h2>
+
+        <img style="position:absolute; top:70px; left:10px; width:340px" src="/content/basis_2_5/images/zebra_barcodes.jpg"> </img>
+
+        <div style="position:absolute; top:79px; right: 0px; width: 450px; text-align:left">
+            <ul style="margin: .3em; list-style-type: none; font-size: 20px; text-shadow: 2px 2px 2px black;">
+                <li class="fragment fade-in" style="margin-bottom:0.4em;em; background-color:rgba(0,0,0,0.65); padding: .1em">
+                    A bar code consists of black lines and white lines.
+                </li>
+                <li class="fragment fade-in" style="margin-bottom:0.5em; background-color:rgba(0,0,0,0.65); padding: .1em">
+                    These lines are read by a scanner
+                </li>
+                <li class="fragment fade-in" style="margin-bottom:0.5em; background-color:rgba(0,0,0,0.65); padding: .1em">
+                    White lines are read as “1” and black lines as “0”.
+                </li>
+                <li class="fragment fade-in" style="margin-bottom:0.5em; background-color:rgba(0,0,0,0.65); padding: .1em">
+                    These zeros and ones form a (binary) number.<br>For example: 10001101001
+                </li>
+                <li class="fragment fade-in" style="margin-bottom:0.5em; background-color:rgba(0,0,0,0.65); padding: .1em">
+                    10001101001 translates to a common number.<br> For example: 10001101001 --> 1129
+                </li>
+            </ul>
+        </div>
+
+    </section>
+
+    <section data-transition="none" style="background-image: url(/content/basis_2_5/images/barcodes_1.jpg);">
+        <h2 style="float:left; color: #1e20ff">Barcodes</h2>
+        <p class="footnote">Barcodes are used in the supermarket where each product has a barcode</p>
+    </section>
+
+    <section data-transition="none" style="background-image: url(/content/basis_2_5/images/barcodes_2.jpg);">
+        <h2 style="float:left; color: #1e20ff">Barcodes</h2>
+        <p class="footnote">The barcode is scanned and results in a product number</p>
+    </section>
+
+    <section data-transition="none" style="background-image: url(/content/basis_2_5/images/barcodes_3.jpg);">
+        <h2 style="float:left; color: #1e20ff">Barcodes</h2>
+        <p class="footnote">This product number is looked up in the computer</p>
+    </section>
+
+    <section data-transition="none" style="background-image: url(/content/basis_2_5/images/barcodes_4.jpg);">
+        <h2 style="float:left; color: #1e20ff">Barcodes</h2>
+        <p class="footnote">The computer can then tell what the product name and price are</p>
+    </section>
+
+    <section data-transition="none" style="background-image: url(/content/basis_2_5/images/supermarket.jpg);">
+        <h2 style="float:left; margin-left:20px">Barcodes on products</h2>
+
+        <div style="position:absolute; top:230px; left: 20px; width: 500px; text-align:left">
+            <ul style="margin: .3em; list-style-type: none; font-size: 20px; text-shadow: 2px 2px 2px black;">
+                <li style="margin-bottom:0.4em;em; background-color:rgba(0,0,0,0.65); padding: .1em">
+                    To quickly look up product information
+                </li>
+                <li style="margin-bottom:0.4em;em; background-color:rgba(0,0,0,0.65); padding: .1em">
+                    For example about price of the product
+                </li>
+                <li style="margin-bottom:0.5em; background-color:rgba(0,0,0,0.65); padding: .1em">
+                    To keep track of the stock
+                </li>
+            </ul>
+        </div>
+
+    </section>
+
+    <section data-transition="none" style="background-image: url(/content/basis_2_5/images/supermarket.jpg);">
+        <h2 style="float:left; margin-left:20px;">Robo can also read barcodes!</h2>
+
+        <div style="position:absolute; top:230px; left: 20px; width: 500px; text-align:left">
+            <ul style="margin: .3em; list-style-type: none; font-size: 20px; text-shadow: 2px 2px 2px black;">
+                <li style="margin-bottom:0.4em; background-color:rgba(0,0,0,0.65); padding: .1em">
+                    But let's first do a small quiz ...
+                </li>
+                <li style="margin-bottom:0.5em; background-color:rgba(0,0,0,0.65); padding: .1em">
+                    so that you can understand better ...
+                </li>
+                <li style="margin-bottom:0.5em; background-color:rgba(0,0,0,0.65); padding: .1em">
+                    how Robo can do this.
+                </li>
+            </ul>
+        </div>
+
+    </section>
+
+    <!-- Quiz: if-this-and-that-0 ===========================================================================
+     if(frontIsWhite and leftIsWhite)
+     {
+        eatUp
+     }
+
+     else
+     {
+        left
+     }
+     =========================================================================================== -->
+
+     <section data-transition="none" style="background-image: url(/content/resources/images/quiz_if_this_and_that/q_if_this_and_that_0q.jpg);">
+
+         <h3 style="position: absolute; top:20px; left:30px; text-align:left">What will Robo do?</h3>
+
+         <div class="codebox" style="line-height:140%; font-size:60%; width:400px; position:absolute; top:130px; left:30px; border:8px solid rgb(0, 69, 93);">
+             <textarea class="robocode" data-exeline="1" >
+if(frontIsWhite and leftIsWhite)
+{
+   eatUp
+}
+else
+{
+   left
+}
+</textarea>
+         </div>
+     </section>
+
+     <!-- Quiz: if-this-and-that-0-answer -->
+     <section data-transition="none" style="background-image: url(/content/resources/images/quiz_if_this_and_that/q_if_this_and_that_0a.jpg);">
+
+         <h3 style="position: absolute; top:20px; left:30px; text-align:left">He will eat up the beacon</h3>
+
+         <div class="codebox" style="line-height:140%; font-size:60%; width:400px; position:absolute; top:130px; left:30px; border:8px solid rgb(0, 69, 93);">
+             <textarea class="robocode" data-exeline="3" data-correctline="3">
+if(frontIsWhite and leftIsWhite)
+{
+   eatUp
+}
+else
+{
+   left
+}
+</textarea>
+         </div>
+     </section>
+
+    <!-- Quiz: if-this-and-that-1 ===========================================================================
+    if(frontIsWhite and leftIsWhite)
+    {
+        right
+    }
+    else
+    {
+        left
+    }
+     =========================================================================================== -->
+
+     <section data-transition="none" style="background-image: url(/content/resources/images/quiz_if_this_and_that/q_if_this_and_that_1q.jpg);">
+
+         <h3 style="position: absolute; top:20px; left:30px; text-align:left">What will Robo do?</h3>
+
+         <div class="codebox" style="line-height:140%; font-size:60%; width:400px; position:absolute; top:130px; left:30px; border:8px solid rgb(0, 69, 93);">
+             <textarea class="robocode" data-exeline="1" >
+if(frontIsWhite and leftIsWhite)
+{
+   right
+}
+else
+{
+   left
+}
+</textarea>
+         </div>
+     </section>
+
+     <!-- Quiz: if-this-and-that-1-answer -->
+     <section data-transition="none" style="background-image: url(/content/resources/images/quiz_if_this_and_that/q_if_this_and_that_1a.jpg);">
+
+         <h3 style="position: absolute; top:20px; left:30px; text-align:left">He will turn left</h3>
+
+         <div class="codebox" style="line-height:140%; font-size:60%; width:400px; position:absolute; top:130px; left:30px; border:8px solid rgb(0, 69, 93);">
+             <textarea class="robocode" data-exeline="7" data-correctline="7">
+if(frontIsWhite and leftIsWhite)
+{
+   right
+}
+else
+{
+   left
+}
+</textarea>
+         </div>
+     </section>
+
+    <!-- Quiz: if-this-and-that-2 ===========================================================================
+    if(frontIsBeacon and leftIsWhite)
+    {
+        eatUp
+    }
+
+    else
+    {
+        left
+    }
+     =========================================================================================== -->
+
+     <section data-transition="none" style="background-image: url(/content/resources/images/quiz_if_this_and_that/q_if_this_and_that_2q.jpg);">
+
+         <h3 style="position: absolute; top:20px; left:30px; text-align:left">What will Robo do?</h3>
+
+         <div class="codebox" style="line-height:140%; font-size:60%; width:400px; position:absolute; top:130px; left:30px; border:8px solid rgb(0, 69, 93);">
+             <textarea class="robocode" data-exeline="1" >
+if(frontIsBeacon and leftIsWhite)
+{
+   eatUp
+}
+else
+{
+   left
+}
+</textarea>
+         </div>
+     </section>
+
+     <!-- Quiz: if-this-and-that-2-answer -->
+     <section data-transition="none" style="background-image: url(/content/resources/images/quiz_if_this_and_that/q_if_this_and_that_2a.jpg);">
+
+         <h3 style="position: absolute; top:20px; left:30px; text-align:left">He will eat up the beacon</h3>
+
+         <div class="codebox" style="line-height:140%; font-size:60%; width:400px; position:absolute; top:130px; left:30px; border:8px solid rgb(0, 69, 93);">
+             <textarea class="robocode" data-exeline="3" data-correctline="3">
+if(frontIsBeacon and leftIsWhite)
+{
+   eatUp
+}
+else
+{
+   left
+}
+</textarea>
+         </div>
+     </section>
+
+    <!-- Quiz: if-this-and-that-3 ===========================================================================
+    if(frontIsBlack and leftIsWhite)
+    {
+        backward(1)
+    }
+    else
+    {
+        left
+    }
+     =========================================================================================== -->
+
+     <section data-transition="none" style="background-image: url(/content/resources/images/quiz_if_this_and_that/q_if_this_and_that_3q.jpg);">
+
+         <h3 style="position: absolute; top:20px; left:30px; text-align:left">What will Robo do?</h3>
+
+         <div class="codebox" style="line-height:140%; font-size:60%; width:400px; position:absolute; top:130px; left:30px; border:8px solid rgb(0, 69, 93);">
+             <textarea class="robocode" data-exeline="1" >
+if(frontIsBlack and leftIsWhite)
+{
+   backward(1)
+}
+else
+{
+   left
+}
+</textarea>
+         </div>
+     </section>
+
+     <!-- Quiz: if-this-and-that-3-answer -->
+     <section data-transition="none" style="background-image: url(/content/resources/images/quiz_if_this_and_that/q_if_this_and_that_3a.jpg);">
+
+         <h3 style="position: absolute; top:20px; left:30px; text-align:left">He will turn left</h3>
+
+         <div class="codebox" style="line-height:140%; font-size:60%; width:400px; position:absolute; top:130px; left:30px; border:8px solid rgb(0, 69, 93);">
+             <textarea class="robocode" data-exeline="7" data-correctline="7">
+if(frontIsBlack and leftIsWhite)
+{
+   backward(1)
+}
+else
+{
+   left
+}
+</textarea>
+         </div>
+     </section>
+
+    <!-- Quiz: if-this-and-that-4 ===========================================================================
+    if(frontIsBlack and rightIsBlack)
+    {
+        right
+    }
+    else
+    {
+        forward(1)
+    }
+     =========================================================================================== -->
+
+     <section data-transition="none" style="background-image: url(/content/resources/images/quiz_if_this_and_that/q_if_this_and_that_4q.jpg);">
+         <h3 style="position: absolute; top:20px; left:30px; text-align:left">What will Robo do?</h3>
+
+         <div class="codebox" style="line-height:140%; font-size:60%; width:400px; position:absolute; top:130px; left:30px; border:8px solid rgb(0, 69, 93);">
+             <textarea class="robocode" data-exeline="1" >
+if(frontIsBlack and rightIsBlack)
+{
+   right
+}
+else
+{
+   forward(1)
+}
+</textarea>
+         </div>
+     </section>
+
+     <!-- Quiz: if-this-and-that-4-answer -->
+     <section data-transition="none" style="background-image: url(/content/resources/images/quiz_if_this_and_that/q_if_this_and_that_4a.jpg);">
+         <h3 style="position: absolute; top:20px; left:30px; text-align:left">He will turn right</h3>
+
+         <div class="codebox" style="line-height:140%; font-size:60%; width:400px; position:absolute; top:130px; left:30px; border:8px solid rgb(0, 69, 93);">
+             <textarea class="robocode" data-exeline="3" data-correctline="3">
+if(frontIsBlack and rightIsBlack)
+{
+   right
+}
+else
+{
+   forward(1)
+}
+</textarea>
+         </div>
+     </section>
+
+    <!-- Quiz: if-this-and-that-5 ===========================================================================
+    if(frontIsBeacon and leftIsBlack)
+    {
+        pickUp
+    }
+    else
+    {
+        right
+    }
+     =========================================================================================== -->
+
+     <section data-transition="none" style="background-image: url(/content/resources/images/quiz_if_this_and_that/q_if_this_and_that_5q.jpg);">
+
+         <h3 style="position: absolute; top:20px; left:30px; text-align:left">What will Robo do?</h3>
+
+         <div class="codebox" style="line-height:140%; font-size:60%; width:400px; position:absolute; top:130px; left:30px; border:8px solid rgb(0, 69, 93);">
+             <textarea class="robocode" data-exeline="1" >
+if(frontIsBeacon and leftIsBlack)
+{
+   pickUp
+}
+else
+{
+   right
+}
+</textarea>
+         </div>
+     </section>
+
+     <!-- Quiz: if-this-and-that-5-answer -->
+     <section data-transition="none" style="background-image: url(/content/resources/images/quiz_if_this_and_that/q_if_this_and_that_5a.jpg);">
+
+         <h3 style="position: absolute; top:20px; left:30px; text-align:left">He will pick up the beacon</h3>
+
+         <div class="codebox" style="line-height:140%; font-size:60%; width:400px; position:absolute; top:130px; left:30px; border:8px solid rgb(0, 69, 93);">
+             <textarea class="robocode" data-exeline="3" data-correctline="3">
+if(frontIsBeacon and leftIsBlack)
+{
+   pickUp
+}
+else
+{
+   right
+}
+</textarea>
+         </div>
+
+     </section>
+    <!-- Quiz: if-this-and-that-6 ===========================================================================
+     if(frontIsWhite and leftIsWhite)
+     {
+        right
+     }
+     else
+     {
+        left
+     }
+     =========================================================================================== -->
+
+     <section data-transition="none" style="background-image: url(/content/resources/images/quiz_if_this_and_that/q_if_this_and_that_6q.jpg);">
+
+         <h3 style="position: absolute; top:20px; left:30px; text-align:left">What will Robo do?</h3>
+
+         <div class="codebox" style="line-height:140%; font-size:60%; width:400px; position:absolute; top:130px; left:30px; border:8px solid rgb(0, 69, 93);">
+             <textarea class="robocode" data-exeline="1" >
+if(frontIsWhite and leftIsWhite)
+{
+   right
+}
+else
+{
+   left
+}
+</textarea>
+         </div>
+     </section>
+
+     <!-- Quiz: if-this-and-that-6-answer -->
+     <section data-transition="none" style="background-image: url(/content/resources/images/quiz_if_this_and_that/q_if_this_and_that_6a.jpg);">
+
+         <h3 style="position: absolute; top:20px; left:30px; text-align:left">He will turn left</h3>
+
+         <div class="codebox" style="line-height:140%; font-size:60%; width:400px; position:absolute; top:130px; left:30px; border:8px solid rgb(0, 69, 93);">
+             <textarea class="robocode" data-exeline="7" data-correctline="7">
+if(frontIsWhite and leftIsWhite)
+{
+   right
+}
+else
+{
+   left
+}
+</textarea>
+         </div>
+     </section>
+
+    </section>
+   <!-- Quiz: if-this-and-that-7 ===========================================================================
+    if(frontIsBlack and rightIsBeacon)
+    {
+        right
+    }
+    else
+    {
+        forward(1)
+    }
+    =========================================================================================== -->
+
+    <section data-transition="none" style="background-image: url(/content/resources/images/quiz_if_this_and_that/q_if_this_and_that_7q.jpg);">
+
+        <h3 style="position: absolute; top:20px; left:30px; text-align:left">What will Robo do?</h3>
+
+        <div class="codebox" style="line-height:140%; font-size:60%; width:400px; position:absolute; top:130px; left:30px; border:8px solid rgb(0, 69, 93);">
+            <textarea class="robocode" data-exeline="1" >
+if(frontIsBlack and rightIsBeacon)
+{
+   right
+}
+else
+{
+   forward(1)
+}
+</textarea>
+        </div>
+    </section>
+
+    <!-- Quiz: if-this-and-that-7-answer -->
+    <section data-transition="none" style="background-image: url(/content/resources/images/quiz_if_this_and_that/q_if_this_and_that_7a.jpg);">
+
+        <h3 style="position: absolute; top:20px; left:30px; text-align:left">He will turn right</h3>
+
+        <div class="codebox" style="line-height:140%; font-size:60%; width:400px; position:absolute; top:130px; left:30px; border:8px solid rgb(0, 69, 93);">
+            <textarea class="robocode" data-exeline="3" data-correctline="3">
+if(frontIsBlack and rightIsBeacon)
+{
+   right
+}
+else
+{
+   forward(1)
+}
+</textarea>
+        </div>
+    </section>
+
+    </section>
+   <!-- Quiz: if-this-and-that-8 ===========================================================================
+    if(frontIsWhite and leftIsBlack)
+    {
+        eatUp
+    }
+    else
+    {
+        left
+    }
+    =========================================================================================== -->
+
+    <section data-transition="none" style="background-image: url(/content/resources/images/quiz_if_this_and_that/q_if_this_and_that_8q.jpg);">
+
+        <h3 style="position: absolute; top:20px; left:30px; text-align:left">What will Robo do?</h3>
+
+        <div class="codebox" style="line-height:140%; font-size:60%; width:400px; position:absolute; top:130px; left:30px; border:8px solid rgb(0, 69, 93);">
+            <textarea class="robocode" data-exeline="1" >
+if(frontIsWhite and leftIsBlack)
+{
+   eatUp
+}
+else
+{
+   left
+}
+</textarea>
+        </div>
+    </section>
+
+    <!-- Quiz: if-this-and-that-8-answer -->
+    <section data-transition="none" style="background-image: url(/content/resources/images/quiz_if_this_and_that/q_if_this_and_that_8a.jpg);">
+
+        <h3 style="position: absolute; top:20px; left:30px; text-align:left">He will eat up the beacon</h3>
+
+        <div class="codebox" style="line-height:140%; font-size:60%; width:400px; position:absolute; top:130px; left:30px; border:8px solid rgb(0, 69, 93);">
+            <textarea class="robocode" data-exeline="3" data-correctline="3">
+if(frontIsWhite and leftIsBlack)
+{
+   eatUp
+}
+else
+{
+   left
+}
+</textarea>
+        </div>
+    </section>
+
+    <!-- =========================================================================== -->
+
+    <section  class="shaded" style=";background:url('/content/basis_2_5/images/robo_supermarket.jpg');">
+        <h2>What are we going to do?</h2>
+
+        <p class="footnote">Reading barcodes in Robo's supermarket!</p>
+
+        <img style="position:absolute; top:190px; right:40px;" src="/content/basis_2_5/images/zebra_barcodes.jpg" width=100> </img>
+    </section>
+
+</div>

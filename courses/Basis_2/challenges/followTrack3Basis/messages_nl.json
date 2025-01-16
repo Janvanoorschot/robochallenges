@@ -1,0 +1,8 @@
+{
+    "item.name":"Volg een peper-en-zout spoor",
+    "hint.auto.notTurnedAtSpot":"Je bent niet OP de witte stip gedraaid",
+    "hint.auto.notTurnedAtBlackSpot":"Je bent niet OP de zwarte stip gedraaid",
+    "hint.auto.notTurnedRightAtBlackSpot":"Je bent niet naar RECHTS gedraaid op de zwarte stip",
+    "hint.auto.noTurningRight":"Je bent nergens naar rechts gedraaid"
+}
+

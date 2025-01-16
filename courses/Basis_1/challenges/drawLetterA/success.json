@@ -1,0 +1,15 @@
+{
+    "validationCheck":
+    {
+        "postRunUsage": "minBlackPaintUsed(8)",
+        "postRunWorld": "black(7,11) and black(7,10) and black(7,9) and black(8,9) and black(8,10) and black(8,11) and not black(6,8) and not black(6,9) and not black(6,10) and not black(6,11) and not black(6,12) and not black(9,8) and not black(9,9) and not black(9,10) and not black(9,11) and not black(9,12) and not black(7,8) and not black(8,8) and not black(7,12) and not black(8,12)",
+        "postRunProgram": "PaintBlack"
+    },
+    "hintRules" :
+        [
+            {"premise": "not PaintBlack", "value" : "hint.auto.noPaintBlackUsed", "type" : "program"},
+            {"premise": "not minBlackPaintUsed(8)", "value" : "hint.auto.letterNotRight", "type" : "world"},
+            {"premise": "black(6,8) or black(6,9) or black(6,10) or black(6,11) or black(6,12) or black(9,8) or black(9,9) or black(9,10) or black(9,11) or black(9,12) or black(7,8) or black(8,8) or black(7,12) or black(8,12)", "value" : "hint.auto.letterNotRight", "type" : "world"},
+            {"premise": "not black(7,11) or not black(7,10) or not black(7,9) or not black(8,9) or not black(8,10) or not black(8,11)", "value" : "hint.auto.letterNotRight", "type" : "world"}
+        ]
+}

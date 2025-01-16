@@ -1,0 +1,80 @@
+# map:def
+# Map file for RoboMind
+# www.robomind.net
+#
+# A map is a grid of tiles defined at the bottom
+# of the file starting in the "map:" section.
+# The tiles are:
+#   A..Z    Tiles A through Z
+#   @       Start
+#   *       Beacon
+#
+# Additional tiles can be added at the "extra:" section.
+# These definitions have the form: [basename]@[x],[y].
+#
+#
+# Paint strokes kan be added in the "paint:" section
+# by adding tuples of the form: ([color],[type],[x],[y])
+# [color] :   w = white
+#             b = black
+# [type]  :   . = single dot
+#             - = horizontal stroke to the right
+#             | = vertical stroke down
+# [x]     :   integer horizontal position
+# [y]     :   integer vertical position
+#
+# (Lines that start with '#' are comments)
+
+paint:
+(w,|,7,9)
+(w,-,10,9)(w,-,9,9)(w,-,8,9)(w,-,7,9)
+(w,|,11,8)(w,|,11,7)(w,|,11,6)(w,-,11,6)
+(w,|,12,5)(w,-,12,5)(w,-,13,5)(w,-,14,5)
+(w,-,15,5)(w,-,16,5)(w,-,17,5)(w,-,18,5)
+(w,|,19,5)(w,|,19,6)(w,|,19,7)(w,-,19,8)
+(w,-,20,8)(w,-,21,8)(w,-,22,8)(w,-,23,8)
+(w,-,24,8)(w,-,25,8)(w,-,26,8)(w,|,27,7)
+(w,-,27,7)(w,-,28,7)(w,-,29,7)(w,|,30,7)
+(w,-,30,8)(w,-,31,8)(w,|,32,8)(w,|,32,9)
+(w,|,32,10)(w,|,32,11)(w,|,32,12)(w,|,32,13)
+(w,-,31,14)(w,-,30,14)(w,-,29,14)(w,-,28,14)
+(w,-,27,14)(w,-,26,14)(w,-,25,14)(w,-,24,14)
+(w,|,24,13)(w,|,24,12)
+(w,-,23,12)(w,-,22,12)(w,-,21,12)(w,-,20,12)
+(w,-,19,12)(w,-,18,12)(w,-,17,12)(w,-,16,12)
+(w,|,16,12)(w,|,16,13)(w,|,16,14)(w,|,16,15)
+(w,-,15,16)(w,-,14,16)(w,-,13,16)(w,-,12,16)
+(w,-,11,16)(w,-,10,16)(w,-,9,16)(w,-,8,16)(w,-,7,16)
+(w,|,7,15)(w,|,7,14)
+
+extra:
+palm@8,2 palm@3,10 palm@30,3 palm@28,9 palm@38,17
+tree@16,10 tree@14,9
+tree@17,10 tree@19,10 tree@18,9 
+tree@20,10 tree@22,10 tree@23,9
+tree@17,12 tree@19,12 tree@18,10 
+tree@20,12 tree@22,12 tree@21,13  
+
+map:
+CHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHD
+GMFFFFFFFFFFFFFFFFFFJMFJMFFFFFFFFFJNNNMFJI
+GI                  GIRGI         GPNOI GI
+GI                  GIRGI     OOO BFFFE GI
+GI  CHD             GIRGI     O O       GI
+GI  GOLD            GLHKI     OOO       GI
+GI  BJOI     CD     BFFFE         CHHHHHKI
+GI   BFE    CKLHD                 GMFFFFFE
+GI          BFJOIQ               QGIRRRP
+GIP         ARBFE                 GIRRRA
+GI     @ AAAARRA                  GIRRRP
+GIPQ     ARRRRRA                  GIRRRA
+GIQQQQQQQARRRRRA                  GIRRRP
+GIOQQ  * ARRRRRA                  GIRRRA
+GI       AAAAAAA Q                GIRRRP
+GIP                               GLHHHHHHHD
+GI                                BFFFFFFFJI
+GIP               Q       Q               GI
+GI                Q        QQ             GI
+GI         Q     QQ                       GI
+GLHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHKI
+BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE

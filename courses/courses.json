@@ -1,0 +1,104 @@
+{
+    "courses": [
+        "Teaser",
+        "Basis_1",
+        "Basis_2",
+        "Secondary",
+        "Community",
+        "Maps"
+    ],
+    "authorization": {
+        "anonymous": [
+            "Teaser"
+        ],
+        "authorized": [
+            "Basis_1",
+            "Basis_2",
+            "Community",
+            "Maps",
+            "Secondary"
+        ],
+        "student": [
+            "Basis_1",
+            "Basis_2",
+            "Community",
+            "Maps",
+            "Secondary"
+        ],
+        "all": []
+    },
+    "alwaysvisible": [
+        "Basis_1",
+        "Basis_2"
+    ],
+    "diplomas": {
+        "Teaser": [
+            [
+                "Teaser"
+            ]
+        ],
+        "Basis_1": [
+            [
+                "Basis_1"
+            ]
+        ],
+        "Basis_2": [
+            [
+                "Basis_2"
+            ]
+        ],
+        "Secondary": [
+            [
+                "Secondary"
+            ]
+        ]
+    },
+    "concepts": [
+        "CP1",
+        "CP2",
+        "CP3",
+        "CP4",
+        "CP5",
+        "CP6",
+        "CP7",
+        "CM1",
+        "CS1",
+        "CS2",
+        "CS3",
+        "PS1",
+        "PS2",
+        "PS3",
+        "PS4",
+        "PC1",
+        "RA1",
+        "RA2",
+        "RA3",
+        "RU1",
+        "RU2",
+        "PY1"
+    ],
+    "conceptsterms": {
+        "CP1": "Sequences",
+        "CP2": "Loops",
+        "CP3": "Conditionals",
+        "CP4": "Procedures",
+        "CP5": "Syntax",
+        "CP6": "PrePost",
+        "CP7": "Recursion",
+        "CM1": "Logic",
+        "CS1": "ProblemFormulation",
+        "CS2": "Goals",
+        "CS3": "SearchStrategies",
+        "PS1": "Modelling",
+        "PS2": "Coding",
+        "PS3": "Debugging",
+        "PS4": "Refactoring",
+        "PC1": "ProjectManagement",
+        "RA1": "Logistics",
+        "RA2": "Robotics",
+        "RA3": "Art",
+        "RU1": "QuestioningSolutions",
+        "RU2": "SeeingPatterns",
+        "PY1": "PythonBasics"
+    }
+}

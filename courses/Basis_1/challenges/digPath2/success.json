@@ -1,0 +1,14 @@
+{
+    "validationCheck":
+    {
+        "postRunWorld": "robot(16,4)",
+        "postRunProgram": "Repeat and PickUp and PutDown"
+    },
+    "hintRules":
+        [
+            {"premise": "not Repeat", "value" : "hint.auto.noRepeatUsed", "type" : "program"},
+            {"premise": "not PickUp", "value" : "hint.auto.noPickUpUsed", "type" : "program"},
+            {"premise": "not PutDown", "value" : "hint.auto.noPutDownUsed", "type" : "program"},
+            {"premise": "not robot(16,4)", "value": "hint.auto.youDidNotEndUpAtEndLocation", "type" : "world"}
+        ]
+}

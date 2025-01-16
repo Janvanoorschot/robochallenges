@@ -1,0 +1,14 @@
+{
+    "validationCheck":
+    {
+        "postRunProgram": "Procedure",
+        "postRunWorld": "robotIsNorth",
+        "postRunUsage": "minMoves(1)"
+    },
+    "hintRules" :
+    [
+        {"premise": "not Procedure", "value" : "hint.auto.noProcedureUsed", "type" : "program"},
+        {"premise": "not minMoves(1)", "value" : "hint.auto.procedureNotCalled", "type" : "usage"},
+        {"premise": "not robotIsNorth", "value" : "hint.auto.youAreNotOrientedCorrectly", "type" : "usage"}
+    ]
+}

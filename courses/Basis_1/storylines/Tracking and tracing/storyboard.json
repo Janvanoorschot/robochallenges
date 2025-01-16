@@ -1,0 +1,18 @@
+{
+    "items" : [
+        ["presentation", ["basis_1_6",{}]],
+        ["challenge", ["goRightAtWhite0Basis",{"type":"normal","keep_solution":false,"autorun":false, "viewstart":"[9.5,8,0.22]"}]],
+        ["challenge", ["goRightAtWhite1Basis",{"type":"normal","keep_solution":true,"autorun":false, "viewstart":"[11,8,0.22]"}]],
+        ["challenge", ["goRightAtWhite2Basis",{"type":"normal","keep_solution":true,"autorun":false, "viewstart":"[11,8,0.22]"}]],
+        ["challenge", ["goRightAtWhite3Basis",{"type":"normal","keep_solution":true,"autorun":false, "viewstart":"[11,8,0.15]"}]],
+        ["challenge", ["turnAtSpot",{"type":"extra","keep_solution":true,"autorun":false, "viewstart":"[11,8,0.15]"}]],
+        ["presentation", ["storylineEnd",{}]]
+    ],
+    "concepts" : [
+        "CM1",
+        "CS3",
+        "PS1",
+        "PS2",
+        "PS3"
+    ]
+}

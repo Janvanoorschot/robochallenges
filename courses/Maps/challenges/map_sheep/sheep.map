@@ -1,0 +1,39 @@
+# Map file for RoboLab
+# (Lines that start with '#' are comments)
+#
+# The tiles are:
+#   A..Z    Tiles A through Z
+#   *       Start
+#
+# Paint strokes kan be added in the according list
+# by adding tuples of the form: ([color],[type],[x],[y])
+#
+# [color] :   w = white
+#             b = black
+# [type]  :   . = single dot
+#             - = horizontal stroke to the right
+#             | = vertical stroke down
+# [x]     :   integer horizontal position
+# [y]     :   integer vertical position
+ 
+paint:
+{(w,|,4,2)(w,|,4,3)(w,|,4,4)(w,|,4,5)(w,|,4,6)(w,|,4,7)(w,|,4,8)(w,|,4,9) (w,|,8,2)(w,|,8,3)(w,|,8,4)(w,|,8,5)(w,|,8,6)(w,|,8,7)(w,|,8,8)(w,|,8,9) (w,|,12,2)(w,|,12,3)(w,|,12,4)(w,|,12,5)(w,|,12,6)(w,|,12,7)(w,|,12,8)(w,|,12,9)(w,|,12,10)(w,|,12,11)(w,|,12,12)(w,|,12,13) (w,|,16,2)(w,|,16,3)(w,|,16,4)(w,|,16,5)(w,|,16,6)(w,|,16,7)(w,|,16,8)(w,|,16,9) (w,|,20,2)(w,|,20,3)(w,|,20,4)(w,|,20,5)(w,|,20,6)(w,|,20,7)(w,|,20,8)(w,|,20,9) (w,-,4,10)(w,-,5,10)(w,-,6,10)(w,-,7,10)(w,-,8,10)(w,-,9,10)(w,-,10,10)(w,-,11,10)(w,-,12,10)(w,-,13,10)(w,-,14,10)(w,-,15,10)(w,-,16,10)(w,-,17,10)(w,-,18,10)(w,-,19,10) (b,.,11,11)(b,.,11,12)(b,.,11,13)(b,.,11,14) (b,.,13,11)(b,.,13,12)(b,.,13,13)(b,.,13,14)}
+
+map:
+CHHHHHHHHHHHHHHHHHHHHHHHD
+GMFFFFFFFFFFFFFFFFFFFFFJI
+GI                    *GI
+GI*               *    GI
+GI          *          GI
+GI    *                GI
+GI                     GI
+GI      *              GI
+GI               *     GI
+GI                     GI
+GI                    *GI
+GLHHHHHHHHD   CHHHHHHHHKI
+GQNNNNNNNNI   GNNNNNNNQNI
+GNNPNNONPNI   GNNONNPNNNI
+GNNNNPNNNNI @ GONNQNNNNNI
+GNNNNNNNNNLHHHKNNNNNNNNNI
+BFFFFFFFFFFFFFFFFFFFFFFFE  

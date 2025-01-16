@@ -1,0 +1,20 @@
+{
+    "items" : [
+        ["presentation", ["basis_2_4",{}]],
+        ["challenge", ["introProceduresSequences",{"type":"normal","keep_solution":false,"autorun":true, "viewstart":"[10,9,0.15]"}]],
+        ["presentation", ["basis_2_4_continued",{}]],
+        ["challenge", ["drawSquareProcedure2",{"type":"normal","keep_solution":false,"autorun":false, "showremote":false, "viewstart":"[5,6,0.25]"}]],
+        ["challenge", ["drawTwoEyes",{"type":"normal","keep_solution":true,"autorun":false, "viewstart":"[5,6,0.25]"}]],
+        ["challenge", ["drawFace",{"type":"normal","keep_solution":true,"autorun":false, "viewstart":"[5,6,0.25]"}]],
+        ["challenge", ["drawFaceComplete",{"type":"normal","keep_solution":true,"autorun":false, "viewstart":"[5,6,0.25]"}]],
+        ["challenge", ["drawProcedureHead",{"type":"extra","keep_solution":true,"autorun":false, "viewstart":"[5,6,0.25]"}]],
+        ["challenge", ["drawFamily",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[5,6,0.25]"}]],
+        ["presentation", ["storylineEnd",{}]]
+	],
+    "concepts" : [
+        "CP4",
+        "CP6",
+        "CP7",
+        "PS1"
+    ]
+}	

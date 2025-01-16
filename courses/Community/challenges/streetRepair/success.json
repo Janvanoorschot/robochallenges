@@ -1,0 +1,16 @@
+{
+    "validationCheck":
+    {
+        "postRunProgram": "Procedure and PickUp and PutDown",
+        "postRunUsage": "minPuts(4)"
+    },
+    "hintRules":
+        [
+            {"premise": "not Procedure", "value" : "hint.auto.noProcedureUsed", "type" : "program"},
+            {"premise": "not PickUp", "value" : "hint.auto.noPickUpUsed", "type" : "program"},
+            {"premise": "not PutDown", "value" : "hint.auto.noPutDownUsed", "type" : "program"},
+            {"premise": "not minPuts(4)", "value" : "hint.auto.repairSomeMore", "type" : "usage"},
+            {"premise": "not beacon(14,20) or not beacon(16,22) or not beacon(21,22) or not beacon(23,24) or not beacon(3,25) or not beacon(3,20) or not beacon(5,26) or not beacon(37,24) or not beacon(37,20) or not beacon(28,24) or not beacon(33,25) or not beacon(35,3) or not beacon(37,3) or not beacon(33,13) or not beacon(38,15) or not beacon(39,6) or not beacon(38,8) or not beacon(37,12) or not beacon(39,14) or not beacon(43,21) or not beacon(45,24) or not beacon(60,22) or not beacon(61,24) or not beacon(66,25) or not beacon(69,24) or not beacon(50,24) or not beacon(51,26) or not beacon(37,29) or not beacon(37,31) or not beacon(33,35) or not beacon(35,38) or not beacon(38,38) or not beacon(38,40) or not beacon(33,40) or not beacon(35,39)", "value" : "hint.auto.notAllPotholesRepaired", "type" : "world"}
+        ]
+
+}

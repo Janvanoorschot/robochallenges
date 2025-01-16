@@ -1,0 +1,9 @@
+{
+    "items" : [
+        ["challenge", ["copyLine1",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[9.5,8.5,0.5]"}]],
+        ["challenge", ["copyLine2",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[9.5,8.5,0.5]"}]],
+        ["challenge", ["lineFollowCommunity",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[11,8,0.15]"}]],
+        ["challenge", ["mazeCommunity",{"type":"extra","keep_solution":true,"autorun":false, "viewstart":"[10,4,0.2]"}]],
+        ["challenge", ["mazeLargeCommunity",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[11,8,0.15]"}]]
+    ]
+}

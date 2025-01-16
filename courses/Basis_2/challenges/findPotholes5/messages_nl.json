@@ -1,0 +1,5 @@
+{
+    "item.name":"Verbeter de procedure 'vindBaken'",
+    "hint.auto.ReturnRatherThanEnd":"Gebruik 'retourneer' in plaats van 'einde'. Anders gaat Robo niet verder met de volgende procedure!",
+    "hint.auto.tryAgain":"Robo rijdt rond alsof hij een blinddoek om heeft. Hij is hier gestopt, omdat het anders erg lang kan duren. Hij zou deze opdracht wel moeten kunnen doen in die tijd! Probeer het nog eens en/of pas je programma aan en kijk of het nu wel lukt ..."
+}

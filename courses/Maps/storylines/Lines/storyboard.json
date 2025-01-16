@@ -1,0 +1,29 @@
+{
+    "items" : [
+        ["challenge", ["map_lineFollow1",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[11,8,0.15]"}]],
+        ["challenge", ["map_lineFollow2",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[11,8,0.15]"}]],
+        ["challenge", ["map_lineFollow3",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[21,12,0.09]"}]],
+        ["challenge", ["map_BranchMapLv0",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[9,9,0.13]"}]],
+        ["challenge", ["map_BranchMapLv1",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[9,9,0.13]"}]],
+        ["challenge", ["map_BranchMapLv2",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[9,9,0.13]"}]],
+        ["challenge", ["map_BranchMapLv3",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[9,9,0.13]"}]],
+        ["challenge", ["map_copyLine1",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[11,8,0.15]"}]],
+        ["challenge", ["map_default",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[11,8,0.15]"}]],
+        ["challenge", ["map_fll",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[10,7,0.15]"}]],
+        ["challenge", ["map_fll2",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[10,7,0.15]"}]],
+        ["challenge", ["map_followLine",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[11,8,0.15]"}]],
+        ["challenge", ["map_followLineLegoDemo",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[8.5,7,0.2]"}]],
+        ["challenge", ["map_football_field",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[12,8,0.17]"}]],
+        ["challenge", ["map_pancake",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[10,4,0.22]"}]],
+        ["challenge", ["map_pickrun",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[10,7,0.19]"}]],
+        ["challenge", ["map_rm_lf_task1",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[11,8,0.15]"}]],
+        ["challenge", ["map_rm_lf_task2",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[11,8,0.15]"}]],
+        ["challenge", ["map_rm_lf_task3",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[11,8,0.15]"}]],
+        ["challenge", ["map_rm_lf_task4",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[11,8,0.15]"}]],
+        ["challenge", ["map_sheep",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[12,8,0.15]"}]],
+        ["challenge", ["map_verticalLines1",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[6,7.5,0.20]"}]],
+        ["challenge", ["map_verticalLines2",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[6,7.5,0.20]"}]],
+        ["challenge", ["map_whieblack01",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[13,9,0.15]"}]],
+        ["challenge", ["map_whieblack02",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[13,9,0.15]"}]]
+    ]
+}

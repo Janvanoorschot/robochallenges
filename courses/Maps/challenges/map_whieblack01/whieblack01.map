@@ -1,0 +1,40 @@
+# Map file for RoboLab
+# (Lines that start with '#' are comments)
+#
+# The tiles are:
+#   A..Z    Tiles A through Z
+#   *       Start
+#
+# Paint strokes kan be added in the according list
+# by adding tuples of the form: ([color],[type],[x],[y])
+#
+# [color] :   w = white
+#             b = black
+# [type]  :   . = single dot
+#             - = horizontal stroke to the right
+#             | = vertical stroke down
+# [x]     :   integer horizontal position
+# [y]     :   integer vertical position
+ 
+paint:
+{(w,|,5,13),(w,|,5,12),(w,|,5,11),(w,|,5,10),(w,|,5,9),(w,|,5,8),(w,|,5,7),(w,|,5,6),(w,-,5,6),(w,-,6,6),(w,-,7,6),(b,-,9,6),(b,-,10,6),(b,-,11,6),(b,-,12,6),(b,-,13,6),(b,-,14,6),(b,-,15,6),(b,-,16,6),(b,|,17,6),(b,|,17,7),(w,|,17,9),(w,|,17,10),(w,|,17,11),(w,|,17,12),(w,|,17,13),(w,-,16,14),(b,-,14,14),(b,-,13,14),(b,-,12,14),(b,-,11,14),(b,-,10,14)}
+
+map:
+CHHHHHHHHHHHHHHHHHHHHHHHHD
+GMFFFFFFFFFFFFFFFFFFFFFFJI
+GI                      GI
+GI                      GI
+GI                      GI
+GI                      GI
+GI                      GI
+GI                      GI
+GI                      GI
+GI                      GI
+GI                      GI
+GI                      GI
+GI                      GI
+GI                      GI
+GI   @   *              GI
+GI                      GI
+GLHHHHHHHHHHHHHHHHHHHHHHKI
+BFFFFFFFFFFFFFFFFFFFFFFFFE  

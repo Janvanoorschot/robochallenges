@@ -1,0 +1,322 @@
+<!-- Any section element inside of this container is displayed as a slide -->
+
+<div class="slides">
+
+    <section>
+        <h1>Drawing Portraits</h1>
+        <h3>Using procedures</h3>
+        <img src="/content/resources/images/robo.png" width=100> </img>
+    </section>
+
+    <! -- school bord: rehearsal -->
+    <section  class="shaded" data-transition="none" style="background:url('/content/basis_2_1/images/schoolbord.jpg');">
+        <h5 style="float:left; margin-left:60px; position:absolute; text-align:left; top:60px; line-height: 1.5em">
+            Before we continue:
+            <br>let's rehearse some of what we learned about procedures ...
+        </h5>
+
+    </section>
+
+    <! -- school bord: rehearsal -->
+    <section  class="shaded" data-transition="none" style="background:url('/content/basis_2_1/images/schoolbord.jpg');">
+
+        <h5 style="left:60px; position:absolute; text-align:left; top:30px; line-height: 1.5em">
+            About procedures ... <br><br>
+         </h5>
+
+        <div style="position: absolute; top: 83px; right: 80px;">
+            <img src="/content/introProcedures/images/robo_turn.jpg" style="width:200px;">
+        </div>
+
+        <p  class="footnote" style="bottom:inherit; top:100px; width: 330px; left: 60px; right: auto;">
+            Does the command <em>"turn"</em> work?<br>&nbsp;
+        </p>
+
+        <div class="codebox" style="position:absolute; top:210px; left:60px; font-size:65%; margin-top:0px; line-height:105%; margin-left:0px; width:330px; border:8px solid rgb(0, 69, 93); box-shadow:none; -webkit-box-shadow:none">
+            <textarea class="robocode" data-exeline="1" >
+turn
+
+
+
+
+
+
+</textarea>
+        </div>
+
+    </section>
+
+    <! -- school bord: rehearsal -->
+    <section  class="shaded" data-transition="none" style="background:url('/content/basis_2_1/images/schoolbord.jpg');">
+
+        <h5 style="left:60px; position:absolute; text-align:left; top:30px; line-height: 1.5em">
+            About procedures ... <br><br>
+         </h5>
+
+        <div style="position: absolute; top: 83px; right: 80px;">
+            <img src="/content/introProcedures/images/robo_turn.jpg" style="width:200px;">
+        </div>
+
+        <p  class="footnote" style="bottom:inherit; top:100px; width: 330px; left: 60px; right: auto;">
+            No, this does not work!<br>There is no such command yet!
+        </p>
+
+        <div class="codebox" style="position:absolute; top:210px; left:60px; font-size:65%; margin-top:0px; line-height:105%; margin-left:0px; width:330px; border:8px solid rgb(0, 69, 93); box-shadow:none; -webkit-box-shadow:none">
+            <textarea class="robocode" data-exeline="1" >
+turn
+
+
+
+
+
+
+</textarea>
+        </div>
+
+    </section>
+
+    </section>
+
+    <! -- school bord: rehearsal -->
+    <section  class="shaded" data-transition="none" style="background:url('/content/basis_2_1/images/schoolbord.jpg');">
+
+        <h5 style="left:60px; position:absolute; text-align:left; top:30px; line-height: 1.5em">
+            About procedures ... <br><br>
+         </h5>
+
+        <div style="position: absolute; top: 83px; right: 80px;">
+            <img src="/content/introProcedures/images/robo_turn.jpg" style="width:200px;">
+        </div>
+
+        <p  class="footnote" style="bottom:inherit; top:100px; width: 330px; left: 60px; right: auto;">
+            However, you can say <em>“turn”</em> to Robo, if you make a <em>procedure</em> with the name <em>“turn”</em>!
+        </p>
+
+        <div class="codebox" style="position:absolute; top:210px; left:60px; font-size:65%; margin-top:0px; line-height:105%; margin-left:0px; width:330px; border:8px solid rgb(0, 69, 93); box-shadow:none; -webkit-box-shadow:none">
+            <textarea class="robocode" data-exeline="1" >
+procedure turn
+{
+   repeat(4)
+   {
+      right
+   }
+}
+</textarea>
+        </div>
+
+    </section>
+
+    <! -- school bord: rehearsal -->
+    <section  class="shaded" data-transition="none" style="background:url('/content/basis_2_1/images/schoolbord.jpg');">
+
+        <h5 style="left:60px; position:absolute; text-align:left; top:30px; line-height: 1.5em">
+            About procedures ... <br><br>
+         </h5>
+
+        <div style="position: absolute; top: 83px; right: 80px;">
+            <img src="/content/introProcedures/images/robo_turn.jpg" style="width:200px;">
+        </div>
+
+         <p  class="footnote" style="bottom:inherit; top:100px; width: 330px; left: 60px; right: auto;">
+             Between the braces {...} of the procedure you write what you mean with <em>“turn”</em>:
+         </p>
+
+         <div class="codebox" style="position:absolute; top:210px; left:60px; font-size:65%; margin-top:0px; line-height:105%; margin-left:0px; width:330px; border:8px solid rgb(0, 69, 93); box-shadow:none; -webkit-box-shadow:none">
+             <textarea class="robocode" data-exeline="1" >
+procedure turn
+{
+   repeat(4)
+   {
+      right
+   }
+}
+ </textarea>
+         </div>
+
+    </section>
+
+    <! -- school bord: rehearsal -->
+    <section  class="shaded" data-transition="none" style="background:url('/content/basis_2_1/images/schoolbord.jpg');">
+
+        <h5 style="left:60px; position:absolute; text-align:left; top:30px; line-height: 1.5em">
+            About procedures ... <br><br>
+         </h5>
+
+        <div style="position: absolute; top: 83px; right: 80px;">
+            <img src="/content/introProcedures/images/robo_turn.jpg" style="width:200px;">
+        </div>
+
+         <p  class="footnote" style="bottom:inherit; top:100px; width: 330px; left: 60px; right: auto;">
+             From now on, when you say <em>"turn"</em> to Robo, it will mean this:<br>
+             <em>{turn to the right 4 times}</em>
+         </p>
+
+         <div class="codebox" style="position:absolute; top:210px; left:60px; font-size:65%; margin-top:0px; line-height:105%; margin-left:0px; width:330px; border:8px solid rgb(0, 69, 93); box-shadow:none; -webkit-box-shadow:none">
+             <textarea class="robocode" data-exeline="1" >
+procedure turn
+{
+   repeat(4)
+   {
+      right
+   }
+}
+ </textarea>
+         </div>
+
+     </section>
+
+    <! -- school bord: rehearsal -->
+    <section  class="shaded" data-transition="none" style="background:url('/content/basis_2_1/images/schoolbord.jpg');">
+
+        <h5 style="left:60px; position:absolute; text-align:left; top:30px; line-height: 1.5em">
+            A procedure is like telling how to bake a cake
+        </h5>
+
+        <div style="position: absolute; top: 115px; right: 100px;">
+             <img src="/content//basis_2_4/images/cake.jpg" style="width:220px;">
+         </div>
+
+        <div style="position:absolute; top:130px; left: -15px; width: 400px">
+            <ul style="list-style-type: none; font-size: 14px; text-shadow: 2px 2px 2px black;">
+                <li>
+                    procedure bakeCake<br>
+                    {
+                    <ul style="list-style-type: none;">
+                        <li>
+                            Mix(Butter, Sugar, Eggs, Flour)
+                        </li>
+                        <li>Put it in the oven!</li>
+                    </ul>
+                    }
+                </li>
+            </ul>
+        </div>
+
+    </section>
+
+    <! -- school bord: rehearsal -->
+    <section  class="shaded" data-transition="none" style="background:url('/content/basis_2_1/images/schoolbord.jpg');">
+
+        <h5 style="left:60px; position:absolute; text-align:left; top:30px; line-height: 1.5em">
+            A procedure is like telling how to greet in Chinese
+         </h5>
+
+        <div style="position: absolute; top: 115px; right: 80px;">
+            <img src="/content//basis_2_4/images/chinese_hello.jpg" style="width:180px;">
+        </div>
+
+        <div style="position:absolute; top:130px; left: 30px; width: 400px">
+            <ul style="list-style-type: none; font-size: 14px; text-shadow: 2px 2px 2px black;">
+                <li>
+                    procedure chineseHello<br>
+                    {
+                    <ul style="list-style-type: none;">
+                        <li>Fold your hands and make a small bow, then</li>
+                        <li>Stand upright and lower hands next to the body</li>
+                    </ul>
+                    }
+                </li>
+            </ul>
+        </div>
+
+    </section>
+
+    <! -- school bord  -->
+    <section  class="shaded" data-transition="none" style="background:url('/content/basis_2_1/images/schoolbord.jpg');">
+
+        <h5 style="left:60px; position:absolute; text-align:left; top:30px; line-height: 1.5em">
+            Let procedures always finish is a similar way!
+         </h5>
+
+        <div style="position: absolute; top: 80px; right: 45px;">
+            <img src="/content//basis_2_4/images/procedure_finish.jpg" style="width:370px;">
+        </div>
+
+        <p  class="footnote" style="bottom:inherit; top:97px; width: 280px; left: 55px;">
+            Why?
+        </p>
+    </section>
+
+    <! -- school bord  -->
+     <section  class="shaded" data-transition="none" style="background:url('/content/basis_2_1/images/schoolbord.jpg');">
+
+         <h5 style="left:60px; position:absolute; text-align:left; top:30px; line-height: 1.5em">
+             Let procedures always finish is a similar way!
+          </h5>
+
+         <div style="position: absolute; top: 80px; right: 45px;">
+             <img src="/content//basis_2_4/images/procedure_finish.jpg" style="width:370px;">
+         </div>
+
+         <div style="position:absolute; top:95px; left: 45px; width: 280px">
+             <ul style="list-style-type: none; font-size: 18px; text-shadow: 2px 2px 2px black;">
+                 <li>This way we can use procedures in sequences</li>
+                 <li>For example if you would like to write a sequence of numbers with procedures</li>
+            </ul>
+         </div>
+     </section>
+
+    <! -- school bord  -->
+    <section  class="shaded" data-transition="none" style="background:url('/content/basis_2_1/images/schoolbord.jpg');">
+
+        <h5 style="left:60px; position:absolute; text-align:left; top:30px; line-height: 1.5em">
+            Let procedures always finish is a similar way!
+        </h5>
+
+        <div style="position: absolute; top: 80px; right: 45px;">
+            <img src="/content//basis_2_4/images/procedure_number1.jpg" style="width:370px;">
+        </div>
+
+        <div style="position:absolute; top:97px; left: 45px; width: 280px">
+            <ul style="list-style-type: none; font-size: 18px; text-shadow: 2px 2px 2px black;">
+                <li>Example: procedure number1</li>
+                <li >Where should Robo end at the end of procedure number1?</li>
+                <li  class="fragment fade-in">Answer: in the dotted box.</li>
+           </ul>
+        </div>
+
+    </section>
+
+    <! -- school bord  -->
+    <section  class="shaded" data-transition="none" style="background:url('/content/basis_2_1/images/schoolbord.jpg');">
+
+        <h5 style="left:60px; position:absolute; text-align:left; top:30px; line-height: 1.5em">
+            Let procedures always finish is a similar way!
+        </h5>
+
+        <div style="position: absolute; top: 80px; right: 45px;">
+            <img src="/content//basis_2_4/images/procedure_number1.jpg" style="width:370px;">
+        </div>
+
+        <div style="position:absolute; top:97px; left: 45px; width: 280px">
+            <ul style="list-style-type: none; font-size: 18px; text-shadow: 2px 2px 2px black;">
+                <li>Example: procedure number1</li>
+                <li>In which direction should he then look?</li>
+                <li  class="fragment fade-in">Answer: up (north)</li>
+           </ul>
+        </div>
+
+    </section>
+
+    <! -- school bord  -->
+    <section  class="shaded" data-transition="none" style="background:url('/content/basis_2_1/images/schoolbord.jpg');">
+
+        <h5 style="left:60px; position:absolute; text-align:left; top:30px; line-height: 1.5em">
+            Let procedures always finish is a similar way!
+        </h5>
+
+        <div style="position: absolute; top: 80px; right: 45px;">
+            <img src="/content//basis_2_4/images/procedure_number4.jpg" style="width:370px;">
+        </div>
+
+        <div style="position:absolute; top:97px; left: 45px; width: 280px">
+            <ul style="list-style-type: none; font-size: 18px; text-shadow: 2px 2px 2px black;">
+                <li>Example: procedure number4</li>
+                <li>If you know where you start, you will now also know where you will end</li>
+                <li>Useful if you want to write a long number with procedures ...</li>
+           </ul>
+        </div>
+
+    </section>
+
+</div>

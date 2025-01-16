@@ -1,0 +1,20 @@
+{
+    "items" : [
+        ["challenge", ["introrobomovesimple",{"type":"normal","keep_solution":false,"autorun":true, "showremote":true, "viewstart":"[4.5,3.5,0.8]"}]],
+        ["presentation", ["teaserSummaryVideo",{}]],
+        ["challenge", ["introrobopickup",{"type":"normal","keep_solution":false,"autorun":true, "showremote":true, "viewstart":"[14,10,0.4]"}]],
+        ["challenge", ["introrobopickup2",{"type":"normal","keep_solution":true,"autorun":false, "showremote":true, "viewstart":"[8.5,12.5,0.6]"}]],
+        ["challenge", ["gettingStartedMoveBeaconClose",{"type":"normal","keep_solution":false,"autorun":false, "viewstart":"[6,11,0.4]"}]],
+        ["challenge", ["gettingStartedGetBeaconFarAway",{"type":"normal","keep_solution":false,"autorun":false, "viewstart":"[13,7,0.18]"}]],
+        ["challenge", ["drawSquareSimpleNoVideo",{"type":"normal","keep_solution":false,"autorun":false, "showremote":true, "viewstart":"[8.5,9.5,0.5]"}]],
+        ["challenge", ["drawLetterA",{"type":"normal","keep_solution":false,"autorun":false, "viewstart":"[8.5,9.5,0.5]"}]],
+        ["challenge", ["drawLetterM",{"type":"normal","keep_solution":false,"autorun":false, "viewstart":"[8.5,9.5,0.5]"}]],
+        ["presentation", ["introrobodance",{}]],
+        ["challenge", ["createRoboDance",{"type":"normal","keep_solution":false,"autorun":false, "viewstart":"[4,4,0.25]"}]],
+        ["presentation", ["storylineEndTeaser",{}]]
+    ],
+    "concepts" : [
+        "CP1",
+        "CP5"
+    ]
+}

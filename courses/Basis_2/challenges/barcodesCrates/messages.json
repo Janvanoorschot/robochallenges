@@ -1,0 +1,5 @@
+{
+    "item.name":"Put back the crates",
+    "hint.auto.barcodeNotRecognised":"Robo did not recognized the barcode ...",
+    "hint.auto.productInWrongSpot":"Robo did not put the product back in the correct place"
+}

@@ -1,0 +1,12 @@
+{
+    "validationCheck":
+    {
+        "postRunProgram": "RandomBool"
+    },
+    "hintRules":
+    [
+        {"premise": "not RandomBool", "value" : "hint.auto.noFlipCoinUsed", "type" : "program"},
+        {"premise": "robot(16,11)", "value": "hint.auto.youDidEndUpAtEndLocation", "type" : "world"},
+        {"premise": "not robot(16,11)", "value": "hint.auto.MaxedOut", "type" : "usage"}
+    ]
+}

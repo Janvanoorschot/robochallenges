@@ -1,0 +1,8 @@
+{
+    "course.name":"Basiskennis 1 Cursus",
+    "course.description.short":"Leer de basisacties van de robot, herhalingen, condities en probleemoplossen.",
+    "course.keywords":"Robotdans, Navigatie, Lijnvolgen",
+    "course.image.src":"/site/images/headPrimary1-500.jpg",
+    "course.image.large.src":"/site/images/headPrimary1.jpg",
+    "course.color":"#1b9478"
+}

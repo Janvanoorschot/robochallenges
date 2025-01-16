@@ -1,0 +1,12 @@
+{
+    "validationCheck":
+    {
+        "postRunWorld": "robot(19,2) and robotHasBeacon and not robotHasBumped"
+    },
+    "hintRules" :
+        [
+            {"premise": "robotHasBumped", "value" : "hint.auto.doNotBump", "type" : "usage"},
+            {"premise": "not robot(19,2)", "value" : "hint.auto.youDidNotEndUpAtEndLocation", "type" : "usage"},
+            {"premise": "not robotHasBeacon", "value" : "hint.auto.robotHasNoBeacon", "type" : "usage"}
+        ]
+}

@@ -1,0 +1,8 @@
+{
+    "item.name":"Finding beacons in a maze: turn left",
+    "hint.auto.noLeftTurn":"You did not properly turn left",
+    "hint.auto.notMovedForward":"You did not move at all???",
+    "hint.auto.doMoreThanTurnRight":"Good start: you turned! But that is not enough ...",
+    "hint.auto.notKeptRightWall":"You did not keep your hand to the right wall",
+    "hint.auto.leftAndRightConditionSwap":"Check the order of your conditions. It can make a big difference!"
+}

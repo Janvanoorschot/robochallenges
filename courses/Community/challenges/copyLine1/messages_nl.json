@@ -1,0 +1,5 @@
+{
+    "item.name":"Kopieer de zwarte lijn",
+    "hint.auto.lineNotRight":"De lijn is nog niet precies zo gekopieerd als in de afbeelding",
+    "hint.auto.lineTooLong": "De lijn is te lang of op de verkeerde plek"
+}

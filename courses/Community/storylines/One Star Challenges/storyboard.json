@@ -1,0 +1,12 @@
+{
+    "items" : [
+        ["challenge", ["whereIsBeacon2",{"type":"extra","keep_solution":false,"autorun":false, "showremote":true, "viewstart":"[2,2,0.9]"}]],
+        ["challenge", ["whereIsBeacon3",{"type":"extra","keep_solution":false,"autorun":false, "showremote":true, "viewstart":"[2,2,0.9]"}]],
+        ["challenge", ["introrobopickupCommunity",{"type":"extra","keep_solution":false,"autorun":false, "showremote":true, "viewstart":"[14,10,0.4]"}]],
+        ["challenge", ["gettingStartedMoveBeaconClose",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[6,11,0.4]"}]],
+        ["challenge", ["drawSquareSimpleNoVideo",{"type":"extra","keep_solution":false,"autorun":false, "showremote":true, "viewstart":"[8.5,9.5,0.5]"}]],
+        ["challenge", ["chimneyget1",{"type":"extra","keep_solution":true,"autorun":false, "viewstart":"[9.5,10.5,0.4]"}]],
+        ["challenge", ["chimneyget2",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[11.5,10.5,0.3]"}]],
+        ["challenge", ["writeClassName",{"type":"extra","keep_solution":false,"autorun":false, "showremote":true, "viewstart":"[9,10,0.5]"}]]
+    ]
+}

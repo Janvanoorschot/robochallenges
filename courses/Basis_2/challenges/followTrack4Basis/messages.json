@@ -1,0 +1,7 @@
+{
+    "item.name":"Follow another pepper-and-salt trail",
+    "hint.auto.notTurnedAtSpot":"You did not turn ON the white spot",
+    "hint.auto.notTurnedAtBlackSpot":"You did not turn ON the black spot",
+    "hint.auto.notTurnedRightAtBlackSpot":"You did not turn RIGHT on the black spot",
+    "hint.auto.noTurningRight":"You did not turn right anywhere"
+}

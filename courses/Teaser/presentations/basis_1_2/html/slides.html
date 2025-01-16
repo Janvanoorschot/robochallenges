@@ -1,0 +1,435 @@
+<!-- Any section element inside of this container is displayed as a slide -->
+
+<div class="slides">
+
+    <section>
+        <h1>Guarding and doing a slalom</h1>
+        <h3>How to use repeat</h3>
+        <img src="/content/resources/images/robo.png" width=100> </img>
+    </section>
+
+    <section  class="shaded" style="text-align:left;background:url('/content/basis_1_2/images/robot_hand_880x400.jpg');">
+        <h2>Instructing a robot</h2>
+
+        <div style="position:absolute; top:70px; left: 10px; width: 300px">
+            <ul style="margin: .3em; list-style-type: none; font-size: 20px; text-shadow: 2px 2px 2px black;">
+                <li class="fragment fade-in" style="margin-bottom:1em; background-color:rgba(0,0,0,0.65); padding: .2em">
+                    Remember that robots can <strong><em>not</em></strong> do anything on their own?
+                </li>
+                <li class="fragment fade-in" style="margin-bottom:1em; background-color:rgba(0,0,0,0.65); padding: .2em">
+                    That you have to give them instructions ...
+                </li>
+                <li class="fragment fade-in" style="margin-bottom:1em; background-color:rgba(0,0,0,0.65); padding: .2em">
+                    ... and that this is called <strong><em>programming</em></strong>?
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section data-transition="none">
+        <h2>Instructing a robot</h2>
+        Robo can be given instructions in the following ways:<br><br>
+        <div style="position:relative; float:left">
+            <img src="/content/basis_1_2/images/touch_instructions.jpg" width="350" style="vertical-align:middle; margin:0; border:none">
+            <br><br>Pressing the buttons
+        </div>
+        <div style="position:relative; float:right;">
+            <div class="codebox" style="font-size:65%; line-height:105%; margin-top:0px; margin-left:0px; width:330px; border:8px solid rgb(0, 69, 93); box-shadow:none; -webkit-box-shadow:none">
+                <textarea class="robocode" data-exeline="1" >
+paintWhite
+repeat(4)
+{
+   forward
+   right
+}
+</textarea>
+            </div>
+            <br>Writing them down yourself
+        </div>
+    </section>
+
+
+    <section data-transition="none" style="background-image: url(/content/resources/images/quiz_if_else/q_if_else_0q.jpg);">
+        <h3 style="position: absolute; top:20px; left:300px; text-align:left">Instructing a robot</h3>
+
+        <div class="codebox" style="font-size:65%; width:240px;  margin-top:20px; margin-left:20px; border:8px solid rgb(0, 69, 93);">
+            <textarea class="robocode" data-exeline="1" >
+forward
+
+go ahead
+
+turn around
+
+left
+
+right(3)
+
+go back
+
+backward(5)
+
+pick up
+
+pickup
+</textarea>
+        </div>
+        <div style="position: absolute; left: 300px; top: 70px; width: 300px">
+            <ul>
+                <li style="margin-bottom:.5em;">It is a rather precise job!</li>
+                <li style="margin-bottom:.5em;">Look at the script<br>editor to the left.</li>
+                <li style="margin-bottom:.5em;">Which instructions does Robo understand?</li>
+                <li style="margin-bottom:.5em;">And which instructions does he <em>not</em> understand?</li>
+            </ul>
+
+        </div>
+    </section>
+
+    <section data-transition="none" style="background-image: url(/content/resources/images/quiz_if_else/q_if_else_0q.jpg);">
+        <h3 style="position: absolute; top:20px; left:300px; text-align:left">Instructing a robot</h3>
+
+        <div class="codebox" style="font-size:65%; width:240px;  margin-top:20px; margin-left:20px; border:8px solid rgb(0, 69, 93);">
+            <textarea class="robocode" data-exeline="1" >
+forward
+
+go ahead
+
+turn around
+
+left
+
+right(3)
+
+go back
+
+backward(5)
+
+pick up
+
+pickup
+</textarea>
+        </div>
+        <div style="position: absolute; float: right; left: 300px; top: 70px; width: 300px">
+            <ul>
+                <li style="margin-bottom:.5em;">Yes, you are right!</li>
+                <li style="margin-bottom:.5em;">Robo only understands the blue ones.</li>
+            </ul>
+
+        </div>
+    </section>
+
+    <section data-transition="none" style="background-image: url(/content/resources/images/quiz_if_else/q_if_else_0q.jpg);">
+    <h3 style="position: absolute; top:20px; left:300px; text-align:left">Writing instructions</h3>
+
+        <div style="position: absolute; left: 260px; top: 100px; text-align: left">
+            <ul style="list-style-type: none;">
+                <li style="margin-bottom:1em; margin-left:-25px">
+                    <img src="/content/basis_1_2/images/smiley_idea.png" width="65" style="vertical-align:middle;margin:0; border:none">
+                    Fun and handy
+                </li>
+                <li style="margin-bottom:1em; margin-left:-25px">
+                    <img src="/content/basis_1_2/images/smiley_exhausted.png" width="65" style="vertical-align:middle;margin:0; border:none">
+                    But also a lot of work
+                </li>
+            </ul>
+        </div>
+        <p class="footnote">This week we are going to let Robo do a lot of work, while we try to do less work ourselves</p>
+
+    </section>
+
+    <!-- Do the What Quiz -->
+    <section style="background-image: url(/content/resources/images/quiz.jpg);">
+    </section>
+
+    <!-- Quiz: what-0 ===========================================================================
+    forward(2)
+    right
+    =========================================================================================== -->
+
+    <section data-transition="none" style="background-image: url(/content/resources/images/quiz_what/q_what_0q.jpg);">
+        <h3 style="position: absolute; top:20px; left:300px; text-align:left">What will Robo do?</h3>
+
+        <div class="codebox" style="font-size:65%; width:240px;  margin-top:20px; margin-left:20px; border:8px solid rgb(0, 69, 93);">
+            <textarea class="robocode" data-exeline="1" >
+forward(2)
+right
+
+
+
+
+
+
+
+            </textarea>
+        </div>
+    </section>
+
+    <!-- Quiz: what-0-answer -->
+    <section data-transition="none" style="background-image: url(/content/resources/images/quiz_what/q_what_0a.jpg);">
+
+        <div class="codebox" style="font-size:65%; width:240px; margin-top:20px; margin-left:20px; border:8px solid rgb(0, 69, 93);">
+            <textarea class="robocode" data-exeline="3">
+forward(2)
+right
+
+
+
+
+
+
+
+            </textarea>
+        </div>
+    </section>
+
+    <!-- Quiz: what-1 ===========================================================================
+    forward(2)
+    right
+    forward(2)
+    right
+    =========================================================================================== -->
+
+    <section data-transition="none" style="background-image: url(/content/resources/images/quiz_what/q_what_0q.jpg);">
+        <h3 style="position: absolute; top:20px; left:300px; text-align:left">What will Robo do?</h3>
+
+        <div class="codebox" style="font-size:65%; width:240px;  margin-top:20px; margin-left:20px; border:8px solid rgb(0, 69, 93);">
+            <textarea class="robocode" data-exeline="1" >
+forward(2)
+right
+forward(2)
+right
+
+
+
+
+
+            </textarea>
+        </div>
+    </section>
+
+    <!-- Quiz: what-1-answer -->
+    <section data-transition="none" style="background-image: url(/content/resources/images/quiz_what/q_what_1a.jpg);">
+
+        <div class="codebox" style="font-size:65%; width:240px; margin-top:20px; margin-left:20px; border:8px solid rgb(0, 69, 93);">
+            <textarea class="robocode" data-exeline="5">
+forward(2)
+right
+forward(2)
+right
+
+
+
+
+
+            </textarea>
+        </div>
+    </section>
+
+    <!-- Quiz: what-2 ===========================================================================
+    forward(2)
+    right
+    forward(2)
+    right
+    forward(2)
+    right
+    forward(2)
+    right
+    =========================================================================================== -->
+
+    <section data-transition="none" style="background-image: url(/content/resources/images/quiz_what/q_what_0q.jpg);">
+        <h3 style="position: absolute; top:20px; left:300px; text-align:left">What will Robo do?</h3>
+
+        <div class="codebox" style="font-size:65%; width:240px;  margin-top:20px; margin-left:20px; border:8px solid rgb(0, 69, 93);">
+            <textarea class="robocode" data-exeline="1" >
+forward(2)
+right
+forward(2)
+right
+forward(2)
+right
+forward(2)
+right
+
+            </textarea>
+        </div>
+    </section>
+
+    <!-- Quiz: what-2-answer -->
+    <section data-transition="none" style="background-image: url(/content/resources/images/quiz_what/q_what_2a.jpg);">
+
+        <div class="codebox" style="font-size:65%; width:240px; margin-top:20px; margin-left:20px; border:8px solid rgb(0, 69, 93);">
+            <textarea class="robocode" data-exeline="9">
+forward(2)
+right
+forward(2)
+right
+forward(2)
+right
+forward(2)
+right
+
+            </textarea>
+        </div>
+
+        <div class="fragment fade-in" style="text-align:left; position:absolute; left:435px; top:135px; margin-bottom:1em; background-color:rgba(0,0,0,0.65); padding: .2em">
+            4 times:<br>forward(2)<br>right
+        </div>
+
+    </section>
+    <!-- Quiz: what-2 ===========================================================================
+    forward(2)
+    right
+    forward(2)
+    right
+    forward(2)
+    right
+    forward(2)
+    right
+    =========================================================================================== -->
+
+    <section data-transition="none" style="background-image: url(/content/resources/images/quiz_what/q_what_0q.jpg);">
+        <h3 style="position: absolute; top:20px; left:300px; text-align:left">What will Robo do?</h3>
+
+        <div class="codebox" style="font-size:65%; width:240px;  margin-top:20px; margin-left:20px; border:8px solid rgb(0, 69, 93);">
+            <textarea class="robocode" data-exeline="1" >
+repeat(4)
+{
+    forward(2)
+    right
+}
+
+
+
+
+            </textarea>
+        </div>
+    </section>
+
+    <!-- Quiz: what-2-answer -->
+    <section data-transition="none" style="background-image: url(/content/resources/images/quiz_what/q_what_2a.jpg);">
+
+        <div class="codebox" style="font-size:65%; width:240px; margin-top:20px; margin-left:20px; border:8px solid rgb(0, 69, 93);">
+            <textarea class="robocode" data-exeline="6">
+repeat(4)
+{
+    forward(2)
+    right
+}
+
+
+
+
+            </textarea>
+        </div>
+
+        <div style="text-align:left; position:absolute; left:435px; top:135px; margin-bottom:1em; background-color:rgba(0,0,0,0.65); padding: .2em">
+            4 times:<br>forward(2)<br>right
+        </div>
+
+    </section>
+
+    <section data-transition="none">
+        <h1></h1>
+        <h2 style="line-height: 150%;">Using "Repeat" is handy!</h2>
+        <p>Let's have a closer look at it...</p>
+
+    </section>
+
+    <section data-transition="none" style="background-image: url(/content/tt14_repeat/images/square.jpg);">
+        <h3 style="line-height:120%; position: absolute; top:20px; left:300px; text-align:left">This is one way to go around in a square    ...</h3>
+
+        <div class="codebox" style="font-size:65%; width:240px;  margin-top:20px; margin-left:20px; border:8px solid rgb(0, 69, 93);">
+            <textarea class="robocode" data-exeline="1" >
+forward(2)
+right
+forward(2)
+right
+forward(2)
+right
+forward(2)
+right
+
+</textarea>
+        </div>
+
+        <ul style="margin: .3em; list-style-type: none; font-size: 20px; text-shadow: 2px 2px 2px black; position: absolute; left: 15px; top: 215px;">
+            <li class="fragment fade-in" style="margin-bottom:1em; background-color:rgba(0,0,0,0.65); padding: .2em">
+                You need to do quite a bit of typing :(
+            </li>
+
+            <li class="fragment fade-in" style="margin-bottom:1em; background-color:rgba(0,0,0,0.65); padding: .2em">
+                But it can also be done smarter!
+            </li>
+
+        </ul>
+    </section>
+
+    <section data-transition="none">
+        <h2>Two ways to do the same ...</h2>
+        <div style="position:absolute; left:15px; top:120px;">
+            <div class="codebox" style="font-size:65%; margin-top:0px; line-height:105%; margin-left:0px; width:330px; border:8px solid rgb(0, 69, 93); box-shadow:none; -webkit-box-shadow:none">
+                <textarea class="robocode" data-exeline="1" >
+forward(2)
+right
+forward(2)
+right
+forward(2)
+right
+forward(2)
+right
+                </textarea>
+            </div>
+            <br>Write out all instructions
+        </div>
+        <div style="position:absolute; left:415px; top:120px;">
+            <div class="codebox" style="font-size:65%; margin-top:0px; line-height:105%; margin-left:0px; width:330px; border:8px solid rgb(0, 69, 93); box-shadow:none; -webkit-box-shadow:none">
+                <textarea class="robocode" data-exeline="1" >
+repeat(4)
+{
+    forward(2)
+    right
+}
+
+
+
+                </textarea>
+            </div>
+            <br>Using "repeat(.){ ... }"
+        </div>
+    </section>
+
+    <section data-transition="none" style="background-image: url(/content/tt14_repeat/images/square.jpg);">
+        <h3 style="line-height:120%;position: absolute; top:20px; left:300px; text-align:left">Using "repeat" to go around <br />in a square</h3>
+
+        <div class="codebox" style="font-size:65%; width:240px;  margin-top:20px; margin-left:20px; border:8px solid rgb(0, 69, 93);">
+            <textarea class="robocode" data-exeline="1" >
+repeat(4)
+{
+    forward(2)
+    right
+}
+            </textarea>
+        </div>
+
+        <ul style="margin: .3em; list-style-type: none; font-size: 20px; text-shadow: 2px 2px 2px black; position: absolute; left: 15px; top: 160px;">
+            <li class="fragment fade-in" style="margin-bottom:1em; background-color:rgba(0,0,0,0.65); padding: .2em">
+                Between brackets you write<br>
+                <b><i>how often</i></b> it is done:<br>
+                repeat(<b><i>4</i></b>)
+            </li>
+
+            <li class="fragment fade-in" style="margin-bottom:1em; background-color:rgba(0,0,0,0.65); padding: .2em">
+                Between the curly brackets, <br>
+                you tell <b><i>what</i></b> must be done<br>
+                multiple times
+            </li>
+
+        </ul>
+    </section>
+
+    <section  class="shaded" style=";background:url('/content/basis_1_2/images/slalom.jpg');">
+        <h2>What are we going to do?</h2>
+
+        <p class="footnote">Guarding and doing a slalom!</p>
+    </section>
+
+</div>

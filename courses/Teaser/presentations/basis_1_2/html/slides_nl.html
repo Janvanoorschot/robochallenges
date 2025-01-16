@@ -1,0 +1,434 @@
+<!-- Any section element inside of this container is displayed as a slide -->
+
+<div class="slides">
+
+    <section>
+        <h1>Bewaken en slalommen</h1>
+        <h3>Werken met "herhaal"</h3>
+        <img src="/content/resources/images/robo.png" width=100> </img>
+    </section>
+
+    <section  class="shaded" style="text-align:left;background:url('/content/basis_1_2/images/robot_hand_880x400.jpg');">
+        <h2>Instructies geven aan de robot</h2>
+
+        <div style="position:absolute; top:70px; left: 10px; width: 300px">
+            <ul style="margin: .3em; list-style-type: none; font-size: 20px; text-shadow: 2px 2px 2px black;">
+                <li class="fragment fade-in" style="margin-bottom:1em; background-color:rgba(0,0,0,0.65); padding: .2em">
+                    Weet je nog dat robots <strong><em>niet</em></strong> vanzelf aan de slag gaan?
+                </li>
+                <li class="fragment fade-in" style="margin-bottom:1em; background-color:rgba(0,0,0,0.65); padding: .2em">
+                    Maar dat je ze instructies moet geven ...
+                </li>
+                <li class="fragment fade-in" style="margin-bottom:1em; background-color:rgba(0,0,0,0.65); padding: .2em">
+                    ... en dat dit <strong><em>programmeren</em></strong> wordt genoemd?
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section data-transition="none">
+        <h2>Instructies geven aan de robot</h2>
+        Robo kan je op de volgende manieren instructies geven:<br><br>
+        <div style="position:relative; float:left">
+            <img src="/content/basis_1_2/images/touch_instructions.jpg" width="350" style="vertical-align:middle; margin:0; border:none">
+            <br><br>Door op de knoppen te drukken
+        </div>
+        <div style="position:relative; float:right;">
+            <div class="codebox" style="font-size:65%; margin-top:0px; line-height:105%; margin-left:0px; width:330px; border:8px solid rgb(0, 69, 93); box-shadow:none; -webkit-box-shadow:none">
+                <textarea class="robocode" data-exeline="1" >
+verfWit
+herhaal(4)
+{
+   vooruit
+   rechts
+}
+</textarea>
+            </div>
+            <br>Door ze zelf op te schrijven
+        </div>
+    </section>
+
+    <section data-transition="none" style="background-image: url(/content/resources/images/quiz_if_else/q_if_else_0q.jpg);">
+        <h3 style="position: absolute; top:20px; left:300px; text-align:left">Instructies geven</h3>
+
+        <div class="codebox" style="font-size:65%; width:240px;  margin-top:20px; margin-left:20px; border:8px solid rgb(0, 69, 93);">
+            <textarea class="robocode" data-exeline="1" >
+vooruit
+
+ga rechts
+
+draai om
+
+links
+
+rechts(3)
+
+ga terug
+
+achteruit(5)
+
+pak op
+
+pakOp
+</textarea>
+        </div>
+        <div style="position: absolute; left: 300px; top: 70px; width: 300px">
+            <ul>
+                <li style="margin-bottom:.5em;">Een precies werkje!</li>
+                <li style="margin-bottom:.5em;">Kijk eens naar de script<br> editor hier links.</li>
+                <li style="margin-bottom:.5em;">Welke instructies begrijpt Robo <em>wel</em>?</li>
+                <li style="margin-bottom:.5em;">En welke instructies begrijpt hij <em>niet</em>?</li>
+            </ul>
+
+        </div>
+    </section>
+
+    <section data-transition="none" style="background-image: url(/content/resources/images/quiz_if_else/q_if_else_0q.jpg);">
+        <h3 style="position: absolute; top:20px; left:300px; text-align:left">Instructies geven</h3>
+
+        <div class="codebox" style="font-size:65%; width:240px;  margin-top:20px; margin-left:20px; border:8px solid rgb(0, 69, 93);">
+            <textarea class="robocode" data-exeline="1" >
+vooruit
+
+ga rechts
+
+draai om
+
+links
+
+rechts(3)
+
+ga terug
+
+achteruit(5)
+
+pak op
+
+pakOp
+</textarea>
+        </div>
+        <div style="position: absolute; float: rechts; left: 300px; top: 70px; width: 300px">
+            <ul>
+                <li style="margin-bottom:.5em;">Inderdaad, <br>je hebt gelijk!</li>
+                <li style="margin-bottom:.5em;">Robo begrijpt alleen de blauwe instructies.</li>
+            </ul>
+
+        </div>
+    </section>
+
+    <section data-transition="none" style="background-image: url(/content/resources/images/quiz_if_else/q_if_else_0q.jpg);">
+    <h3 style="position: absolute; top:20px; left:300px; text-align:left">Instructies schrijven</h3>
+
+        <div style="position: absolute; left: 260px; top: 100px; text-align: left">
+            <ul style="list-style-type: none;">
+                <li style="margin-bottom:1em; margin-left:-25px">
+                    <img src="/content/basis_1_2/images/smiley_idea.png" width="65" style="vertical-align:middle;margin:0; border:none">
+                    Leuk en handig
+                </li>
+                <li style="margin-bottom:1em; margin-left:-25px">
+                    <img src="/content/basis_1_2/images/smiley_exhausted.png" width="65" style="vertical-align:middle;margin:0; border:none">
+                    Maar ook veel werk
+                </li>
+            </ul>
+        </div>
+        <p class="footnote">Deze week gaan we de <strong><em>robot veel werk</strong></em> laten doen, <br>maar proberen we <strong><em>zelf minder werk</strong></em> te doen</p>
+
+    </section>
+
+    <!-- Do the What Quiz -->
+    <section style="background-image: url(/content/resources/images/quiz.jpg);">
+    </section>
+
+    <!-- Quiz: what-0 ===========================================================================
+    vooruit(2)
+    rechts
+    =========================================================================================== -->
+
+    <section data-transition="none" style="background-image: url(/content/resources/images/quiz_what/q_what_0q.jpg);">
+        <h3 style="position: absolute; top:20px; left:300px; text-align:left">Wat gaat Robo doen?</h3>
+
+        <div class="codebox" style="font-size:65%; width:240px;  margin-top:20px; margin-left:20px; border:8px solid rgb(0, 69, 93);">
+            <textarea class="robocode" data-exeline="1" >
+vooruit(2)
+rechts
+
+
+
+
+
+
+
+            </textarea>
+        </div>
+    </section>
+
+    <!-- Quiz: what-0-answer -->
+    <section data-transition="none" style="background-image: url(/content/resources/images/quiz_what/q_what_0a.jpg);">
+
+        <div class="codebox" style="font-size:65%; width:240px; margin-top:20px; margin-left:20px; border:8px solid rgb(0, 69, 93);">
+            <textarea class="robocode" data-exeline="3">
+vooruit(2)
+rechts
+
+
+
+
+
+
+
+            </textarea>
+        </div>
+    </section>
+
+    <!-- Quiz: what-1 ===========================================================================
+    vooruit(2)
+    rechts
+    vooruit(2)
+    rechts
+    =========================================================================================== -->
+
+    <section data-transition="none" style="background-image: url(/content/resources/images/quiz_what/q_what_0q.jpg);">
+        <h3 style="position: absolute; top:20px; left:300px; text-align:left">Wat gaat Robo doen?</h3>
+
+        <div class="codebox" style="font-size:65%; width:240px;  margin-top:20px; margin-left:20px; border:8px solid rgb(0, 69, 93);">
+            <textarea class="robocode" data-exeline="1" >
+vooruit(2)
+rechts
+vooruit(2)
+rechts
+
+
+
+
+
+            </textarea>
+        </div>
+    </section>
+
+    <!-- Quiz: what-1-answer -->
+    <section data-transition="none" style="background-image: url(/content/resources/images/quiz_what/q_what_1a.jpg);">
+
+        <div class="codebox" style="font-size:65%; width:240px; margin-top:20px; margin-left:20px; border:8px solid rgb(0, 69, 93);">
+            <textarea class="robocode" data-exeline="5">
+vooruit(2)
+rechts
+vooruit(2)
+rechts
+
+
+
+
+
+            </textarea>
+        </div>
+    </section>
+
+    <!-- Quiz: what-2 ===========================================================================
+    vooruit(2)
+    rechts
+    vooruit(2)
+    rechts
+    vooruit(2)
+    rechts
+    vooruit(2)
+    rechts
+    =========================================================================================== -->
+
+    <section data-transition="none" style="background-image: url(/content/resources/images/quiz_what/q_what_0q.jpg);">
+        <h3 style="position: absolute; top:20px; left:300px; text-align:left">Wat gaat Robo doen?</h3>
+
+        <div class="codebox" style="font-size:65%; width:240px;  margin-top:20px; margin-left:20px; border:8px solid rgb(0, 69, 93);">
+            <textarea class="robocode" data-exeline="1" >
+vooruit(2)
+rechts
+vooruit(2)
+rechts
+vooruit(2)
+rechts
+vooruit(2)
+rechts
+
+            </textarea>
+        </div>
+    </section>
+
+    <!-- Quiz: what-2-answer -->
+    <section data-transition="none" style="background-image: url(/content/resources/images/quiz_what/q_what_2a.jpg);">
+
+        <div class="codebox" style="font-size:65%; width:240px; margin-top:20px; margin-left:20px; border:8px solid rgb(0, 69, 93);">
+            <textarea class="robocode" data-exeline="9">
+vooruit(2)
+rechts
+vooruit(2)
+rechts
+vooruit(2)
+rechts
+vooruit(2)
+rechts
+
+            </textarea>
+        </div>
+
+        <div class="fragment fade-in" style="text-align:left; position:absolute; left:435px; top:135px; margin-bottom:1em; background-color:rgba(0,0,0,0.65); padding: .2em">
+            4 keer:<br>vooruit(2)<br>rechts
+        </div>
+
+    </section>
+    <!-- Quiz: what-2 ===========================================================================
+    vooruit(2)
+    rechts
+    vooruit(2)
+    rechts
+    vooruit(2)
+    rechts
+    vooruit(2)
+    rechts
+    =========================================================================================== -->
+
+    <section data-transition="none" style="background-image: url(/content/resources/images/quiz_what/q_what_0q.jpg);">
+        <h3 style="position: absolute; top:20px; left:300px; text-align:left">Wat gaat Robo doen?</h3>
+
+        <div class="codebox" style="font-size:65%; width:240px;  margin-top:20px; margin-left:20px; border:8px solid rgb(0, 69, 93);">
+            <textarea class="robocode" data-exeline="1" >
+herhaal(4)
+{
+    vooruit(2)
+    rechts
+}
+
+
+
+
+            </textarea>
+        </div>
+    </section>
+
+    <!-- Quiz: what-2-answer -->
+    <section data-transition="none" style="background-image: url(/content/resources/images/quiz_what/q_what_2a.jpg);">
+
+        <div class="codebox" style="font-size:65%; width:240px; margin-top:20px; margin-left:20px; border:8px solid rgb(0, 69, 93);">
+            <textarea class="robocode" data-exeline="6">
+herhaal(4)
+{
+    vooruit(2)
+    rechts
+}
+
+
+
+
+            </textarea>
+        </div>
+
+        <div style="text-align:left; position:absolute; left:435px; top:135px; margin-bottom:1em; background-color:rgba(0,0,0,0.65); padding: .2em">
+            4 keer:<br>vooruit(2)<br>rechts
+        </div>
+
+    </section>
+
+    <section data-transition="none">
+        <h1></h1>
+        <h2 style="line-height: 150%;">"Herhaal" gebruiken is handig!</h2>
+        <p>Laten we er nog eens beter naar kijken...</p>
+
+    </section>
+
+    <section data-transition="none" style="background-image: url(/content/tt14_repeat/images/square.jpg);">
+        <h3 style="line-height:120%; position: absolute; top:20px; left:300px; text-align:left">Dit is één manier om een vierkant te tekenen ...</h3>
+
+        <div class="codebox" style="font-size:65%; width:240px;  margin-top:20px; margin-left:20px; border:8px solid rgb(0, 69, 93);">
+            <textarea class="robocode" data-exeline="1" >
+vooruit(2)
+rechts
+vooruit(2)
+rechts
+vooruit(2)
+rechts
+vooruit(2)
+rechts
+
+            </textarea>
+        </div>
+
+        <ul style="margin: .3em; list-style-type: none; font-size: 20px; text-shadow: 2px 2px 2px black; position: absolute; left: 15px; top: 215px;">
+            <li class="fragment fade-in" style="margin-bottom:1em; background-color:rgba(0,0,0,0.65); padding: .2em">
+                Dat is best wat schrijfwerk :(
+            </li>
+
+            <li class="fragment fade-in" style="margin-bottom:1em; background-color:rgba(0,0,0,0.65); padding: .2em">
+                Maar het kan ook slimmer!
+            </li>
+
+        </ul>
+    </section>
+
+    <section data-transition="none">
+        <h2>Twee manieren voor hetzelfde ...</h2>
+        <div style="position:absolute; left:15px; top:120px;">
+            <div class="codebox" style="font-size:65%; margin-top:0px; line-height:105%; margin-left:0px; width:330px; border:8px solid rgb(0, 69, 93); box-shadow:none; -webkit-box-shadow:none">
+                <textarea class="robocode" data-exeline="1" >
+vooruit(2)
+rechts
+vooruit(2)
+rechts
+vooruit(2)
+rechts
+vooruit(2)
+rechts
+                </textarea>
+            </div>
+            <br>Alle instructies uitschrijven
+        </div>
+        <div style="position:absolute; left:415px; top:120px;">
+            <div class="codebox" style="font-size:65%; margin-top:0px; line-height:105%; margin-left:0px; width:330px; border:8px solid rgb(0, 69, 93); box-shadow:none; -webkit-box-shadow:none">
+                <textarea class="robocode" data-exeline="1" >
+herhaal(4)
+{
+    vooruit(2)
+    rechts
+}
+
+
+
+                </textarea>
+            </div>
+            <br>Of gebruik "herhaal(.){ ... }"
+        </div>
+    </section>
+
+    <section data-transition="none" style="background-image: url(/content/tt14_repeat/images/square.jpg);">
+        <h3 style="line-height:120%; position: absolute; top:20px; left:300px; text-align:left">Zo gebruik je "herhaal" om een vierkant te tekenen</h3>
+
+        <div class="codebox" style="font-size:65%; width:240px;  margin-top:20px; margin-left:20px; border:8px solid rgb(0, 69, 93);">
+            <textarea class="robocode" data-exeline="1" >
+herhaal(4)
+{
+    vooruit(2)
+    rechts
+}
+            </textarea>
+        </div>
+
+        <ul style="margin: .3em; list-style-type: none; font-size: 20px; text-shadow: 2px 2px 2px black; position: absolute; left: 15px; top: 160px;">
+            <li class="fragment fade-in" style="margin-bottom:1em; background-color:rgba(0,0,0,0.65); padding: .2em">
+                Tussen haakjes schrijf je<br>
+                <b><i>hoe vaak</i></b> het moet:<br>
+                herhaal(<b><i>4</i></b>)
+            </li>
+
+            <li class="fragment fade-in" style="margin-bottom:1em; background-color:rgba(0,0,0,0.65); padding: .2em">
+                Tussen accolades vertel je <br>
+                <b><i>wat</i></b> meerdere keren<br>
+                gedaan moet worden
+            </li>
+
+        </ul>
+    </section>
+
+    <section  class="shaded" style=";background:url('/content/basis_1_2/images/slalom.jpg');">
+        <h2>Wat gaan we doen?</h2>
+
+        <p class="footnote">Bewaken en daarna slalommen!</p>
+    </section>
+
+</div>

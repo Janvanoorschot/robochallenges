@@ -1,0 +1,46 @@
+#map:def
+
+extra:
+vbridge@54,14
+palm@23,8
+palm@45,5
+palm@54,17
+palm@58,8
+palm@14,23
+palm@15,0
+palm@0,12
+palm@8,7
+palm@8,9
+tree@16,6
+tree@16,10
+tree@30,13
+tree@29,14
+tree@29,15
+tree@30,15
+tree@30,16
+tree@47,18
+
+map:
+                                   CHHHHHHHD
+  CHD            CHHHHHHHHHHHHD    GMFFFFFJI
+  GAI    CHHHHD  GMFFFFFFFFFFJI    GI   * GI  
+  BFE CHHHHHHHHHHKI          GLHHHHKI     GI
+   A  GMFFFFFFFFFFE CHHHHHD  BFFFFFFE     GI    CHHHHHD
+      GI            BFFFFFE               GI    GMFFFJI
+      GI    CHD CHD                       GI    GI   GI
+      GI    GPI GQI        *   Q          GIA   GI   GI
+      GICHD*BFE*GQI*   *      Q      CD   GLHHHHKI  *GI 
+      GIGOI     GQI          QQQ*    GI   BFFFFFFE   GI
+      GIGQI     GQI                  BE     QQ QQ    GI
+      GIBFE     BFE                 *        Q       GI
+     CME        BFE                                  GI  AAA
+     GI@                                       *     GI  A*A
+   A BLHHHHHHHHHHHHHHD                               BEAAA A
+  CHD BFFFFFFFFFFFFFJI                                     A
+  GAI    BFFEBFFEBFFGI               Q Q                   A
+  BFE               GI                Q              CDAAAAA
+                    GI               Q Q             GI 
+                    GLHHHHHHHHHHHHD                  GI
+                    BFFFFFFFFFFFFJI          *  Q    GI
+                                 GLHHHHHHHHHHHHHHHHHHKI
+                                 BFFFFFFFFFFFFFFFFFFFFE

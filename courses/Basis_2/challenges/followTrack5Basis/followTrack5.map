@@ -1,0 +1,42 @@
+#map:def
+paint:
+(w,.,17,7)
+(w,.,18,8)
+(w,.,20,8)
+(w,.,22,7)
+(w,.,23,8)
+(w,.,21,5)
+(w,.,22,4)
+(w,.,18,5)
+(w,.,17,5)
+(w,.,15,4)
+(w,.,14,5)
+
+extra:
+palm@4,5
+palm@16,11
+palm@5,14
+palm@22,1
+palm@26,13
+
+map:
+AAAAAA    Q           AAAAAAA
+A    A      AAAAAAAAA ARA   A
+A    AAAAAAAA  *    A ARA   A
+A*          A   PAAAAAAAA   A
+A     AAA   A           A   A
+AAAAAAARA   A           A   A
+      ARA   AAAAAAAAAP  A   A
+AAAAAAARA               A   A
+A     ARA               A   A
+A     AAA        @      PO  A
+A  OO                       A
+A  OO       P   AAAAAAAAA   A
+A      P    AAAAA   A   A   A
+A      A            A O AAAAA
+AAAAAAAAAAAAAAAA    A   ARA
+       A       AAP      ARA
+  Q    A             AAAARA
+   Q   A             ARRRRA
+       AAAAAAAA    AAAAAAAA
+              AAAAAA

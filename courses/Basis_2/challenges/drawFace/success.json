@@ -1,0 +1,20 @@
+{
+    "validationCheck":
+    {
+        "postRunWorld": "robotIsNorth and white(3,4) and white(4,4) and white(3,5) and white(4,5) and white(7,4) and white(8,4) and white(7,5) and white(8,5) and white(5,5) and white(6,6) and white(4,7) and white(5,8) and white(5,7) and white(6,8) and white(6,7) and white(7,8) and not white(8,8) and not white(3,8)",
+        "postRunProgram": "PaintWhite and Procedure",
+        "postRunUsage": "minMoves(2) and minWhitePaintUsed(20)"
+    },
+    "hintRules" :
+    [
+        {"premise": "not Procedure", "value" : "hint.auto.noProcedureUsed", "type" : "program"},
+        {"premise": "not PaintWhite", "value" : "hint.auto.noPaintWhiteUsed", "type" : "program"},
+        {"premise": "not minMoves(2)", "value" : "hint.auto.procedureNotCalled", "type" : "usage"},
+        {"premise": "not minWhitePaintUsed(20)", "value" : "hint.auto.incorrectDrawing", "type" : "usage"},
+        {"premise": "not white(3,4) or not white(4,4) or not white(3,5) or not white(4,5)", "value" : "hint.auto.incorrectDrawing", "type" : "usage"},
+        {"premise": "not white(7,4) or not white(8,4) or not white(7,5) or not white(8,5)", "value" : "hint.auto.incorrectDrawing", "type" : "usage"},
+        {"premise": "not white(5,5) or not white(6,6) or not white(4,7) or not white(5,8) or not white(5,7) or not white(6,8) or not white(6,7) or not white(7,8)","value" : "hint.auto.incorrectDrawing", "type" : "usage"},
+        {"premise": "white(8,8) or white(3,8)", "value" : "hint.auto.incorrectDrawing", "type" : "usage"},
+        {"premise": "not robotIsNorth", "value" : "hint.auto.youAreNotOrientedCorrectly", "type" : "usage"}
+    ]
+}

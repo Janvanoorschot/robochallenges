@@ -1,0 +1,5 @@
+{
+    "item.name":"Repair a whole square!",
+    "hint.auto.ReturnRatherThanEnd":"Use 'return' rather than 'end' or Robo will not continue with the next procedure!",
+    "hint.auto.notAllPotholesFilled":"Ok! No problem that not all potholes were filled yet. Robo did not run until the end, because this may take a very long time and we did not want to keep you waiting. Try again and/or make your program smarter to see if Robo fills more potholes this time."
+}

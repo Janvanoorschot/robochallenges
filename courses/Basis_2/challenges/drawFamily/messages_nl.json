@@ -1,0 +1,6 @@
+{
+    "item.name":"Teken een hele robot familie",
+    "hint.auto.incorrectDrawing": "Bijna klaar. Alleen is je tekening nog niet helemaal goed.",
+    "hint.auto.incorrectFrame": "Bijna klaar. Alleen de rand om je tekening is nog niet helemaal goed.",
+    "hint.auto.incorrectFamily": "Bijna klaar, maar nog niet helemaal zoals de robot familie in het voorbeeld ... "
+}

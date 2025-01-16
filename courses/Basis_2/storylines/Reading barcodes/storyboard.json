@@ -1,0 +1,20 @@
+{
+    "items" : [
+        ["presentation", ["basis_2_5",{}]],
+        ["challenge", ["barcodesIntro1",{"type":"normal","keep_solution":false,"autorun":false, "viewstart":"[13,10,0.1]"}]],
+        ["challenge", ["barcodesIntro2",{"type":"normal","keep_solution":false,"autorun":false, "viewstart":"[13,10,0.1]"}]],
+        ["challenge", ["barcodesPalmoil",{"type":"normal","keep_solution":true,"autorun":false, "viewstart":"[13,10,0.1]"}]],
+        ["challenge", ["barcodesWater",{"type":"normal","keep_solution":true,"autorun":false, "viewstart":"[13,10,0.1]"}]],
+        ["challenge", ["barcodesCrates",{"type":"normal","keep_solution":true,"autorun":false, "viewstart":"[13,10,0.1]"}]],
+        ["challenge", ["barcodesVegetables",{"type":"normal","keep_solution":true,"autorun":false, "viewstart":"[13,10,0.1]"}]],
+        ["challenge", ["barcodesAll",{"type":"normal","keep_solution":true,"autorun":false, "viewstart":"[13,10,0.1]"}]],
+        ["challenge", ["barcodesAllExtra",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[13,10,0.1]"}]],
+        ["presentation", ["storylineEnd",{}]]
+	],
+    "concepts" : [
+        "CP7",
+        "CS1",
+        "CS2",
+        "RA1"
+    ]
+}

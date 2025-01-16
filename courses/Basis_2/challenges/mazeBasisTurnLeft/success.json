@@ -1,0 +1,24 @@
+{
+    "validationCheck":
+    {
+        "postRunUsage": "robotExplored(8,4) and robotExplored(14,2) and not robotExplored(3,4)",
+        "postRunWorld": "robot(13,2) and not robot(7,10) and not robot(7,4) and not robot(15,2) and not robot(3,5) and robotHasBeacon and not robotHasBumped",
+        "postRunProgram": "FrontIsBeacon and MoveForward and GripperGet"
+    },
+    "hintRules" :
+        [
+            {"premise": "not MoveForward", "value" : "hint.auto.noForwardUsed", "type" : "program"},
+            {"premise": "robot(7,10)", "value" : "hint.auto.notMovedForward", "type" : "usage"},
+            {"premise": "robot(7,4)", "value" : "hint.auto.doMoreThanTurnRight", "type" : "usage"},
+            {"premise": "robot(3,5)", "value" : "hint.auto.doMoreThanTurnRight", "type" : "usage"},
+            {"premise": "robotExplored(3,4)", "value" : "hint.auto.leftAndRightConditionSwap", "type" : "usage"},
+            {"premise": "not robotExplored(8,4)", "value" : "hint.auto.notKeptRightWall", "type" : "program"},
+            {"premise": "robot(15,2)", "value" : "hint.auto.noLeftTurn", "type" : "usage"},
+            {"premise": "not robotExplored(14,2)", "value" : "hint.auto.noLeftTurn", "type" : "program"},
+            {"premise": "robotHasBumped", "value" : "hint.auto.doNotBump", "type" : "usage"},
+            {"premise": "not robot(13,2)", "value" : "hint.auto.youDidNotEndUpAtEndLocation", "type" : "usage"},
+            {"premise": "not FrontIsBeacon", "value" : "hint.auto.noFrontIsBeaconUsed", "type" : "program"},
+            {"premise": "not GripperGet", "value" : "hint.auto.noPickUpUsed", "type" : "program"},
+            {"premise": "not robotHasBeacon", "value" : "hint.auto.robotHasNoBeacon", "type" : "usage"}
+        ]
+}

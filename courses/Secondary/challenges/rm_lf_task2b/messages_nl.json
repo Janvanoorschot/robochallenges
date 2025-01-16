@@ -1,0 +1,6 @@
+{
+    "item.name":"Rommel op de lijn: draai naar de witte lijn",
+    "hint.auto.doNotUseNorth": "Laat Robo zelf de goede richting vinden. Gebruik geen 'noord'!",
+    "hint.auto.noFrontIsWhiteUsedToPositionAutomatically": "Bijna goed. Probeer nu om Robo automatisch naar het begin van de witte lijn te laten kijken met o.a. 'voorIsWit'.",
+    "hint.auto.noRepeatUsedToPositionAutomatically": "Bijna goed. Probeer nu om Robo automatisch naar het begin van de witte lijn te laten kijken met o.a. 'herhaal' of 'herhaalZolang'."
+}

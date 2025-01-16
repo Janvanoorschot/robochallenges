@@ -1,0 +1,5 @@
+{
+    "item.name":"Follow the white trail",
+    "hint.auto.notTurnedAtSpot":"You did not turn ON the white spot",
+    "hint.auto.notTurnedLeftAtSpot":"You should turn LEFT on the white spot"
+}

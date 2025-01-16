@@ -1,0 +1,12 @@
+{
+    "validationCheck":
+    {
+        "postRunWorld": "robot(16,11)",
+        "postRunProgram": "Procedure"
+    },
+    "hintRules":
+    [
+        {"premise": "not Procedure", "value" : "hint.auto.noProcedureUsed", "type" : "program"},
+        {"premise": "not robot(16,11)", "value": "hint.auto.youDidNotEndUpAtEndLocation", "type" : "world"}
+    ]
+}

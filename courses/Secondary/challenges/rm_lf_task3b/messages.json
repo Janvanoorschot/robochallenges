@@ -1,0 +1,5 @@
+{
+    "item.name":"Walking a grid: random search",
+    "hint.auto.MaxedOut": "Pitty, the maximum number of steps was reached. This can always happen with random search. Try again or make your program smarter in the next exercise.",
+    "hint.auto.youDidEndUpAtEndLocation": "Very good! See if you can let Robo find the right spot even faster in the next exercise."
+}

@@ -1,0 +1,29 @@
+﻿<h1>Debris on the track: go to the start</h1>
+
+<p>
+    Unfortunately there are now a few places where the white line is broken with a black spot.
+    In case of a mail delivery robot, someone may have spilled a cup of coffee on the track,
+    or somebody dropped something on it.
+    We will have to make our robot smart enough to handle these interruptions in the white line.
+</p>
+
+<p>
+    Note, however, that the robot is not at the head of the track.
+    The first thing you need to do is to go to the start of the line, which is marked with a black dot.
+</p>
+
+<p class="instruction">
+    1. Let Robo turn until there is no obstacle in front of him, and then head forward until he is on the first black dot.
+</p>
+
+<p>
+    You can get there by just doing a <span class="robocode">left</span> and then a <span class="robocode">forward(7)</span>,
+    but it is a lot cooler (and robust) if you use the loops and turn until there is no obstacle in front, and then go <span class="robocode">forward(1)</span>
+    until Robo is on top of the black spot.
+</p>
+
+<p class="instruction">
+    2. Let Robo automatically turn until there is no obstacle in front of him,
+    and then head forward step-by-step until he is on the black dot.
+    Use <span class="robocode">repeatWhile</span>.
+</p>

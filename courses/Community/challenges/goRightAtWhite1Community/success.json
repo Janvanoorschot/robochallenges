@@ -1,0 +1,18 @@
+{
+    "validationCheck":
+    {
+        "postRunUsage": "robotExplored(8,5)",
+        "postRunWorld": "robot(15,11) and robotHasBeacon",
+        "postRunProgram": "Repeat and If and FrontIsWhite and FrontIsBeacon"
+    },
+    "hintRules" :
+        [
+            {"premise": "not Repeat", "value" : "hint.auto.noRepeatUsed", "type" : "program"},
+            {"premise": "not If", "value" : "hint.auto.noIfUsed", "type" : "program"},
+            {"premise": "not FrontIsWhite", "value" : "hint.auto.noFrontIsWhiteUsed", "type" : "program"},
+            {"premise": "not robotExplored(8,5)", "value" : "hint.auto.notTurnedAtSpot", "type" : "program"},
+            {"premise": "not FrontIsBeacon", "value" : "hint.auto.noFrontIsBeaconUsed", "type" : "program"},
+            {"premise": "not robot(15,11)", "value" : "hint.auto.youDidNotEndUpAtEndLocation", "type" : "usage"},
+            {"premise": "not robotHasBeacon", "value" : "hint.auto.robotHasNoBeacon", "type" : "usage"}
+        ]
+}

@@ -1,0 +1,6 @@
+{
+    "item.name":"Draai om het baken op te pakken 1",
+    "hint.auto.noLeftOrRightUsed":"Je hebt geen 'links' of 'rechts' gebruikt in je script",
+    "hint.auto.wellDoneNowUseRight":"Goed gedaan! Kan je dit ook als je Robo alleen rechts laat draaien?",
+    "hint.auto.wellDoneNowUseLeft":"Goed gedaan! Kan je dit ook als je Robo alleen links laat draaien?"
+}

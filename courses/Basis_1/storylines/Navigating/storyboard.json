@@ -1,0 +1,19 @@
+{
+    "items" :
+    [
+        ["presentation", ["basis_1_5",{}]],
+        ["challenge", ["safeSpot1",{"type":"normal","keep_solution":true,"autorun":false, "viewstart":"[4.5,6.5,0.22]"}]],
+        ["challenge", ["safeSpot2",{"type":"normal","keep_solution":false,"autorun":false, "viewstart":"[4.5,6.5,0.22]"}]],
+        ["challenge", ["boxPath1",{"type":"normal","keep_solution":true,"autorun":false, "viewstart":"[11.5,7.5,0.15]"}]],
+        ["challenge", ["boxPath2",{"type":"normal","keep_solution":true,"autorun":false, "viewstart":"[10.5,7.5,0.15]"}]],
+        ["challenge", ["boxPath3",{"type":"normal","keep_solution":false,"autorun":false, "viewstart":"[7.5,9.5,0.22]"}]],
+        ["challenge", ["digPath1",{"type":"extra","keep_solution":true,"autorun":false, "viewstart":"[7,4,0.28]"}]],
+        ["challenge", ["digPath2",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[7,4,0.28]"}]],
+        ["presentation", ["storylineEnd",{}]]
+    ],
+    "concepts" : [
+        "CP3",
+        "CS2",
+        "CS3"
+    ]
+}

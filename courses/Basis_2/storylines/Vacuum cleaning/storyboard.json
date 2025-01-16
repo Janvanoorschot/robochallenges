@@ -1,0 +1,21 @@
+{
+    "items" : [
+        ["presentation", ["basis_2_6",{}]],
+        ["challenge", ["introFlipCoin",{"type":"normal","keep_solution":true,"autorun":true, "viewstart":"[7,11,1.0]"}]],
+        ["presentation", ["basis_2_6_continued",{}]],
+        ["challenge", ["createDice",{"type":"normal","keep_solution":true,"autorun":false, "viewstart":"[10,10,0.25]"}]],
+        ["challenge", ["createDiceStrange",{"type":"normal","keep_solution":true,"autorun":false, "viewstart":"[10,10,0.25]"}]],
+        ["challenge", ["createDiceInsight",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[10,10,0.25]"}]],
+        ["challenge", ["findBeacon1",{"type":"normal","keep_solution":true,"autorun":false, "viewstart":"[10.5,10.5,0.15]"}]],
+        ["challenge", ["findBeacon2",{"type":"normal","keep_solution":true,"autorun":false, "viewstart":"[10.5,10.5,0.15]"}]],
+        ["challenge", ["dirtyCarpet",{"type":"normal","keep_solution":true,"autorun":false, "viewstart":"[9.5,8,0.15]"}]],
+        ["challenge", ["dirtyCarpetNoCollision",{"type":"normal","keep_solution":false,"autorun":false, "viewstart":"[9.5,8,0.15]"}]],
+        ["presentation", ["storylineEnd",{}]]
+	],
+    "concepts" : [
+        "CM1",
+        "CS1",
+        "PS4",
+        "RU1"
+    ]
+}

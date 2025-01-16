@@ -1,0 +1,16 @@
+{
+    "validationCheck":
+    {
+        "postRunWorld": "not beacon(11,8,2) and not beacon(15,8,2) and not beacon(19,8,2) and not beacon(23,8,2) and not beacon(27,7,2)",
+        "postRunProgram": "Repeat and GripperEat"
+    },
+    "hintRules" :
+    [
+        {"premise": "not GripperEat", "value" : "hint.auto.noEatUpUsed", "type" : "program"},
+        {"premise": "not Repeat", "value" : "hint.auto.noRepeatUsed", "type" : "program"},
+        {"premise": "beacon(11,8,2) or beacon(15,8,2) or beacon(19,8,2) or beacon(23,8,2) or beacon(27,7,2)" , "value" : "hint.auto.notEnoughBeacons", "type" : "world"},
+        {"premise": "not beacon(11,8,2) and not beacon(15,8,2) and not beacon(19,8,2) and not beacon(23,8,2) and not beacon(27,7,2) and beacon(32,9)" , "value" : "hint.auto.canYouDoBetter", "type" : "world"},
+        {"premise": "not beacon(32,9) and beacon(58,13)" , "value" : "hint.auto.betterThanRequired", "type" : "world"},
+        {"premise": "not beacon(11,8) and not beacon(15,8) and not beacon(19,8) and not beacon(23,8) and not beacon(27,7) and not beacon(32,9) and not beacon(36,11) and not beacon(40,2) and not beacon(45,20) and not beacon(47,13) and not beacon(52,8) and not beacon(58,13)" , "value" : "hint.auto.allBeaconsCleared", "type" : "world"}
+    ]
+}

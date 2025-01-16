@@ -1,0 +1,6 @@
+{
+    "hintRules" :
+    [
+        {"premise": "robot(10,16)", "value" : "hint.auto.notYetInstructed", "type" : "world"}
+    ]
+}

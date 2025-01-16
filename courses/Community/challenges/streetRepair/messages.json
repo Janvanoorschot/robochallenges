@@ -1,0 +1,5 @@
+{
+    "item.name":"Repair the Streets, Remove the Potholes",
+    "hint.auto.repairSomeMore":"Robo could certainly repair some more potholes. Try again and/or adjust your program to see if he does better this time.",
+    "hint.auto.notAllPotholesRepaired":"You did not yet mark all the potholes, but know that Robo did not run until the end. It may take a very long time to repair all potholes and we did not want to keep you waiting. Try again and/or make your program smarter to see if Robo repairs more potholes this time."
+}

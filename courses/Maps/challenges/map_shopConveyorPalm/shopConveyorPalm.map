@@ -1,0 +1,69 @@
+#map:def
+# Map file for RoboMind
+# (Lines that start with '#' are comments)
+#
+# The tiles are:
+#   A..Z    Tiles A through Z
+#   *       Start
+#
+# Paint strokes kan be added in the according list
+# by adding tuples of the form: ([color],[type],[x],[y])
+#
+# [color] :   w = white
+#             b = black
+# [type]  :   . = single dot
+#             - = horizontal stroke to the right
+#             | = vertical stroke down
+# [x]     :   integer horizontal position
+# [y]     :   integer vertical position
+ 
+ 
+extra:
+palm@9,1
+palm@9,3
+palm@9,5
+palm@14,1
+palm@14,3
+palm@14,5
+palm@9,17 #product1
+
+paint:
+# products storage
+(w,.,10,7) (w,.,11,7)  #palm-storage
+(w,.,17,7) (b,.,18,7)  #water-storage
+(b,.,25,7) (b,.,26,7)  #crate-storage
+(b,.,32,7) (w,.,33,7)  #vegetables-storage
+# products belt
+(w,|,10,15)(w,|,11,15) #palm-belt
+# conveyor belt
+(w,-,8,14) (w,-,9,14) (w,-,10,14)(w,-,11,14)(w,-,12,14)(w,-,13,14)(w,-,14,14) #conveyor1
+(w,-,15,14)(w,-,16,14)(w,-,17,14)(w,-,18,14)(w,-,19,14)(w,-,20,14)(w,-,21,14)
+(w,-,22,14)(w,-,23,14)(w,-,24,14)(w,-,25,14)(w,-,26,14)(w,-,27,14)(w,-,28,14)
+(w,-,29,14)(w,-,30,14)
+(w,-,8,17) (w,-,9,17) (w,-,10,17)(w,-,11,17)(w,-,12,17)(w,-,13,17)(w,-,14,17) #conveyor2
+(w,-,15,17)(w,-,16,17)(w,-,17,17)(w,-,18,17)(w,-,19,17)(w,-,20,17)(w,-,21,17)
+(w,-,22,17)(w,-,23,17)(w,-,24,17)(w,-,25,17)(w,-,26,17)(w,-,27,17)(w,-,28,17)
+(w,-,29,17)(w,-,30,17)
+
+map:
+CHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHD
+GMFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFJI
+GIQ      A      AOO   OOAQQ  QQAPP  PPGI
+GIQQ   QQA      AOO   OOAQQ  QQAPP  PPGI
+GIAA  AAAA      AOO   OOAQ   QQAP   PPGI
+GI      QA      AOO   OOAQQ  QQAP   PPGI
+GIQ     QA      AOO   OOAQQ  QQAP   PPGI
+GIQQ   QQA      A       A      A      GI
+GIAA  AAAAAA  AAAAA  AAAAA   AAAAA  AAGI
+GI                                    GI
+GI                                    GI
+GI    AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGI
+GI                                    GI
+GI                                    GI
+GI                                    GI
+GI                                    GI
+GI@        *                          GI
+GI                                    GI
+GI                                    GI
+GLHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHKI
+BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE

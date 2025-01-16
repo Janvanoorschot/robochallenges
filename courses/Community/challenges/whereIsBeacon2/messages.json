@@ -1,0 +1,6 @@
+{
+    "item.name":"Turn to pick up the beacon 1",
+    "hint.auto.noLeftOrRightUsed":"You did not use 'left' or 'right' in your script",
+    "hint.auto.wellDoneNowUseRight":"Well done! Can you also do it by letting Robo only turn right?",
+    "hint.auto.wellDoneNowUseLeft":"Well done! Can you also do it by letting Robo only turn left?"
+}

@@ -1,0 +1,12 @@
+{
+    "validationCheck":
+    {
+        "postRunWorld": "robotHasBeacon",
+        "postRunProgram": "GripperGet"
+    },
+    "hintRules" :
+        [
+            {"premise": "not GripperGet", "value" : "hint.auto.noPickUpUsed", "type" : "program"},
+            {"premise": "not robotHasBeacon", "value" : "hint.auto.robotHasNoBeacon", "type" : "usage"}
+        ]
+}

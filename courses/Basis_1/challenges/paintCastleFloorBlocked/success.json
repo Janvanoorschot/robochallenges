@@ -1,0 +1,13 @@
+{
+    "validationCheck":
+    {
+        "postRunWorld": "robot(13,8)",
+        "postRunUsage": "minWhitePaintUsed(72)"
+    },
+    "hintRules" :
+        [
+            {"premise": "not robot(13,8)", "value" : "hint.auto.youDidNotEndUpAtEndLocation", "type" : "world"},
+            {"premise": "maxWhitePaintUsed(36)", "value" : "hint.auto.notCheckeredFloor", "type" : "world"},
+            {"premise": "not minWhitePaintUsed(72)", "value" : "hint.auto.notWholeFloor", "type" : "world"}
+        ]
+}

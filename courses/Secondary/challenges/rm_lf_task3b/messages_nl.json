@@ -1,0 +1,5 @@
+{
+    "item.name":"Een grid aflopen: willekeurig zoeken",
+    "hint.auto.MaxedOut": "Helaas, Robo heeft de plek niet in het maximum aantal stappen gevonden. Dat kan natuurlijk altijd gebeuren als je willekeurig zoekt. Probeer het nog eens of ga naar de volgende opgave om je programma slimmer te maken.",
+    "hint.auto.youDidEndUpAtEndLocation": "Heel goed! Probeer of je Robo nog sneller op de goede plek krijgt door je programma slimmer te maken in de volgende opgave."
+}

@@ -1,0 +1,179 @@
+<!-- Any section element inside of this container is displayed as a slide -->
+
+<div class="slides">
+
+    <section>
+        <h1>Vacuum cleaning</h1>
+        <h3>Search strategies</h3>
+        <img src="/content/resources/images/robo.png" width=100> </img>
+    </section>
+
+    <section data-transition="none" style="background-image: url(/content/basis_2_6/images/map_example1.jpg);">
+        <h2 style="float:left; margin-left:20px;">Finding a beacon ...</h2>
+
+        <div style="position:absolute; top:78px; left: 20px; width: 500px; text-align:left">
+            <ul style="margin: .3em; list-style-type: none; font-size: 20px; text-shadow: 2px 2px 2px black;">
+                <li style="margin-bottom:0.4em; background-color:rgba(0,0,0,0.65); padding: .1em">
+                    How would you let Robo find the beacon?
+                </li>
+                <li class="fragment fade-in" style="margin-bottom:0.5em; background-color:rgba(0,0,0,0.65); padding: .1em">
+                    For example: right, forward(7), right, forward(1)
+                </li>
+                <li class="fragment fade-in" style="margin-bottom:0.5em; background-color:rgba(0,0,0,0.65); padding: .1em">
+                    Does this work for another map?
+                </li>
+                <li class="fragment fade-in" style="margin-bottom:0.5em; background-color:rgba(0,0,0,0.65); padding: .1em">
+                    No! See next slide ...
+                </li>
+            </ul>
+        </div>
+
+    </section>
+
+    <section data-transition="none" style="background-image: url(/content/basis_2_6/images/map_example2.jpg);">
+        <h2 style="float:left; margin-left:20px">Finding a beacon ...</h2>
+
+        <div style="position:absolute; top:78px; left: 20px; width: 500px; text-align:left">
+            <ul style="margin: .3em; list-style-type: none; font-size: 20px; text-shadow: 2px 2px 2px black;">
+                <li style="margin-bottom:0.4em; background-color:rgba(0,0,0,0.65); padding: .1em">
+                    How would you let Robo find the beacon?
+                </li>
+                <li class="fragment fade-in" style="margin-bottom:0.5em; background-color:rgba(0,0,0,0.65); padding: .1em">
+                    For example: forward(3), left, forward(3), right
+                </li>
+                <li class="fragment fade-in" style="margin-bottom:0.5em; background-color:rgba(0,0,0,0.65); padding: .1em">
+                    Does this work for another map?
+                <li class="fragment fade-in" style="margin-bottom:0.5em; background-color:rgba(0,0,0,0.65); padding: .1em">
+                    No, see next slide ...
+                </li>
+            </ul>
+        </div>
+
+    </section>
+
+    <section data-transition="none" style="background-image: url(/content/basis_2_6/images/map_example3.jpg);">
+        <h2 style="float:left; margin-left:20px">Finding a beacon ...</h2>
+
+        <div style="position:absolute; top:78px; left: 20px; width: 500px; text-align:left">
+            <ul style="margin: .3em; list-style-type: none; font-size: 20px; text-shadow: 2px 2px 2px black;">
+                <li style="margin-bottom:0.4em; background-color:rgba(0,0,0,0.65); padding: .1em">
+                    Is there a way to program<br>Robo such that he will always<br> find the beacon in any map?
+                </li>
+                <li class="fragment fade-in" style="margin-bottom:0.5em; background-color:rgba(0,0,0,0.65); padding: .1em">
+                    Yes, there is!
+                </li>
+            </ul>
+        </div>
+
+    </section>
+
+    <section data-transition="none" style="background-color: white">
+        <h2 style="float:left; margin-left:20px; color:#1e20ff">Finding beacons automatically</h2>
+
+        <div style="background-color:rgba(0,0,0,0.65); position:absolute; top:100px; left:20px; width:350px; text-align:left; padding:.5em">
+            What are robots good at?
+            <ul style="margin: 1em; font-size: 20px; text-shadow: 2px 2px 2px black;">
+                <li class="fragment fade-in" style="margin-bottom:0.5em; background-color:rgba(0,0,0,0.65); padding: .1em">
+                    They never get tired
+                </li>
+                <li class="fragment fade-in" style="margin-bottom:0.5em; background-color:rgba(0,0,0,0.65); padding: .1em">
+                    They can quickly do a lot of work
+                </li>
+                <li class="fragment fade-in" style="margin-bottom:0.5em; background-color:rgba(0,0,0,0.65); padding: .1em">
+                    They never get bored
+                </li>
+            </ul>
+        </div>
+
+        <img style="position:absolute; top:90px; right:95px; width:250px" src="/content/basis_2_6/images/robo_strong.jpg"> </img>
+
+    </section>
+
+    <section data-transition="none" style="background-color:white">
+        <h2 style="float:left; margin-left:20px; color:#1e20ff">Finding beacons automatically</h2>
+
+        <div style="background-color:rgba(0,0,0,0.65); position:absolute; top:100px; left:20px; width:450px; text-align:left; padding:.5em">
+            A solution:
+            <ul style="list-style-type: none; margin: 10px; font-size: 20px; text-shadow: 2px 2px 2px black;">
+                <li class="fragment fade-in" style="margin-bottom:0.5em; background-color:rgba(0,0,0,0.65); padding: .1em">
+                    Let Robo just randomly move through the map until he finds the beacon ...
+                </li>
+                <li class="fragment fade-in" style="margin-bottom:0.5em; background-color:rgba(0,0,0,0.65); padding: .1em">
+                    This is ok, because he never gets tired,
+                    can quickly do a lot of work, and never gets bored.
+                </li>
+            </ul>
+        </div>
+
+        <img style="position:absolute; top:80px; right:95px; width:150px" src="/content/basis_2_6/images/blindfold.jpg"> </img>
+
+    </section>
+
+    <section data-transition="none" style="background-color:white">
+        <h2 style="float:left; margin-left:20px; color:#1e20ff">Finding beacons automatically</h2>
+
+        <div style="background-color:rgba(0,0,0,0.65); position:absolute; top:100px; left:20px; width:450px; text-align:left; padding:.5em">
+            Is this a good solution?
+            <ul style="list-style-type: none; margin: 10px; font-size: 20px; text-shadow: 2px 2px 2px black;">
+                <li class="fragment fade-in" style="margin-bottom:0.5em; background-color:rgba(0,0,0,0.65); padding: .1em">
+                    Perhaps he will do too much work.
+                </li>
+                <li class="fragment fade-in" style="margin-bottom:0.5em; background-color:rgba(0,0,0,0.65); padding: .1em">
+                   Perhaps it can be done faster.
+                </li>
+                <li class="fragment fade-in" style="margin-bottom:0.5em; background-color:rgba(0,0,0,0.65); padding: .1em">
+                    But Robo does not mind as long as he finds the beacon(s).
+                </li>
+            </ul>
+        </div>
+
+        <img style="position:absolute; top:80px; right:95px; width:150px" src="/content/basis_2_6/images/blindfold.jpg"> </img>
+
+    </section>
+
+    <section data-transition="none" style="background-color:white">
+
+        <h2 style="float:left; margin-left:20px; color:#1e20ff">Finding beacons automatically</h2>
+
+        <div style="background-color:rgba(0,0,0,0.65); position:absolute; top:100px; left:20px; width:450px; text-align:left; padding:0.5em .5em 0 0.5em">
+            How can this be done?
+            <ul style="list-style-type: none; margin: 10px 0 0 10px; font-size: 20px; text-shadow: 2px 2px 2px black;">
+                <li class="fragment fade-in" style="margin-bottom:0.5em; background-color:rgba(0,0,0,0.65); padding: .1em">
+                    You must make sure that Robo eventually visits each and every place!
+                </li>
+                <li class="fragment fade-in" style="margin-bottom:0.5em; background-color:rgba(0,0,0,0.65); padding: .1em">
+                    To do this you can flip a coin:
+                    <ul style="margin: 0 0 0 20px; font-size: 20px; text-shadow: 2px 2px 2px black;">
+                        <li class="fragment fade-in" style="margin-bottom:0.5em; background-color:rgba(0,0,0,0.65); padding: .1em">
+                            If head, go right
+                        </li>
+                        <li class="fragment fade-in" style="margin-bottom:0.5em; background-color:rgba(0,0,0,0.65); padding: .1em">
+                            If tails, go left
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <img style="position:absolute; top:80px; right:95px; width:150px" src="/content/basis_2_6/images/blindfold.jpg"> </img>
+
+    </section>
+
+    <section data-transition="none" style="background-color:white">
+
+        <h2 style="float:left; margin-left:20px; color:#1e20ff">Finding beacons automatically</h2>
+
+        <div style="background-color:rgba(0,0,0,0.65); position:absolute; top:100px; left:20px; width:450px; text-align:left; padding:0.5em .5em 0 0.5em">
+            Robo can flip a coin too!
+            <ul style="list-style-type: none; margin: 10px 0 0 10px; font-size: 20px; text-shadow: 2px 2px 2px black;">
+                <li style="margin-bottom:0.5em; background-color:rgba(0,0,0,0.65); padding: .1em">
+                    Let's go to the next slide to try it out ....&nbsp;<br>&nbsp;
+                </li>
+            </ul>
+        </div>
+
+        <img style="position:absolute; top:80px; right:95px; width:150px" src="/content/basis_2_6/images/robo_flipcoin.jpg"> </img>
+
+    </section>
+
+</div>

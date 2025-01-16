@@ -1,0 +1,21 @@
+{
+    "items" : [
+        ["challenge", ["map_boxpath1",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[11.5,7.5,0.15]"}]],
+        ["challenge", ["map_boxpath2",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[11.5,7.5,0.15]"}]],
+        ["challenge", ["map_boxpath3",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[11.5,7.5,0.15]"}]],
+        ["challenge", ["map_followTrack1",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[14,9,0.12]"}]],
+        ["challenge", ["map_followTrack2",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[14,9,0.12]"}]],
+        ["challenge", ["map_followTrack3",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[14,9,0.12]"}]],
+        ["challenge", ["map_followTrack4",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[14,9,0.12]"}]],
+        ["challenge", ["map_followTrack5",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[14,9,0.12]"}]],
+        ["challenge", ["map_followTrack6",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[14,9,0.12]"}]],
+        ["challenge", ["map_goRightAtWhite0",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[11,8,0.15]"}]],
+        ["challenge", ["map_goRightAtWhite1",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[11,8,0.15]"}]],
+        ["challenge", ["map_goRightAtWhite2",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[11,8,0.15]"}]],
+        ["challenge", ["map_goRightAtWhite3",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[11,8,0.15]"}]],
+        ["challenge", ["map_findBeacon1",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[10.5,10.5,0.15]"}]],
+        ["challenge", ["map_findBeacon2",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[10.5,10.5,0.15]"}]],
+        ["challenge", ["map_overWhiteLine1",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[11,8,0.15]"}]],
+        ["challenge", ["map_turnAtSpot",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[11,8,0.15]"}]]
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "item.name":"Draai in de goede richting",
+    "hint.auto.noFrontIsWhiteUsedToPositionAutomatically": "Bijna goed. Probeer nu om Robo automatisch het begin van de witte lijn te laten vinden met o.a. 'voorIsWit'.",
+    "hint.auto.noRepeatUsedToPositionAutomatically": "Bijna goed. Probeer nu om Robo automatisch het begin van de witte lijn te laten vinden met o.a. 'herhaal' of 'herhaalZolang'."
+}

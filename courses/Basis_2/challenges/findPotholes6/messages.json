@@ -1,0 +1,5 @@
+{
+    "item.name":"Improve the procedure 'findPothole'",
+    "hint.auto.ReturnRatherThanEnd":"Use 'return' rather than 'end' or Robo will not continue with the next procedure!",
+    "hint.auto.tryAgain":"Robo moves like he is blindfolded. He stopped here, because otherwise you may be waiting for a very long time. However, he should certainly be able to solve this problem. Try again and/or adjust your program to see if it works this time ..."
+}

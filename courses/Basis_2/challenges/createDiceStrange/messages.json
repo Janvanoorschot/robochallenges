@@ -1,0 +1,6 @@
+{
+    "item.name":"A somewhat stranger dice",
+    "hint.auto.tooManyTimesWhite":"Not quite right as you can throw more than 3 times white with these dice ...",
+    "hint.auto.tooManyTimesBlack":"Not quite right as you can throw more than 3 times black with these dice ...",
+    "hint.auto.howManyWhiteDots": "And? How many white dots did Robo paint?"
+}

@@ -1,0 +1,17 @@
+{
+    "items" : [
+        ["presentation", ["basis_2_2",{}]],
+        ["challenge", ["mazeBasisPickUp",{"type":"normal","keep_solution":true,"autorun":false, "viewstart":"[4.5,6.5,0.25]"}]],
+        ["challenge", ["mazeBasisTurnRight",{"type":"normal","keep_solution":true,"autorun":false, "viewstart":"[9,6,0.20]"}]],
+        ["challenge", ["mazeBasisTurnLeft",{"type":"normal","keep_solution":true,"autorun":false, "viewstart":"[9,6,0.20]"}]],
+        ["challenge", ["mazeBasisSmallMaze",{"type":"normal","keep_solution":true,"autorun":false, "viewstart":"[10,4,0.2]"}]],
+        ["challenge", ["mazeBasisBigMaze",{"type":"normal","keep_solution":true,"autorun":false, "viewstart":"[11,8,0.15]"}]],
+        ["challenge", ["mazeBasisBigObstacles",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[11,8,0.15]"}]],
+        ["presentation", ["storylineEnd",{}]]
+    ],
+    "concepts" : [
+        "CS3",
+        "RA2",
+        "RU2"
+    ]
+}	

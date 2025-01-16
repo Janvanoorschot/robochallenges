@@ -1,0 +1,7 @@
+{
+    "item.name":"Rommel op de lijn: ga naar de start",
+    "hint.auto.youDidNotEndOnBlackDot": "De robot moet op de zwarte stip stoppen.",
+    "hint.auto.noRepeatWhileUsedToPositionAutomatically": "Bijna goed. Probeer de robot automatisch de zwarte stip te laten vinden. Gebruik 'herhaalZolang'.",
+    "hint.auto.noFrontIsObstacleUsedToPositionAutomatically": "Op de goede weg! Probeer de robot nu automatisch de goede richting te laten vinden met 'voorIsObstakel'.",
+    "hint.auto.noFrontIsBlackUsedToPositionAutomatically": "Op de goede weg! Probeer de robot nu automatisch de voor de zwarte stip te laten stoppen met 'voorIsZwart'."
+}

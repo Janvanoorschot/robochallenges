@@ -1,0 +1,15 @@
+{
+    "validationCheck":
+    {
+        "postRunWorld": "robotHasBeacon",
+        "postRunProgram": "PickUp and (Left or Right)"
+    },
+    "hintRules" :
+        [
+            {"premise": "not PickUp", "value" : "hint.auto.noPickUpUsed", "type" : "program"},
+            {"premise": "not Left and not Right", "value" : "hint.auto.noLeftOrRightUsed", "type" : "program"},
+            {"premise": "not robotHasBeacon", "value" : "hint.auto.robotHasNoBeacon", "type" : "world"},
+            {"premise": "Left and not Right", "value" : "hint.auto.wellDoneNowUseRight", "type" : "program"},
+            {"premise": "Right and not Left", "value" : "hint.auto.wellDoneNowUseLeft", "type" : "program"}
+        ]
+}

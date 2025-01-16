@@ -1,0 +1,6 @@
+{
+    "item.name":"Robo bakes five pancakes",
+    "hint.auto.notEnoughPancakes":"You did not bake enough pancakes",
+    "hint.auto.tooManyPancakes":"You baked too many pancakes",
+    "hint.auto.pancakesOnTheFloor":"The pancakes are not in the right place"
+}

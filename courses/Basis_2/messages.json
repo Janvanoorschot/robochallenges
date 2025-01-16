@@ -1,0 +1,8 @@
+{
+    "course.name":"Basics 2 Course",
+    "course.description.short":"Learn more about logic, procedures, and random search",
+    "course.keywords":"Maze runner, Barcode readers, Random search",
+    "course.image.src":"/site/images/headPrimary2-500.jpg",
+    "course.image.large.src":"/site/images/headPrimary2.jpg",
+    "course.color":"#1b9478"
+}

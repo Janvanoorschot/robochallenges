@@ -1,0 +1,14 @@
+{
+    "validationCheck":
+    {
+        "postRunWorld": "robot(13,14)",
+        "postRunProgram": "RepeatWhile and FrontIsObstacle and FrontIsBlack"
+    },
+    "hintRules":
+        [
+            {"premise": "not robot(13,14)", "value": "hint.auto.youDidNotEndOnBlackDot", "type" : "world"},
+            {"premise": "not RepeatWhile", "value" : "hint.auto.noRepeatWhileUsedToPositionAutomatically", "type" : "program"},
+            {"premise": "not FrontIsObstacle", "value" : "hint.auto.noFrontIsObstacleUsedToPositionAutomatically", "type" : "program"},
+            {"premise": "not FrontIsBlack", "value" : "hint.auto.noFrontIsBlackUsedToPositionAutomatically", "type" : "program"}
+        ]
+}

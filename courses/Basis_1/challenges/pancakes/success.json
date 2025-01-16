@@ -1,0 +1,17 @@
+{
+    "validationCheck":
+    {
+        "postRunProgram": "Repeat and PaintWhite and StopPainting",
+        "postRunWorld":"white(5,5) and white(6,5) and white(7,5) and white(8,5) and white(9,5)",
+        "postRunUsage": "minWhitePaintUsed(5) and maxWhitePaintUsed(5)"
+    },
+    "hintRules" :
+        [
+            {"premise": "not Repeat", "value" : "hint.auto.noRepeatUsed", "type" : "program"},
+            {"premise": "not PaintWhite", "value" : "hint.auto.noPaintWhiteUsed", "type" : "program"},
+            {"premise": "not StopPainting", "value" : "hint.auto.noStopPaintingUsed", "type" : "program"},
+            {"premise": "not minWhitePaintUsed(5)", "value" : "hint.auto.notEnoughPancakes", "type" : "world"},
+            {"premise": "not maxWhitePaintUsed(5)", "value" : "hint.auto.tooManyPancakes", "type" : "world"},
+            {"premise": "not white(5,5) or not white(6,5) or not white(7,5) or not white(8,5) or not white(9,5)", "value" : "hint.auto.pancakesOnTheFloor", "type" : "world"}
+        ]
+}

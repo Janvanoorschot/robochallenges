@@ -1,0 +1,17 @@
+{
+    "validationCheck":
+    {
+        "postRunWorld": "robot(19,2) and robotHasBeacon and not beacon(20,2)",
+        "postRunUsage": "robotExplored(7,2) and robotExplored(9,2) and robotExplored(11,2) and robotExplored(13,2) and robotExplored(15,2) and robotExplored(17,2) and robotExplored(19,2) and robotExplored(9,4) and robotExplored(11,4) and robotExplored(13,4) and robotExplored(15,4) and robotExplored(17,4) and robotExplored(19,4)",
+        "postRunProgram": "Repeat and PickUp"
+    },
+    "hintRules":
+        [
+            {"premise": "not Repeat", "value" : "hint.auto.noRepeatUsed", "type" : "program"},
+            {"premise": "not robotExplored(7,2) or not robotExplored(9,2) or not robotExplored(11,2) or not robotExplored(13,2) or not robotExplored(15,2) or not robotExplored(17,2) or not robotExplored(19,2) or not robotExplored(9,4) or not robotExplored(11,4) or not robotExplored(13,4) or not robotExplored(15,4) or not robotExplored(17,4) or not robotExplored(19,4)", "value": "hint.auto.youDidNotZigzag", "type" : "world"},
+            {"premise": "not robot(19,2)", "value": "hint.auto.youDidNotEndUpAtEndLocation", "type" : "world"},
+            {"premise": "not PickUp", "value" : "hint.auto.noPickUpUsed", "type" : "program"},
+            {"premise": "not robotHasBeacon", "value" : "hint.auto.robotHasNoBeacon", "type" : "world"},
+            {"premise": "beacon(20,2)", "value": "hint.auto.beaconNotPickedUp", "type" : "world"}
+        ]
+}

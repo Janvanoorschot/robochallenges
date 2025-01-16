@@ -1,0 +1,17 @@
+{
+    "items" : [
+        ["challenge", ["map_Pick01",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[2,2,0.8]"}]],
+        ["challenge", ["map_Pick02",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[2,2,0.8]"}]],
+        ["challenge", ["map_Pick03",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[2,2,0.8]"}]],
+        ["challenge", ["map_Pick04",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[2,2,0.8]"}]],
+        ["challenge", ["map_changeBelt",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[10,4,0.2]"}]],
+        ["challenge", ["map_changeBelt12",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[10,4,0.2]"}]],
+        ["challenge", ["map_changeBeltExtra1",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[10,4,0.2]"}]],
+        ["challenge", ["map_changeBeltExtra2",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[10,4,0.2]"}]],
+        ["challenge", ["map_digPath1",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[7,4,0.28]"}]],
+        ["challenge", ["map_digPath2",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[10,4,0.2]"}]],
+        ["challenge", ["map_passBeacons1",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[7,4,0.28]"}]],
+        ["challenge", ["map_Pick_Put1",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[2,8,0.15]"}]],
+        ["challenge", ["map_Pick_Put2",{"type":"extra","keep_solution":false,"autorun":false, "viewstart":"[2,13,0.10]"}]]
+    ]
+}

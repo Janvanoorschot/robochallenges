@@ -1,0 +1,11 @@
+{
+    "validationCheck":
+    {
+        "postRunProgram": "RandomBool"
+    },
+    "hintRules" :
+    [
+        {"premise": "not RandomBool", "value" : "hint.auto.noFlipCoinUsed", "type" : "program"},
+        {"premise": "RandomBool", "value" : "hint.auto.howManyWhiteDots", "type" : "program"}
+    ]
+}

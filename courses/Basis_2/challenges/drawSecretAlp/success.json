@@ -1,0 +1,18 @@
+{
+    "validationCheck":
+    {
+        "postRunWorld": "( robot(8,8) or robot(10,8) ) and robotIsNorth and ( (black(7,6) and black(7,7) and black(7,8) and white(6,8) and white(3,6) and white(5,6) and white(3,8) and white(5,8)) or ( black(9,6) and black(9,7) and black(9,8) and white(6,6) and white(8,6) and white(6,8) and white(8,8) and white(3,6) and white(5,6) and white(3,8) and white(5,8) ) )",
+        "postRunProgram": "PaintWhite and PaintBlack and Procedure",
+        "postRunUsage": "minMoves(3)"
+    },
+    "hintRules" :
+    [
+        {"premise": "not Procedure", "value" : "hint.auto.noProcedureUsed", "type" : "program"},
+        {"premise": "not PaintWhite", "value" : "hint.auto.noPaintWhiteUsed", "type" : "program"},
+        {"premise": "not PaintBlack", "value" : "hint.auto.noPaintWhiteBlack", "type" : "program"},
+        {"premise": "not minMoves(3)", "value" : "hint.auto.procedureNotCalled", "type" : "usage"},
+        {"premise": "not( black(7,6) and black(7,7) and black(7,8) and white(6,8) and white(3,6) and white(5,6) and white(3,8) and white(5,8) ) and not ( black(9,6) and black(9,7) and black(9,8) and white(6,6) and white(8,6) and white(6,8) and white(8,8) and white(3,6) and white(5,6) and white(3,8) and white(5,8) )", "value" : "hint.auto.incorrectSecretWord", "type" : "usage"},
+        {"premise": "not robot(8,8) and not robot(10,8)", "value" : "hint.auto.youDidNotEndUpAtEndLocation", "type" : "usage"},
+        {"premise": "not robotIsNorth", "value" : "hint.auto.youAreNotOrientedCorrectly", "type" : "usage"}
+    ]
+}

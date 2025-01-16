@@ -1,0 +1,7 @@
+{
+    "item.name":"Debris on the track: go to the start",
+    "hint.auto.youDidNotEndOnBlackDot": "The robot should stop on the black dot.",
+    "hint.auto.noRepeatWhileUsedToPositionAutomatically": "Almost right. Now try to let the robot automatically find the black spot. Use 'repeatWhile'.",
+    "hint.auto.noFrontIsObstacleUsedToPositionAutomatically": "On the right track! Now let the robot automatically go in the right direction by using 'frontIsObstacle'.",
+    "hint.auto.noFrontIsBlackUsedToPositionAutomatically": "On the right track! Now let the robot automatically stop in front of the black spot by using 'frontIsBlack'."
+}

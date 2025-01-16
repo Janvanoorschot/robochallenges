@@ -1,0 +1,6 @@
+{
+    "item.name":"Draw a whole robot family",
+    "hint.auto.incorrectDrawing": "Almost there! Only your drawing is not quite right yet.",
+    "hint.auto.incorrectFrame": "Almost there! Only the border around your drawing is not quite right yet.",
+    "hint.auto.incorrectFamily": "Almost there, but not yet the family as shown in the picture ..."
+}

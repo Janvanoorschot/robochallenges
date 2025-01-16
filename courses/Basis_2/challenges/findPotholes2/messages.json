@@ -1,0 +1,4 @@
+{
+    "item.name":"Find a pothole to fill with the beacon",
+    "hint.auto.ReturnRatherThanEnd":"Use 'return' rather than 'end' or Robo will not continue with the next procedure!"
+}

@@ -1,0 +1,18 @@
+{
+    "validationCheck":
+    {
+        "postRunWorld": "robot(3,8)",
+        "postRunUsage": "minMoves(67) and robotExplored(3,8) and robotExplored(3,3) and robotExplored(8,3) and robotExplored(8,8)",
+        "postRunProgram": "Forward and Left and Repeat and Right"
+    },
+    "hintRules":
+        [
+            {"premise": "not Forward", "value" : "hint.auto.noForwardUsed", "type" : "program"},
+            {"premise": "not Left", "value" : "hint.auto.noLeftUsed", "type" : "program"},
+            {"premise": "not Right", "value" : "hint.auto.noRightUsed", "type" : "program"},
+            {"premise": "not Repeat", "value" : "hint.auto.noRepeatUsed", "type" : "program"},
+            {"premise": "not robotExplored(3,8) or not robotExplored(3,3) or not robotExplored(8,3) or not robotExplored(8,8)", "value": "hint.auto.youDidNotGoAroundTheBuilding", "type" : "world"},
+            {"premise": "not minMoves(67)", "value": "hint.auto.youDidNotGoThreeTimesAroundTheBuilding", "type" : "world"},
+            {"premise": "not robot(3,8)", "value": "hint.auto.youDidNotEndUpAtStartLocation", "type" : "world"}
+        ]
+}

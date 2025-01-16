@@ -1,0 +1,16 @@
+{
+    "validationCheck":
+    {
+        "postRunWorld": "white(7,11) and white(7,10) and white(8,10) and white(8,9) and white(9,9) and white(9,8) and white(10,8) and white(12,5) and white(13,5)",
+        "postRunProgram": "Repeat and PaintWhite",
+        "postRunUsage": "minWhitePaintUsed(13) and maxExplored(13)"
+    },
+    "hintRules" :
+    [
+   		{"premise": "not PaintWhite", "value" : "hint.auto.noPaintWhiteUsed", "type" : "program"},
+   		{"premise": "not Repeat", "value" : "hint.auto.noRepeatUsed", "type" : "program"},
+        {"premise": "not(white(7,11) and white(7,10) and white(8,10) and white(8,9) and white(9,9) and white(9,8) and white(10,8) and white(12,5) and white(13,5))", "value": "hint.auto.stairsNotOk", "type" : "usage"},
+        {"premise": "not minWhitePaintUsed(13)", "value" : "hint.auto.stairsTooSmall", "type" : "usage"},
+        {"premise": "not maxExplored(13)", "value" : "hint.auto.stairsTooBig", "type" : "usage"}
+    ]
+}

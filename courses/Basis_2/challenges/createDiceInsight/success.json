@@ -1,0 +1,13 @@
+{
+    "validationCheck":
+    {
+        "postRunUsage": "minWhitePaintUsed(1) and maxWhitePaintUsed(6)",
+        "postRunProgram": "RandomBool"
+    },
+    "hintRules":
+    [
+        {"premise": "not minWhitePaintUsed(1)", "value" : "hint.auto.improperDice", "type" : "world"},
+        {"premise": "not maxWhitePaintUsed(6)", "value" : "hint.auto.tooManyTimes", "type" : "world"},
+        {"premise": "RandomBool", "value" : "hint.auto.howManyWhiteDots", "type" : "program"}
+    ]
+}

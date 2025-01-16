@@ -1,0 +1,5 @@
+{
+    "item.name":"Turn in the right direction",
+    "hint.auto.noFrontIsWhiteUsedToPositionAutomatically": "Almost right. Now try to let Robo automatically find the white line. Use 'frontIsWhite'.",
+    "hint.auto.noRepeatUsedToPositionAutomatically": "Almost right. Now try to let Robo automatically find the white line. Use 'repeat or repeatWhile'."
+}
