@@ -17,7 +17,7 @@
 # [y]     :   integer vertical position
  
 paint:
-{(w,.,2,5)}
+(w,.,2,5)
 
 extra:
 palm@5,5

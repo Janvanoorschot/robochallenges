@@ -18,7 +18,8 @@
 # [y]     :   integer vertical position
  
 paint:
-{(w,.,5,5)}
+(w,.,5,5)
+
 extra:
 tree@2,6
 tree@3,2

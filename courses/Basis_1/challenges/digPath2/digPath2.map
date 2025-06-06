@@ -17,7 +17,7 @@
 # [y]     :   integer vertical position
  
 paint:
-{(w,.,16,4)}
+(w,.,16,4)
 
 map:
 CHHHHHHHHHHHHHHHHHHD
