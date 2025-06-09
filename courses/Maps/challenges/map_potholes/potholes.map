@@ -1,12 +1,5 @@
 # Arquivo Map para RoboMind
 # www.robomind.net
-#
-# As linhas que começam com # são comentários
-#
-# Os ladrilhos são:
-# A...Z ladrilhos de A até Z
-# @ Início
-# * Objetos
 
 
 paint:
